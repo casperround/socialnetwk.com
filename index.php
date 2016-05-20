@@ -96,7 +96,7 @@ body :-ms-input-placeholder {
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow-y:scroll;
 }
 .wrapper.form-success .container h1 {
   -webkit-transform: translateY(85px);
@@ -118,6 +118,14 @@ body :-ms-input-placeholder {
 }
 .container h1 {
   font-size: 40px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-put;
+          transition-timing-function: ease-in-put;
+  font-weight: 200;
+}
+.container h2 {
+  font-size: 30px;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   -webkit-transition-timing-function: ease-in-put;
@@ -295,8 +303,31 @@ form button:hover {
 			<input name="password" type="password" placeholder="Password">
 			<button type="submit" id="login-button">Login</button>
 		</form>
-	</div>
+
+		<h2>Register</h2>
+<?php
 	
+					$date = date('Y-m-d') ."\n";
+					$now = time(); $utc_time = $now - intval(date('Z', $now));
+					$time = date('H:i:s', $now);	
+?>
+		<form action="login_post.php" role="form" method="POST" class="form">
+			<input name="email" type="text" placeholder="Email">
+			<input name="password" type="password" placeholder="Password">
+			<input name="firstname" type="text" placeholder="Firstname">
+			<input name="lastname" type="text" placeholder="Lastname">
+			<input name="firstname" type="text" placeholder="Firstname">
+			<input name="country" type="text" placeholder="Country">
+			<input name="age" type="text" placeholder="Age">
+			<input name="gender" type="text" placeholder="Gender">
+			<input name="firstname" type="text" placeholder="Firstname">
+			<input name="lastname" type="text" placeholder="Lastname">
+			<input type="text" id="ip" name="ip" style="display:none;" value="<?= $_SERVER["REMOTE_ADDR"] ?>" />
+			<input type="text" id="ip" name="date" style="display:none;" value="<?= $date ?>" />
+			<input type="text" id="ip" name="time" style="display:none;" value="<?= $time ?>" />
+			<button type="submit" id="login-button">Register</button>
+		</form>
+	</div>	
 	<ul class="bg-bubbles">
 		<li></li>
 		<li></li>
