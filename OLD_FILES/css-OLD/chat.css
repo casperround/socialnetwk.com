@@ -1,0 +1,190 @@
+
+            .chat-sidebar
+            {					
+
+                width: 200px;
+                position: relative;
+                height: 100%;
+                right: 0px;
+                top: 0px;
+                padding-left: 20%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border: 1px solid rgba(29, 49, 91, .3);
+            }
+            
+            
+            {
+            	height: 40px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 4px;
+                font-size: 12px;
+            }
+            
+            .sidebar-name span
+            {	
+            	position: relative;
+				top: 25%;
+                padding-left: 5px;
+            }
+            
+            .sidebar-name a
+            {
+                display: block;
+                height: 100%;
+                text-decoration: none;
+                color: inherit;
+            }
+            
+            .sidebar-name:hover
+            {
+                background-color:#373a3d;
+            }
+            
+            .sidebar-name img
+            {
+                width: 32px;
+                height: 32px;
+                vertical-align:middle;
+            }
+            
+            .popup-box
+            {
+      box-shadow:1px 1px 5px grey; 
+
+    border-style: solid;
+    border-width: 1px;
+  border-color: #373a3d;
+background-color: #373a3d;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+padding: 0%;
+right: 50%;
+border-radius: 0px;
+                display: none;
+                position: fixed;
+                bottom: 0px;
+                height: 28.5%;
+                width: 15%;
+            }
+            
+            .popup-box .popup-head
+            {
+height: 10%;
+right: 50%;
+
+background-color: #373a3d;
+                padding: 5px;
+                color: black;
+                font-weight: bold;
+                font-size: 14px;
+                clear: both;
+            }
+            
+            .popup-box .popup-head .popup-head-left
+            {
+                float: left;
+            }
+            
+            .popup-box .popup-head .popup-head-right
+            {
+                float: right;
+                opacity: 0.5;
+            }
+            
+            .popup-box .popup-head .popup-head-right a
+            {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .popup-box .popup-messages
+            {
+                height: 100%;
+                overflow-y: scroll;
+            }
+            
+
+div.chat {
+	
+
+  border-radius: 0px;
+  -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  transition: box-shadow .3s ease;	
+	
+	
+	
+margin-left: 50%;
+
+top: 50px;
+right: 0%;
+color: #000;
+position: fixed;
+border-radius: 0%;
+bottom: 0%;
+height: 100%;
+width: 15%;
+}
+.UsrClkChat {
+	height: 40px;
+	width: 100%;
+	position: relative;
+	background: #373a3d;
+}
+.UsrClkChat:hover{
+   background-color:#373a3d;
+}
+.UsrChatName {
+top: 5px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+}
+.ChatUsrImg {
+	position: relative;
+	border-radius: 4px;
+	height: 100%;
+	width: 10%;
+}
+.test1 {
+  background-color: #373a3d;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  bottom: 0px;
+}
+.search-users {
+  padding: 1%;
+  bottom: 5%;
+  position: relative;
+}
+
+a, u {
+    text-decoration: none;
+}
+a {
+    text-decoration: none !important;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+
+.sidebar-name {
+	height: 35px;
+	padding: 0px;
+	margin:0px;
+}

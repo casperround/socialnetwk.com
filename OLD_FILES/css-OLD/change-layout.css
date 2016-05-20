@@ -1,0 +1,173 @@
+ 
+.UserCustomSettings {
+position: fixed;
+height: auto;
+width: 60%;
+margin-left: 0%;
+margin-top: 3%;
+
+
+      box-shadow:1px 1px 5px grey; 
+    border-style: solid;
+    border-width: 1px;
+  border-color: #fff;
+background-color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+padding: 1%;
+border-radius: 0px;
+}
+
+.MsgInputHidden {
+	    display:none;
+    visibility:hidden;
+}
+
+
+#formtitle {
+  top: 10px;
+  left: 1px;
+}
+.control-label {
+  top: 10px;
+  left: 1px;
+}
+
+
+
+
+.form-group {
+	width: 20%;
+	margin: 0px;
+	padding:0px;
+}
+
+.ImageProfileChange {
+position: fixed;
+height: auto;
+width: 30%;
+margin-left: 030%;
+margin-top: 3%;
+
+
+      box-shadow:1px 1px 5px grey; 
+    border-style: solid;
+    border-width: 1px;
+  border-color: #fff;
+background-color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+padding: 1%;
+border-radius: 0px;
+}
+.UploadText {
+position: static;
+height: auto;
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+
+
+      box-shadow:1px 1px 5px grey; 
+    border-style: solid;
+    border-width: 1px;
+  border-color: #fff;
+background-color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+padding-left: 0.5%;
+padding-right:0.5%;
+border-radius: 0px;
+}
+div.user-control {
+  width: 40%;
+  z-index: -1;
+
+  z-index: -1;
+  position: static;
+padding-top: 3%;
+}
+
+.TextForm {
+  padding-top: 1%;
+padding-left: 2%;
+padding-right:2%;
+}
+#tabs {
+    padding: 0;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+#tabs button {
+      box-shadow:1px 1px 5px grey; 
+ border:1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 1.0);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 0px;
+border: 10px;
+color: #000;
+width: 24%;
+margin:0.2%;
+height:30px;
+
+}
+#tabs button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#tabs button.active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+#tab-content {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#tab-content li {
+    display: none;
+}
+#tab-content li.active {
+    display: block;
+}
+
+
+.MsgInputHidden {
+	    display:none;
+    visibility:hidden;
+}
+#formats {
+		margin:1%;
+
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+}
+#formats button {
+	margin:1%;
+      box-shadow:1px 1px 5px grey; 
+ border:1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 1.0);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 0px;
+border: 10px;
+color: #000;
+width: 5%;
+left: 2.5%;
+height:30px;
+}
+#format-content {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

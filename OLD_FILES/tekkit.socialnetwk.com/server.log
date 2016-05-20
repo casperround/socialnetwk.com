@@ -1,0 +1,1590 @@
+2015-08-10 17:52:56 [INFO] Starting minecraft server version 1.6.4
+2015-08-10 17:52:56 [INFO] Loading properties
+2015-08-10 17:52:56 [INFO] Default game type: SURVIVAL
+2015-08-10 17:52:56 [INFO] Generating keypair
+2015-08-10 17:52:56 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-10 17:52:56 [WARNING] Failed to load operators list: java.io.FileNotFoundException: ./ops.txt (No such file or directory)
+2015-08-10 17:52:56 [WARNING] Failed to load white-list: java.io.FileNotFoundException: ./white-list.txt (No such file or directory)
+2015-08-10 17:52:56 [INFO] Preparing level "world"
+2015-08-10 17:52:57 [INFO] Preparing start region for level 0
+2015-08-10 17:52:58 [INFO] Preparing spawn area: 5%
+2015-08-10 17:52:59 [INFO] Preparing spawn area: 12%
+2015-08-10 17:53:00 [INFO] Preparing spawn area: 20%
+2015-08-10 17:53:01 [INFO] Preparing spawn area: 35%
+2015-08-10 17:53:02 [INFO] Preparing spawn area: 49%
+2015-08-10 17:53:03 [INFO] Preparing spawn area: 61%
+2015-08-10 17:53:04 [INFO] Preparing spawn area: 74%
+2015-08-10 17:53:05 [INFO] Preparing spawn area: 91%
+2015-08-10 17:53:06 [INFO] Preparing spawn area: 99%
+2015-08-10 17:53:06 [INFO] Done (9.419s)! For help, type "help" or "?"
+2015-08-10 17:55:42 [INFO] Stopping the server
+2015-08-10 17:55:42 [INFO] Stopping server
+2015-08-10 17:55:42 [INFO] Saving players
+2015-08-10 17:55:42 [INFO] Saving worlds
+2015-08-10 17:55:42 [INFO] Saving chunks for level 'world'/Overworld
+2015-08-10 17:55:42 [INFO] Closing listening thread
+2015-08-10 17:55:42 [INFO] Saving chunks for level 'world'/Nether
+2015-08-10 17:55:42 [INFO] Saving chunks for level 'world'/The End
+2015-08-10 18:03:39 [INFO] Starting minecraft server version 1.6.4
+2015-08-10 18:03:39 [INFO] Loading properties
+2015-08-10 18:03:39 [INFO] Default game type: SURVIVAL
+2015-08-10 18:03:39 [INFO] Generating keypair
+2015-08-10 18:03:40 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-10 18:03:40 [INFO] Preparing level "world"
+2015-08-10 18:03:41 [INFO] Preparing start region for level 0
+2015-08-10 18:03:42 [INFO] Preparing spawn area: 18%
+2015-08-10 18:03:43 [INFO] Preparing spawn area: 70%
+2015-08-10 18:03:43 [INFO] Done (2.578s)! For help, type "help" or "?"
+2015-08-10 18:04:38 [INFO] Opped casperround
+2015-08-10 18:06:14 [INFO] Stopping server
+2015-08-10 18:06:14 [INFO] Closing listening thread
+2015-08-10 18:06:14 [INFO] Saving players
+2015-08-10 18:06:14 [INFO] Saving worlds
+2015-08-10 18:06:14 [INFO] Saving chunks for level 'world'/Overworld
+2015-08-11 17:11:38 [INFO] Starting minecraft server version 1.6.4
+2015-08-11 17:11:38 [INFO] Loading properties
+2015-08-11 17:11:38 [INFO] Default game type: SURVIVAL
+2015-08-11 17:11:38 [INFO] Generating keypair
+2015-08-11 17:11:39 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-11 17:11:39 [INFO] Preparing level "world"
+2015-08-11 17:11:39 [INFO] Preparing start region for level 0
+2015-08-11 17:11:40 [INFO] Preparing spawn area: 69%
+2015-08-11 17:11:40 [INFO] Done (1.446s)! For help, type "help" or "?"
+2015-08-11 17:11:44 [INFO] /151.225.42.184:61847 lost connection
+2015-08-11 17:11:44 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:44 [INFO] /151.225.42.184:61849 lost connection
+2015-08-11 17:11:45 [INFO] /151.225.42.184:61851 lost connection
+2015-08-11 17:11:45 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:45 [INFO] /151.225.42.184:61853 lost connection
+2015-08-11 17:11:45 [INFO] /151.225.42.184:61854 lost connection
+2015-08-11 17:11:45 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:45 [INFO] /151.225.42.184:61857 lost connection
+2015-08-11 17:11:46 [INFO] /151.225.42.184:61859 lost connection
+2015-08-11 17:11:46 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:46 [INFO] /151.225.42.184:61861 lost connection
+2015-08-11 17:11:46 [INFO] /151.225.42.184:61862 lost connection
+2015-08-11 17:11:46 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:46 [INFO] /151.225.42.184:61865 lost connection
+2015-08-11 17:11:47 [INFO] /151.225.42.184:61867 lost connection
+2015-08-11 17:11:47 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:47 [INFO] /151.225.42.184:61869 lost connection
+2015-08-11 17:11:47 [INFO] /151.225.42.184:61871 lost connection
+2015-08-11 17:11:47 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:47 [INFO] /151.225.42.184:61873 lost connection
+2015-08-11 17:11:47 [INFO] /151.225.42.184:61875 lost connection
+2015-08-11 17:11:47 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:47 [INFO] /151.225.42.184:61877 lost connection
+2015-08-11 17:11:47 [INFO] /151.225.42.184:61879 lost connection
+2015-08-11 17:11:47 [INFO] /151.225.42.184:61882 lost connection
+2015-08-11 17:11:47 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:47 [INFO] /151.225.42.184:61884 lost connection
+2015-08-11 17:11:48 [INFO] /151.225.42.184:61886 lost connection
+2015-08-11 17:11:48 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:48 [INFO] /151.225.42.184:61888 lost connection
+2015-08-11 17:11:48 [INFO] /151.225.42.184:61890 lost connection
+2015-08-11 17:11:48 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:48 [INFO] /151.225.42.184:61892 lost connection
+2015-08-11 17:11:48 [INFO] /151.225.42.184:61894 lost connection
+2015-08-11 17:11:49 [INFO] /151.225.42.184:61897 lost connection
+2015-08-11 17:11:49 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:49 [INFO] /151.225.42.184:61899 lost connection
+2015-08-11 17:11:49 [INFO] /151.225.42.184:61901 lost connection
+2015-08-11 17:11:49 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:49 [INFO] /151.225.42.184:61903 lost connection
+2015-08-11 17:11:49 [INFO] /151.225.42.184:61905 lost connection
+2015-08-11 17:11:49 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:49 [INFO] /151.225.42.184:61907 lost connection
+2015-08-11 17:11:49 [INFO] /151.225.42.184:61909 lost connection
+2015-08-11 17:11:49 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:49 [INFO] /151.225.42.184:61911 lost connection
+2015-08-11 17:11:49 [INFO] /151.225.42.184:61913 lost connection
+2015-08-11 17:11:49 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:49 [INFO] /151.225.42.184:61915 lost connection
+2015-08-11 17:11:50 [INFO] /151.225.42.184:61917 lost connection
+2015-08-11 17:11:50 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:50 [INFO] /151.225.42.184:61919 lost connection
+2015-08-11 17:11:55 [INFO] /151.225.42.184:61921 lost connection
+2015-08-11 17:11:55 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:55 [INFO] /151.225.42.184:61923 lost connection
+2015-08-11 17:11:56 [INFO] /151.225.42.184:61925 lost connection
+2015-08-11 17:11:56 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:56 [INFO] /151.225.42.184:61927 lost connection
+2015-08-11 17:11:56 [INFO] /151.225.42.184:61929 lost connection
+2015-08-11 17:11:56 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:56 [INFO] /151.225.42.184:61931 lost connection
+2015-08-11 17:11:59 [INFO] /151.225.42.184:61933 lost connection
+2015-08-11 17:11:59 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:11:59 [INFO] /151.225.42.184:61935 lost connection
+2015-08-11 17:12:01 [INFO] /151.225.42.184:61937 lost connection
+2015-08-11 17:12:01 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:12:01 [INFO] /151.225.42.184:61939 lost connection
+2015-08-11 17:12:02 [INFO] /151.225.42.184:61941 lost connection
+2015-08-11 17:12:02 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:12:02 [INFO] /151.225.42.184:61943 lost connection
+2015-08-11 17:12:03 [INFO] /151.225.42.184:61944 lost connection
+2015-08-11 17:12:03 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:12:03 [INFO] /151.225.42.184:61947 lost connection
+2015-08-11 17:12:04 [INFO] /151.225.42.184:61949 lost connection
+2015-08-11 17:12:04 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:12:04 [INFO] /151.225.42.184:61951 lost connection
+2015-08-11 17:12:16 [INFO] /151.225.42.184:61963 lost connection
+2015-08-11 17:12:16 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:12:16 [INFO] /151.225.42.184:61965 lost connection
+2015-08-11 17:12:17 [INFO] /151.225.42.184:61967 lost connection
+2015-08-11 17:12:17 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:12:17 [INFO] /151.225.42.184:61969 lost connection
+2015-08-11 17:12:40 [INFO] /151.225.42.184:61992 lost connection
+2015-08-11 17:12:40 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:12:40 [INFO] /151.225.42.184:61994 lost connection
+2015-08-11 17:12:40 [INFO] /151.225.42.184:61996 lost connection
+2015-08-11 17:12:40 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:12:40 [INFO] /151.225.42.184:61998 lost connection
+2015-08-11 17:12:40 [INFO] /151.225.42.184:62000 lost connection
+2015-08-11 17:12:40 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:12:41 [INFO] /151.225.42.184:62002 lost connection
+2015-08-11 17:12:41 [INFO] /151.225.42.184:62004 lost connection
+2015-08-11 17:12:41 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:12:41 [INFO] /151.225.42.184:62006 lost connection
+2015-08-11 17:12:41 [INFO] /151.225.42.184:62008 lost connection
+2015-08-11 17:12:41 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:12:41 [INFO] /151.225.42.184:62010 lost connection
+2015-08-11 17:20:21 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:21 [INFO] /151.225.42.184:62218 lost connection
+2015-08-11 17:20:21 [INFO] /151.225.42.184:62219 lost connection
+2015-08-11 17:20:21 [INFO] /151.225.42.184:62222 lost connection
+2015-08-11 17:20:21 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:21 [INFO] /151.225.42.184:62224 lost connection
+2015-08-11 17:20:22 [INFO] /151.225.42.184:62226 lost connection
+2015-08-11 17:20:22 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:22 [INFO] /151.225.42.184:62228 lost connection
+2015-08-11 17:20:34 [INFO] /151.225.42.184:62232 lost connection
+2015-08-11 17:20:35 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:35 [INFO] /151.225.42.184:62234 lost connection
+2015-08-11 17:20:36 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:36 [INFO] /151.225.42.184:62236 lost connection
+2015-08-11 17:20:36 [INFO] /151.225.42.184:62238 lost connection
+2015-08-11 17:20:37 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:37 [INFO] /151.225.42.184:62240 lost connection
+2015-08-11 17:20:37 [INFO] /151.225.42.184:62242 lost connection
+2015-08-11 17:20:37 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:37 [INFO] /151.225.42.184:62244 lost connection
+2015-08-11 17:20:37 [INFO] /151.225.42.184:62246 lost connection
+2015-08-11 17:20:38 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:38 [INFO] /151.225.42.184:62248 lost connection
+2015-08-11 17:20:38 [INFO] /151.225.42.184:62250 lost connection
+2015-08-11 17:20:38 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:38 [INFO] /151.225.42.184:62252 lost connection
+2015-08-11 17:20:38 [INFO] /151.225.42.184:62254 lost connection
+2015-08-11 17:20:39 [INFO] /151.225.42.184:62256 lost connection
+2015-08-11 17:20:39 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:39 [INFO] /151.225.42.184:62258 lost connection
+2015-08-11 17:20:51 [INFO] /151.225.42.184:62261 lost connection
+2015-08-11 17:20:51 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:51 [INFO] /151.225.42.184:62263 lost connection
+2015-08-11 17:20:58 [INFO] /151.225.42.184:62267 lost connection
+2015-08-11 17:20:59 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:20:59 [INFO] /151.225.42.184:62269 lost connection
+2015-08-11 17:22:56 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:22:56 [INFO] /151.225.42.184:62315 lost connection
+2015-08-11 17:22:56 [INFO] /151.225.42.184:62316 lost connection
+2015-08-11 17:23:05 [INFO] /151.225.42.184:62321 lost connection
+2015-08-11 17:23:05 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:23:05 [INFO] /151.225.42.184:62323 lost connection
+2015-08-11 17:23:31 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:23:31 [INFO] /151.225.42.184:62329 lost connection
+2015-08-11 17:23:31 [INFO] /151.225.42.184:62331 lost connection
+2015-08-11 17:23:59 [INFO] /151.225.42.184:62347 lost connection
+2015-08-11 17:23:59 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:23:59 [INFO] /151.225.42.184:62349 lost connection
+2015-08-11 17:24:36 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:24:36 [INFO] /151.225.42.184:62354 lost connection
+2015-08-11 17:24:36 [INFO] /151.225.42.184:62356 lost connection
+2015-08-11 17:26:38 [INFO] /151.225.42.184:62410 lost connection
+2015-08-11 17:26:38 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:26:38 [INFO] /151.225.42.184:62412 lost connection
+2015-08-11 17:26:39 [INFO] /151.225.42.184:62414 lost connection
+2015-08-11 17:26:39 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:26:39 [INFO] /151.225.42.184:62416 lost connection
+2015-08-11 17:26:39 [INFO] /151.225.42.184:62418 lost connection
+2015-08-11 17:26:39 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:26:39 [INFO] /151.225.42.184:62420 lost connection
+2015-08-11 17:26:40 [INFO] /151.225.42.184:62422 lost connection
+2015-08-11 17:26:40 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:26:40 [INFO] /151.225.42.184:62424 lost connection
+2015-08-11 17:26:40 [INFO] /151.225.42.184:62426 lost connection
+2015-08-11 17:26:40 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:26:40 [INFO] /151.225.42.184:62428 lost connection
+2015-08-11 17:26:40 [INFO] /151.225.42.184:62430 lost connection
+2015-08-11 17:26:40 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:26:40 [INFO] /151.225.42.184:62432 lost connection
+2015-08-11 17:34:20 [INFO] /151.225.42.184:62605 lost connection
+2015-08-11 17:34:20 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:34:20 [INFO] /151.225.42.184:62607 lost connection
+2015-08-11 17:34:27 [INFO] /151.225.42.184:62611 lost connection
+2015-08-11 17:34:27 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:34:27 [INFO] /151.225.42.184:62613 lost connection
+2015-08-11 17:37:24 [INFO] Starting minecraft server version 1.6.4
+2015-08-11 17:37:24 [INFO] Loading properties
+2015-08-11 17:37:24 [INFO] Default game type: SURVIVAL
+2015-08-11 17:37:24 [INFO] Generating keypair
+2015-08-11 17:37:24 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-11 17:37:24 [INFO] Preparing level "world"
+2015-08-11 17:37:24 [INFO] Preparing start region for level 0
+2015-08-11 17:37:25 [INFO] Preparing spawn area: 93%
+2015-08-11 17:37:25 [INFO] Done (1.192s)! For help, type "help" or "?"
+2015-08-11 17:37:55 [INFO] /151.225.42.184:62698 lost connection
+2015-08-11 17:37:55 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:37:55 [INFO] /151.225.42.184:62700 lost connection
+2015-08-11 17:37:58 [INFO] /151.225.42.184:62703 lost connection
+2015-08-11 17:37:58 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:37:58 [INFO] /151.225.42.184:62705 lost connection
+2015-08-11 17:37:58 [INFO] /151.225.42.184:62707 lost connection
+2015-08-11 17:37:58 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:37:58 [INFO] /151.225.42.184:62709 lost connection
+2015-08-11 17:37:59 [INFO] /151.225.42.184:62711 lost connection
+2015-08-11 17:37:59 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:37:59 [INFO] /151.225.42.184:62713 lost connection
+2015-08-11 17:37:59 [INFO] /151.225.42.184:62715 lost connection
+2015-08-11 17:37:59 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:37:59 [INFO] /151.225.42.184:62717 lost connection
+2015-08-11 17:37:59 [INFO] /151.225.42.184:62719 lost connection
+2015-08-11 17:37:59 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:37:59 [INFO] /151.225.42.184:62721 lost connection
+2015-08-11 17:37:59 [INFO] /151.225.42.184:62723 lost connection
+2015-08-11 17:37:59 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:38:00 [INFO] /151.225.42.184:62725 lost connection
+2015-08-11 17:38:00 [INFO] /151.225.42.184:62727 lost connection
+2015-08-11 17:38:00 [INFO] /151.225.42.184:62730 lost connection
+2015-08-11 17:38:00 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:38:00 [INFO] /151.225.42.184:62732 lost connection
+2015-08-11 17:38:00 [INFO] /151.225.42.184:62734 lost connection
+2015-08-11 17:38:00 [INFO] /151.225.42.184:62737 lost connection
+2015-08-11 17:38:00 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:38:00 [INFO] /151.225.42.184:62739 lost connection
+2015-08-11 17:38:08 [INFO] /151.225.42.184:62752 lost connection
+2015-08-11 17:38:08 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:38:08 [INFO] /151.225.42.184:62754 lost connection
+2015-08-11 17:38:09 [INFO] /151.225.42.184:62756 lost connection
+2015-08-11 17:38:09 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:38:09 [INFO] /151.225.42.184:62758 lost connection
+2015-08-11 17:38:10 [INFO] /151.225.42.184:62760 lost connection
+2015-08-11 17:38:10 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:38:10 [INFO] /151.225.42.184:62762 lost connection
+2015-08-11 17:38:10 [INFO] /151.225.42.184:62764 lost connection
+2015-08-11 17:38:10 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:38:10 [INFO] /151.225.42.184:62766 lost connection
+2015-08-11 17:38:11 [INFO] /151.225.42.184:62768 lost connection
+2015-08-11 17:38:11 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:38:11 [INFO] /151.225.42.184:62770 lost connection
+2015-08-11 17:40:42 [INFO] /151.225.42.184:62885 lost connection
+2015-08-11 17:40:42 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:40:42 [INFO] /151.225.42.184:62887 lost connection
+2015-08-11 17:41:33 [INFO] /151.225.42.184:62937 lost connection
+2015-08-11 17:41:33 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:33 [INFO] /151.225.42.184:62939 lost connection
+2015-08-11 17:41:34 [INFO] /151.225.42.184:62941 lost connection
+2015-08-11 17:41:34 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:34 [INFO] /151.225.42.184:62943 lost connection
+2015-08-11 17:41:38 [INFO] /151.225.42.184:62946 lost connection
+2015-08-11 17:41:38 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:38 [INFO] /151.225.42.184:62948 lost connection
+2015-08-11 17:41:38 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:38 [INFO] /151.225.42.184:62950 lost connection
+2015-08-11 17:41:38 [INFO] /151.225.42.184:62952 lost connection
+2015-08-11 17:41:39 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:39 [INFO] /151.225.42.184:62954 lost connection
+2015-08-11 17:41:39 [INFO] /151.225.42.184:62956 lost connection
+2015-08-11 17:41:39 [INFO] /151.225.42.184:62958 lost connection
+2015-08-11 17:41:39 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:39 [INFO] /151.225.42.184:62960 lost connection
+2015-08-11 17:41:40 [INFO] /151.225.42.184:62962 lost connection
+2015-08-11 17:41:40 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:40 [INFO] /151.225.42.184:62964 lost connection
+2015-08-11 17:41:40 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:40 [INFO] /151.225.42.184:62966 lost connection
+2015-08-11 17:41:40 [INFO] /151.225.42.184:62968 lost connection
+2015-08-11 17:41:40 [INFO] /151.225.42.184:62970 lost connection
+2015-08-11 17:41:40 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:40 [INFO] /151.225.42.184:62972 lost connection
+2015-08-11 17:41:41 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:41 [INFO] /151.225.42.184:62974 lost connection
+2015-08-11 17:41:41 [INFO] /151.225.42.184:62976 lost connection
+2015-08-11 17:41:41 [INFO] /151.225.42.184:62978 lost connection
+2015-08-11 17:41:41 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:41 [INFO] /151.225.42.184:62980 lost connection
+2015-08-11 17:41:41 [INFO] /151.225.42.184:62982 lost connection
+2015-08-11 17:41:41 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:41 [INFO] /151.225.42.184:62984 lost connection
+2015-08-11 17:41:41 [INFO] /151.225.42.184:62986 lost connection
+2015-08-11 17:41:41 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:41 [INFO] /151.225.42.184:62988 lost connection
+2015-08-11 17:41:42 [INFO] /151.225.42.184:62990 lost connection
+2015-08-11 17:41:42 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:42 [INFO] /151.225.42.184:62992 lost connection
+2015-08-11 17:41:43 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:43 [INFO] /151.225.42.184:62994 lost connection
+2015-08-11 17:41:43 [INFO] /151.225.42.184:62996 lost connection
+2015-08-11 17:41:43 [INFO] /151.225.42.184:62998 lost connection
+2015-08-11 17:41:43 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:43 [INFO] /151.225.42.184:63000 lost connection
+2015-08-11 17:41:43 [INFO] /151.225.42.184:63002 lost connection
+2015-08-11 17:41:43 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:43 [INFO] /151.225.42.184:63004 lost connection
+2015-08-11 17:41:44 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:41:44 [INFO] /151.225.42.184:63006 lost connection
+2015-08-11 17:41:44 [INFO] /151.225.42.184:63008 lost connection
+2015-08-11 17:42:59 [INFO] Starting minecraft server version 1.6.4
+2015-08-11 17:42:59 [INFO] Loading properties
+2015-08-11 17:42:59 [INFO] Default game type: SURVIVAL
+2015-08-11 17:42:59 [INFO] Generating keypair
+2015-08-11 17:43:00 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-11 17:43:00 [INFO] Preparing level "world"
+2015-08-11 17:43:00 [INFO] Preparing start region for level 0
+2015-08-11 17:43:01 [INFO] Preparing spawn area: 36%
+2015-08-11 17:43:02 [INFO] Done (1.684s)! For help, type "help" or "?"
+2015-08-11 17:43:15 [INFO] /151.225.42.184:63099 lost connection
+2015-08-11 17:43:15 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:15 [INFO] /151.225.42.184:63101 lost connection
+2015-08-11 17:43:16 [INFO] /151.225.42.184:63103 lost connection
+2015-08-11 17:43:16 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:16 [INFO] /151.225.42.184:63105 lost connection
+2015-08-11 17:43:16 [INFO] /151.225.42.184:63107 lost connection
+2015-08-11 17:43:16 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:16 [INFO] /151.225.42.184:63109 lost connection
+2015-08-11 17:43:16 [INFO] /151.225.42.184:63111 lost connection
+2015-08-11 17:43:17 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63113 lost connection
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63115 lost connection
+2015-08-11 17:43:17 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63117 lost connection
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63119 lost connection
+2015-08-11 17:43:17 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63121 lost connection
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63123 lost connection
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63126 lost connection
+2015-08-11 17:43:17 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63128 lost connection
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63130 lost connection
+2015-08-11 17:43:17 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63132 lost connection
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63134 lost connection
+2015-08-11 17:43:17 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:17 [INFO] /151.225.42.184:63136 lost connection
+2015-08-11 17:43:18 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:18 [INFO] /151.225.42.184:63138 lost connection
+2015-08-11 17:43:18 [INFO] /151.225.42.184:63140 lost connection
+2015-08-11 17:43:19 [INFO] /151.225.42.184:63142 lost connection
+2015-08-11 17:43:19 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:19 [INFO] /151.225.42.184:63144 lost connection
+2015-08-11 17:43:21 [INFO] /151.225.42.184:63146 lost connection
+2015-08-11 17:43:21 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:21 [INFO] /151.225.42.184:63148 lost connection
+2015-08-11 17:43:24 [INFO] /151.225.42.184:63151 lost connection
+2015-08-11 17:43:24 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:24 [INFO] /151.225.42.184:63153 lost connection
+2015-08-11 17:43:25 [INFO] /151.225.42.184:63155 lost connection
+2015-08-11 17:43:25 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:25 [INFO] /151.225.42.184:63157 lost connection
+2015-08-11 17:43:28 [INFO] /151.225.42.184:63159 lost connection
+2015-08-11 17:43:28 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:28 [INFO] /151.225.42.184:63161 lost connection
+2015-08-11 17:43:29 [INFO] /151.225.42.184:63163 lost connection
+2015-08-11 17:43:29 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:29 [INFO] /151.225.42.184:63165 lost connection
+2015-08-11 17:43:29 [INFO] /151.225.42.184:63167 lost connection
+2015-08-11 17:43:29 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:29 [INFO] /151.225.42.184:63169 lost connection
+2015-08-11 17:43:30 [INFO] /151.225.42.184:63171 lost connection
+2015-08-11 17:43:30 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:30 [INFO] /151.225.42.184:63173 lost connection
+2015-08-11 17:43:30 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:30 [INFO] /151.225.42.184:63175 lost connection
+2015-08-11 17:43:30 [INFO] /151.225.42.184:63177 lost connection
+2015-08-11 17:43:45 [INFO] /151.225.42.184:63179 lost connection
+2015-08-11 17:43:45 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:45 [INFO] /151.225.42.184:63181 lost connection
+2015-08-11 17:43:46 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:43:46 [INFO] /151.225.42.184:63183 lost connection
+2015-08-11 17:43:46 [INFO] /151.225.42.184:63185 lost connection
+2015-08-11 17:45:53 [INFO] /151.225.42.184:63279 lost connection
+2015-08-11 17:45:53 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:45:53 [INFO] /151.225.42.184:63282 lost connection
+2015-08-11 17:47:48 [SEVERE] Reached end of stream for /198.199.98.246
+2015-08-11 17:47:48 [INFO] /198.199.98.246:39538 lost connection
+2015-08-11 17:47:55 [SEVERE] Reached end of stream for /198.199.98.246
+2015-08-11 17:47:55 [INFO] /198.199.98.246:39568 lost connection
+2015-08-11 17:54:34 [INFO] /151.225.42.184:63896 lost connection
+2015-08-11 17:54:35 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 17:54:35 [INFO] /151.225.42.184:63899 lost connection
+2015-08-11 17:55:53 [SEVERE] Reached end of stream for /86.144.8.61
+2015-08-11 17:55:58 [INFO] testing_enbled[/86.144.8.61:50482] logged in with entity id 284 at (-196.5, 69.0, 255.5)
+2015-08-11 17:55:58 [INFO] testing_enbled joined the game
+2015-08-11 17:57:22 [INFO] testing_enbled lost connection: disconnect.quitting
+2015-08-11 17:57:22 [INFO] testing_enbled left the game
+2015-08-11 17:57:39 [SEVERE] Reached end of stream for /86.144.8.61
+2015-08-11 17:57:42 [INFO] testing_enbled[/86.144.8.61:50489] logged in with entity id 2190 at (-194.53277338703347, 69.0, 252.72294435936277)
+2015-08-11 17:57:42 [INFO] testing_enbled joined the game
+2015-08-11 17:59:28 [INFO] testing_enbled lost connection: disconnect.quitting
+2015-08-11 17:59:28 [INFO] testing_enbled left the game
+2015-08-11 17:59:37 [SEVERE] Reached end of stream for /86.144.8.61
+2015-08-11 18:00:09 [SEVERE] Reached end of stream for /86.144.8.61
+2015-08-11 18:00:15 [INFO] testing_enbled[/86.144.8.61:50527] logged in with entity id 5585 at (-320.69999998807907, 61.0, 176.30000001192093)
+2015-08-11 18:00:15 [INFO] testing_enbled joined the game
+2015-08-11 18:00:42 [INFO] Stopping server
+2015-08-11 18:00:42 [INFO] Closing listening thread
+2015-08-11 18:00:42 [INFO] Saving players
+2015-08-11 18:01:10 [INFO] Starting minecraft server version 1.6.4
+2015-08-11 18:01:10 [INFO] Loading properties
+2015-08-11 18:01:10 [INFO] Default game type: SURVIVAL
+2015-08-11 18:01:10 [INFO] Generating keypair
+2015-08-11 18:01:10 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-11 18:01:10 [INFO] Preparing level "world"
+2015-08-11 18:01:10 [INFO] Preparing start region for level 0
+2015-08-11 18:01:11 [INFO] Preparing spawn area: 31%
+2015-08-11 18:01:12 [INFO] Done (2.005s)! For help, type "help" or "?"
+2015-08-11 18:01:56 [SEVERE] Reached end of stream for /86.144.8.61
+2015-08-11 18:02:02 [INFO] testing_enbled[/86.144.8.61:50560] logged in with entity id 294 at (-320.69999998807907, 61.0, 176.30000001192093)
+2015-08-11 18:02:02 [INFO] testing_enbled joined the game
+2015-08-11 18:02:16 [INFO] [testing_enbled: Set the time to 78000]
+2015-08-11 18:02:33 [INFO] [Server] Asshole
+2015-08-11 18:02:35 [INFO] [Server] ^_^
+2015-08-11 18:02:39 [INFO] [testing_enbled: Given Blue Wool (ID 35) * 64 to testing_enbled]
+2015-08-11 18:02:47 [INFO] Unknown command. Try /help for a list of commands
+2015-08-11 18:03:00 [INFO] [testing_enbled: Set own game mode to Creative Mode]
+2015-08-11 18:03:07 [INFO] Unknown command. Try /help for a list of commands
+2015-08-11 18:03:10 [INFO] Unknown command. Try /help for a list of commands
+2015-08-11 18:03:11 [INFO] Unknown command. Try /help for a list of commands
+2015-08-11 18:03:13 [INFO] --- Showing help page 1 of 6 (/help <page>) ---
+2015-08-11 18:03:13 [INFO] /ban <name> [reason ...]
+2015-08-11 18:03:13 [INFO] /ban-ip <address|name> [reason ...]
+2015-08-11 18:03:13 [INFO] /banlist [ips|players]
+2015-08-11 18:03:13 [INFO] /clear <player> [item] [data]
+2015-08-11 18:03:13 [INFO] /debug <start|stop>
+2015-08-11 18:03:13 [INFO] /defaultgamemode <mode>
+2015-08-11 18:03:13 [INFO] /deop <player>
+2015-08-11 18:03:21 [INFO] [testing_enbled: Teleported testing_enbled to 110.5,100.5,60.5]
+2015-08-11 18:03:27 [INFO] Unknown command. Try /help for a list of commands
+2015-08-11 18:03:27 [INFO] --- Showing help page 3 of 6 (/help <page>) ---
+2015-08-11 18:03:27 [INFO] /kick <player> [reason ...]
+2015-08-11 18:03:27 [INFO] /kill
+2015-08-11 18:03:27 [INFO] /list
+2015-08-11 18:03:27 [INFO] /me <action ...>
+2015-08-11 18:03:27 [INFO] /op <player>
+2015-08-11 18:03:27 [INFO] /pardon <name>
+2015-08-11 18:03:27 [INFO] /pardon-ip <address>
+2015-08-11 18:03:27 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2015-08-11 18:03:30 [INFO] --- Showing help page 2 of 6 (/help <page>) ---
+2015-08-11 18:03:30 [INFO] /difficulty <new difficulty>
+2015-08-11 18:03:30 [INFO] /effect <player> <effect> [seconds] [amplifier]
+2015-08-11 18:03:30 [INFO] /enchant <player> <enchantment ID> [level]
+2015-08-11 18:03:30 [INFO] /gamemode <mode> [player]
+2015-08-11 18:03:30 [INFO] /gamerule <rule name> <value> OR /gamerule <rule name>
+2015-08-11 18:03:30 [INFO] /give <player> <item> [amount] [data]
+2015-08-11 18:03:30 [INFO] /help [page|command name]
+2015-08-11 18:03:41 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2015-08-11 18:04:06 [INFO] Unknown command. Try /help for a list of commands
+2015-08-11 18:04:16 [INFO] --- Showing help page 4 of 6 (/help <page>) ---
+2015-08-11 18:04:16 [INFO] /playsound <sound> <player> [x] [y] [z] [volume] [pitch] [minimumVolume]
+2015-08-11 18:04:16 [INFO] /save-all
+2015-08-11 18:04:16 [INFO] /save-off
+2015-08-11 18:04:16 [INFO] /save-on
+2015-08-11 18:04:16 [INFO] /say <message ...>
+2015-08-11 18:04:16 [INFO] /scoreboard <objectives|players|teams>
+2015-08-11 18:04:16 [INFO] /seed
+2015-08-11 18:04:16 [INFO] [testing_enbled: Teleported testing_enbled to 1000.5,100.5,500.5]
+2015-08-11 18:04:22 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2015-08-11 18:04:30 [INFO] --- Showing help page 5 of 6 (/help <page>) ---
+2015-08-11 18:04:30 [INFO] /setidletimeout <Minutes until kick>
+2015-08-11 18:04:30 [INFO] /spawnpoint OR /spawnpoint <player> OR /spawnpoint <player> <x> <y> <z>
+2015-08-11 18:04:30 [INFO] /spreadplayers <x> <z> <spreadDistance> <maxRange> <respectTeams true|false> <player ...>
+2015-08-11 18:04:30 [INFO] /stop
+2015-08-11 18:04:30 [INFO] /tell <player> <private message ...>
+2015-08-11 18:04:30 [INFO] /testfor <player>
+2015-08-11 18:04:30 [INFO] /time <set|add> <value>
+2015-08-11 18:04:36 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2015-08-11 18:05:03 [INFO] [Server] YOtest
+2015-08-11 18:05:18 [INFO] --- Showing help page 6 of 6 (/help <page>) ---
+2015-08-11 18:05:18 [INFO] /toggledownfall
+2015-08-11 18:05:18 [INFO] /tp [target player] <destination player> OR /tp [target player] <x> <y> <z>
+2015-08-11 18:05:18 [INFO] /weather <clear/rain/thunder> [duration in seconds]
+2015-08-11 18:05:18 [INFO] /whitelist <on|off|list|add|remove|reload>
+2015-08-11 18:05:18 [INFO] /xp <amount> [player] OR /xp <amount>L [player]
+2015-08-11 18:07:05 [INFO] testing_enbled fell out of the world
+2015-08-11 18:07:20 [INFO] [testing_enbled: Teleported testing_enbled to 1000.5,100.5,500.5]
+2015-08-11 18:07:28 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 18:07:28 [INFO] casperround [/151.225.42.184:64201] lost connection
+2015-08-11 18:07:36 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-11 18:07:36 [INFO] casperround [/151.225.42.184:64203] lost connection
+2015-08-11 18:08:43 [INFO] [testing_enbled: Set the time to 102000]
+2015-08-11 18:08:51 [INFO] Usage: /time <set|add> <value>
+2015-08-11 18:08:55 [INFO] Set the time to 12500
+2015-08-11 18:09:08 [INFO] Set the time to 0
+2015-08-11 18:09:25 [INFO] [Server] &6F&7U&3C&8K
+2015-08-11 18:09:45 [INFO] Banned player block
+2015-08-11 18:09:59 [INFO] casperround[/151.225.42.184:64295] logged in with entity id 27367 at (-205.5, 64.0, 250.5)
+2015-08-11 18:09:59 [INFO] casperround joined the game
+2015-08-11 18:10:07 [INFO] testing_enbled fell out of the world
+2015-08-11 18:10:19 [INFO] [testing_enbled: Teleported testing_enbled to 1000.5,100.5,500.5]
+2015-08-11 18:10:45 [INFO] [casperround: Set own game mode to Creative Mode]
+2015-08-11 18:11:30 [INFO] [casperround: Teleported casperround to testing_enbled]
+2015-08-11 18:17:07 [INFO] testing_enbled lost connection: disconnect.quitting
+2015-08-11 18:17:07 [INFO] testing_enbled left the game
+2015-08-11 18:17:16 [INFO] casperround lost connection: disconnect.quitting
+2015-08-11 18:17:16 [INFO] casperround left the game
+2015-08-12 03:47:43 [INFO] Stopping the server
+2015-08-12 03:47:43 [INFO] Stopping server
+2015-08-12 03:47:43 [INFO] Saving players
+2015-08-12 03:47:43 [INFO] Saving worlds
+2015-08-12 03:47:43 [INFO] Saving chunks for level 'world'/Overworld
+2015-08-12 03:47:43 [INFO] Closing listening thread
+2015-08-12 03:47:43 [INFO] Saving chunks for level 'world'/Nether
+2015-08-12 03:47:43 [INFO] Saving chunks for level 'world'/The End
+2015-08-12 03:47:44 [INFO] Stopping server
+2015-08-12 04:02:49 [INFO] Starting minecraft server version 1.6.4
+2015-08-12 04:02:49 [INFO] Loading properties
+2015-08-12 04:02:49 [INFO] Default game type: SURVIVAL
+2015-08-12 04:02:49 [INFO] Generating keypair
+2015-08-12 04:02:49 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-12 04:02:50 [INFO] Preparing level "world"
+2015-08-12 04:02:50 [INFO] Preparing start region for level 0
+2015-08-12 04:02:51 [INFO] Preparing spawn area: 78%
+2015-08-12 04:02:51 [INFO] Done (1.386s)! For help, type "help" or "?"
+2015-08-12 04:03:42 [INFO] /151.225.42.184:53043 lost connection
+2015-08-12 04:03:42 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:03:42 [INFO] /151.225.42.184:53046 lost connection
+2015-08-12 04:03:58 [INFO] /151.225.42.184:53064 lost connection
+2015-08-12 04:03:58 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:03:58 [INFO] /151.225.42.184:53065 lost connection
+2015-08-12 04:08:43 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 04:08:43 [INFO] /67.43.7.19:46454 lost connection
+2015-08-12 04:08:51 [INFO] /151.225.42.184:53161 lost connection
+2015-08-12 04:08:51 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:08:51 [INFO] /151.225.42.184:53162 lost connection
+2015-08-12 04:08:52 [INFO] /151.225.42.184:53165 lost connection
+2015-08-12 04:08:52 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:08:52 [INFO] /151.225.42.184:53167 lost connection
+2015-08-12 04:08:53 [INFO] /151.225.42.184:53169 lost connection
+2015-08-12 04:08:53 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:08:53 [INFO] /151.225.42.184:53171 lost connection
+2015-08-12 04:08:54 [INFO] /151.225.42.184:53173 lost connection
+2015-08-12 04:08:54 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:08:54 [INFO] /151.225.42.184:53175 lost connection
+2015-08-12 04:08:55 [INFO] /151.225.42.184:53177 lost connection
+2015-08-12 04:08:55 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:08:55 [INFO] /151.225.42.184:53179 lost connection
+2015-08-12 04:08:55 [INFO] /151.225.42.184:53181 lost connection
+2015-08-12 04:08:55 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:08:55 [INFO] /151.225.42.184:53183 lost connection
+2015-08-12 04:11:04 [INFO] /151.225.42.184:53239 lost connection
+2015-08-12 04:11:04 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:11:04 [INFO] /151.225.42.184:53240 lost connection
+2015-08-12 04:27:43 [INFO] /151.225.42.184:53849 lost connection
+2015-08-12 04:27:44 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:27:44 [INFO] /151.225.42.184:53851 lost connection
+2015-08-12 04:42:31 [INFO] /151.225.42.184:53958 lost connection
+2015-08-12 04:42:31 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:42:31 [INFO] /151.225.42.184:53960 lost connection
+2015-08-12 04:42:32 [INFO] /151.225.42.184:53962 lost connection
+2015-08-12 04:42:32 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-12 04:42:32 [INFO] /151.225.42.184:53964 lost connection
+2015-08-12 07:25:16 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 07:25:16 [INFO] /67.43.7.19:50237 lost connection
+2015-08-12 07:30:06 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 07:30:06 [INFO] /67.43.7.19:41224 lost connection
+2015-08-12 07:37:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 07:37:29 [INFO] /67.43.7.19:42377 lost connection
+2015-08-12 07:41:22 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 07:41:22 [INFO] /67.43.7.19:58093 lost connection
+2015-08-12 07:48:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 07:48:40 [INFO] /67.43.7.19:59350 lost connection
+2015-08-12 07:50:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 07:50:29 [INFO] /67.43.7.19:38704 lost connection
+2015-08-12 07:56:22 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 07:56:22 [INFO] /67.43.7.19:33845 lost connection
+2015-08-12 08:01:30 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:01:30 [INFO] /67.43.7.19:54510 lost connection
+2015-08-12 08:06:28 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:06:28 [INFO] /67.43.7.19:46552 lost connection
+2015-08-12 08:12:05 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:12:05 [INFO] /67.43.7.19:41103 lost connection
+2015-08-12 08:17:34 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:17:34 [INFO] /67.43.7.19:34736 lost connection
+2015-08-12 08:22:03 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:22:03 [INFO] /67.43.7.19:53085 lost connection
+2015-08-12 08:25:44 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:25:44 [INFO] /67.43.7.19:39473 lost connection
+2015-08-12 08:29:47 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:29:47 [INFO] /67.43.7.19:55480 lost connection
+2015-08-12 08:38:49 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:38:49 [INFO] /67.43.7.19:35211 lost connection
+2015-08-12 08:42:22 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:42:22 [INFO] /67.43.7.19:49942 lost connection
+2015-08-12 08:46:26 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:46:26 [INFO] /67.43.7.19:38277 lost connection
+2015-08-12 08:52:51 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:52:51 [INFO] /67.43.7.19:35960 lost connection
+2015-08-12 08:54:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 08:54:19 [INFO] /67.43.7.19:41756 lost connection
+2015-08-12 09:00:31 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:00:31 [INFO] /67.43.7.19:38283 lost connection
+2015-08-12 09:07:12 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:07:12 [INFO] /67.43.7.19:36785 lost connection
+2015-08-12 09:14:34 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:14:34 [INFO] /67.43.7.19:38463 lost connection
+2015-08-12 09:17:00 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:17:00 [INFO] /67.43.7.19:48726 lost connection
+2015-08-12 09:20:37 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:20:37 [INFO] /67.43.7.19:34986 lost connection
+2015-08-12 09:26:09 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:26:09 [INFO] /67.43.7.19:57059 lost connection
+2015-08-12 09:31:26 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:31:26 [INFO] /67.43.7.19:50206 lost connection
+2015-08-12 09:37:14 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:37:14 [INFO] /67.43.7.19:45109 lost connection
+2015-08-12 09:42:08 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:42:08 [INFO] /67.43.7.19:36566 lost connection
+2015-08-12 09:47:35 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:47:35 [INFO] /67.43.7.19:58552 lost connection
+2015-08-12 09:50:18 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:50:18 [INFO] /67.43.7.19:41140 lost connection
+2015-08-12 09:58:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 09:58:19 [INFO] /67.43.7.19:44907 lost connection
+2015-08-12 10:04:09 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:04:09 [INFO] /67.43.7.19:40258 lost connection
+2015-08-12 10:07:58 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:07:58 [INFO] /67.43.7.19:55796 lost connection
+2015-08-12 10:12:10 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:12:10 [INFO] /67.43.7.19:44506 lost connection
+2015-08-12 10:17:03 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:17:03 [INFO] /67.43.7.19:35954 lost connection
+2015-08-12 10:22:49 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:22:49 [INFO] /67.43.7.19:59151 lost connection
+2015-08-12 10:27:56 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:27:57 [INFO] /67.43.7.19:51638 lost connection
+2015-08-12 10:32:35 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:32:35 [INFO] /67.43.7.19:42403 lost connection
+2015-08-12 10:35:02 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:35:02 [INFO] /67.43.7.19:52171 lost connection
+2015-08-12 10:42:51 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:42:51 [INFO] /67.43.7.19:55196 lost connection
+2015-08-12 10:46:05 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:46:05 [INFO] /67.43.7.19:40151 lost connection
+2015-08-12 10:53:17 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:53:18 [INFO] /67.43.7.19:40582 lost connection
+2015-08-12 10:58:47 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 10:58:47 [INFO] /67.43.7.19:34622 lost connection
+2015-08-12 11:01:55 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:01:55 [INFO] /67.43.7.19:47434 lost connection
+2015-08-12 11:08:03 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:08:03 [INFO] /67.43.7.19:44148 lost connection
+2015-08-12 11:12:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:12:40 [INFO] /67.43.7.19:35121 lost connection
+2015-08-12 11:15:38 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:15:38 [INFO] /67.43.7.19:46980 lost connection
+2015-08-12 11:20:49 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:20:49 [INFO] /67.43.7.19:39626 lost connection
+2015-08-12 11:28:30 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:28:30 [INFO] /67.43.7.19:42051 lost connection
+2015-08-12 11:31:57 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:31:57 [INFO] /67.43.7.19:56316 lost connection
+2015-08-12 11:36:54 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:36:54 [INFO] /67.43.7.19:47830 lost connection
+2015-08-12 11:40:15 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:40:15 [INFO] /67.43.7.19:32825 lost connection
+2015-08-12 11:49:39 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:49:40 [INFO] /67.43.7.19:41910 lost connection
+2015-08-12 11:54:39 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:54:39 [INFO] /67.43.7.19:34087 lost connection
+2015-08-12 11:56:08 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 11:56:08 [INFO] /67.43.7.19:40339 lost connection
+2015-08-12 12:03:04 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:03:04 [INFO] /67.43.7.19:39857 lost connection
+2015-08-12 12:08:11 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:08:11 [INFO] /67.43.7.19:60859 lost connection
+2015-08-12 12:14:10 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:14:10 [INFO] /67.43.7.19:56978 lost connection
+2015-08-12 12:17:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:17:19 [INFO] /67.43.7.19:41812 lost connection
+2015-08-12 12:22:20 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:22:20 [INFO] /67.43.7.19:33935 lost connection
+2015-08-12 12:28:53 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:28:53 [INFO] /67.43.7.19:60350 lost connection
+2015-08-12 12:34:08 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:34:08 [INFO] /67.43.7.19:53607 lost connection
+2015-08-12 12:35:31 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:35:31 [INFO] /67.43.7.19:59519 lost connection
+2015-08-12 12:42:41 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:42:41 [INFO] /67.43.7.19:59467 lost connection
+2015-08-12 12:46:12 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:46:12 [INFO] /67.43.7.19:45396 lost connection
+2015-08-12 12:52:06 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:52:06 [INFO] /67.43.7.19:40858 lost connection
+2015-08-12 12:59:41 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 12:59:41 [INFO] /67.43.7.19:43076 lost connection
+2015-08-12 13:03:50 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 13:03:50 [INFO] /67.43.7.19:59999 lost connection
+2015-08-12 13:12:08 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 13:12:08 [INFO] /67.43.7.19:33060 lost connection
+2015-08-12 13:15:39 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 13:15:39 [INFO] /67.43.7.19:45141 lost connection
+2015-08-12 13:21:28 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 13:21:28 [INFO] /67.43.7.19:36567 lost connection
+2015-08-12 13:31:04 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 13:31:04 [INFO] /67.43.7.19:43769 lost connection
+2015-08-12 13:33:07 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 13:33:07 [INFO] /67.43.7.19:51860 lost connection
+2015-08-12 13:37:28 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 13:37:28 [INFO] /67.43.7.19:40301 lost connection
+2015-08-12 13:42:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 13:42:19 [INFO] /67.43.7.19:59318 lost connection
+2015-08-12 13:49:26 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 13:49:26 [INFO] /67.43.7.19:58740 lost connection
+2015-08-12 13:55:21 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 13:55:21 [INFO] /67.43.7.19:54365 lost connection
+2015-08-12 13:59:12 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 13:59:12 [INFO] /67.43.7.19:41576 lost connection
+2015-08-12 14:02:07 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 14:02:07 [INFO] /67.43.7.19:53429 lost connection
+2015-08-12 14:07:27 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 14:07:27 [INFO] /67.43.7.19:46357 lost connection
+2015-08-12 14:13:11 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 14:13:11 [INFO] /67.43.7.19:40900 lost connection
+2015-08-12 14:18:23 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 14:18:23 [INFO] /67.43.7.19:33350 lost connection
+2015-08-12 14:25:47 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 14:25:47 [INFO] /67.43.7.19:60359 lost connection
+2015-08-12 14:29:03 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 14:29:03 [INFO] /67.43.7.19:44946 lost connection
+2015-08-12 14:37:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 14:37:29 [INFO] /67.43.7.19:49831 lost connection
+2015-08-12 14:38:59 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 14:38:59 [INFO] /67.43.7.19:55756 lost connection
+2015-08-12 14:46:06 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 14:46:06 [INFO] /67.43.7.19:56195 lost connection
+2015-08-12 14:53:05 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 14:53:05 [INFO] /67.43.7.19:57023 lost connection
+2015-08-12 14:54:32 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 14:54:32 [INFO] /67.43.7.19:34906 lost connection
+2015-08-12 15:03:00 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:03:00 [INFO] /67.43.7.19:41545 lost connection
+2015-08-12 15:06:17 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:06:17 [INFO] /67.43.7.19:55634 lost connection
+2015-08-12 15:09:48 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:09:48 [INFO] /67.43.7.19:42028 lost connection
+2015-08-12 15:17:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:17:29 [INFO] /67.43.7.19:45890 lost connection
+2015-08-12 15:20:14 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:20:14 [INFO] /67.43.7.19:57529 lost connection
+2015-08-12 15:26:24 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:26:24 [INFO] /67.43.7.19:55092 lost connection
+2015-08-12 15:27:57 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:27:57 [INFO] /67.43.7.19:33404 lost connection
+2015-08-12 15:34:31 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:34:31 [INFO] /67.43.7.19:60208 lost connection
+2015-08-12 15:42:11 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:42:11 [INFO] /67.43.7.19:35924 lost connection
+2015-08-12 15:42:18 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:42:18 [INFO] /67.43.7.19:36373 lost connection
+2015-08-12 15:49:23 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:49:23 [INFO] /67.43.7.19:37070 lost connection
+2015-08-12 15:53:02 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 15:53:02 [INFO] /67.43.7.19:52351 lost connection
+2015-08-12 16:01:07 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:01:07 [INFO] /67.43.7.19:57341 lost connection
+2015-08-12 16:07:24 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:07:24 [INFO] /67.43.7.19:56182 lost connection
+2015-08-12 16:07:46 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:07:46 [INFO] /67.43.7.19:57794 lost connection
+2015-08-12 16:14:38 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:14:38 [INFO] /67.43.7.19:58086 lost connection
+2015-08-12 16:21:59 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:21:59 [INFO] /67.43.7.19:60150 lost connection
+2015-08-12 16:29:37 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:29:37 [INFO] /67.43.7.19:36627 lost connection
+2015-08-12 16:30:45 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:30:45 [INFO] /67.43.7.19:41592 lost connection
+2015-08-12 16:36:13 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:36:13 [INFO] /67.43.7.19:36513 lost connection
+2015-08-12 16:39:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:39:19 [INFO] /67.43.7.19:49921 lost connection
+2015-08-12 16:44:32 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:44:32 [INFO] /67.43.7.19:43432 lost connection
+2015-08-12 16:47:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:47:01 [INFO] /67.43.7.19:53952 lost connection
+2015-08-12 16:52:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:52:01 [INFO] /67.43.7.19:46386 lost connection
+2015-08-12 16:55:46 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 16:55:46 [INFO] /67.43.7.19:33840 lost connection
+2015-08-12 17:08:30 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 17:08:30 [INFO] /67.43.7.19:60289 lost connection
+2015-08-12 17:12:46 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 17:12:46 [INFO] /67.43.7.19:50259 lost connection
+2015-08-12 17:18:37 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 17:18:37 [INFO] /67.43.7.19:46772 lost connection
+2015-08-12 17:22:58 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 17:22:58 [INFO] /67.43.7.19:37006 lost connection
+2015-08-12 17:29:00 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 17:29:00 [INFO] /67.43.7.19:34529 lost connection
+2015-08-12 17:32:13 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 17:32:13 [INFO] /67.43.7.19:48452 lost connection
+2015-08-12 17:36:11 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 17:36:11 [INFO] /67.43.7.19:36999 lost connection
+2015-08-12 17:41:57 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 17:41:57 [INFO] /67.43.7.19:60912 lost connection
+2015-08-12 17:47:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 17:47:19 [INFO] /67.43.7.19:55361 lost connection
+2015-08-12 17:51:30 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 17:51:30 [INFO] /67.43.7.19:44667 lost connection
+2015-08-12 17:55:31 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 17:55:31 [INFO] /67.43.7.19:33393 lost connection
+2015-08-12 18:01:12 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:01:12 [INFO] /67.43.7.19:57088 lost connection
+2015-08-12 18:05:49 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:05:49 [INFO] /67.43.7.19:48265 lost connection
+2015-08-12 18:12:54 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:12:54 [INFO] /67.43.7.19:49810 lost connection
+2015-08-12 18:14:55 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:14:55 [INFO] /67.43.7.19:58348 lost connection
+2015-08-12 18:23:09 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:23:09 [INFO] /67.43.7.19:36742 lost connection
+2015-08-12 18:26:32 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:26:32 [INFO] /67.43.7.19:51343 lost connection
+2015-08-12 18:32:30 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:32:30 [INFO] /67.43.7.19:48771 lost connection
+2015-08-12 18:35:11 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:35:11 [INFO] /67.43.7.19:60260 lost connection
+2015-08-12 18:38:44 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:38:44 [INFO] /67.43.7.19:46884 lost connection
+2015-08-12 18:45:57 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:45:57 [INFO] /67.43.7.19:48697 lost connection
+2015-08-12 18:51:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:51:01 [INFO] /67.43.7.19:41621 lost connection
+2015-08-12 18:56:35 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:56:35 [INFO] /67.43.7.19:36882 lost connection
+2015-08-12 18:59:36 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 18:59:36 [INFO] /67.43.7.19:49641 lost connection
+2015-08-12 19:07:10 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 19:07:10 [INFO] /67.43.7.19:53500 lost connection
+2015-08-12 19:10:21 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 19:10:21 [INFO] /67.43.7.19:38999 lost connection
+2015-08-12 19:16:17 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 19:16:17 [INFO] /67.43.7.19:35729 lost connection
+2015-08-12 19:22:30 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 19:22:30 [INFO] /67.43.7.19:34196 lost connection
+2015-08-12 19:24:32 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 19:24:32 [INFO] /67.43.7.19:43023 lost connection
+2015-08-12 19:30:16 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 19:30:16 [INFO] /67.43.7.19:38710 lost connection
+2015-08-12 19:35:27 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 19:35:27 [INFO] /67.43.7.19:60761 lost connection
+2015-08-12 19:38:46 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 19:38:46 [INFO] /67.43.7.19:46524 lost connection
+2015-08-12 19:46:06 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 19:46:06 [INFO] /67.43.7.19:49186 lost connection
+2015-08-12 19:49:22 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 19:49:22 [INFO] /67.43.7.19:34957 lost connection
+2015-08-12 19:55:33 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 19:55:33 [INFO] /67.43.7.19:60866 lost connection
+2015-08-12 20:01:51 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:01:51 [INFO] /67.43.7.19:59795 lost connection
+2015-08-12 20:05:12 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:05:12 [INFO] /67.43.7.19:46080 lost connection
+2015-08-12 20:12:21 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:12:21 [INFO] /67.43.7.19:49028 lost connection
+2015-08-12 20:15:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:15:01 [INFO] /67.43.7.19:60506 lost connection
+2015-08-12 20:21:11 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:21:11 [INFO] /67.43.7.19:59521 lost connection
+2015-08-12 20:24:10 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:24:10 [INFO] /67.43.7.19:44771 lost connection
+2015-08-12 20:24:20 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:24:20 [INFO] /67.43.7.19:45569 lost connection
+2015-08-12 20:25:06 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:25:06 [INFO] /67.43.7.19:48821 lost connection
+2015-08-12 20:30:55 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:30:55 [INFO] /67.43.7.19:43895 lost connection
+2015-08-12 20:34:18 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:34:18 [INFO] /67.43.7.19:57641 lost connection
+2015-08-12 20:44:17 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:44:17 [INFO] /67.43.7.19:40983 lost connection
+2015-08-12 20:49:05 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:49:05 [INFO] /67.43.7.19:60713 lost connection
+2015-08-12 20:53:41 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:53:41 [INFO] /67.43.7.19:51505 lost connection
+2015-08-12 20:59:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 20:59:19 [INFO] /67.43.7.19:46849 lost connection
+2015-08-12 21:00:44 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:00:44 [INFO] /67.43.7.19:52723 lost connection
+2015-08-12 21:10:37 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:10:37 [INFO] /67.43.7.19:35286 lost connection
+2015-08-12 21:14:45 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:14:45 [INFO] /67.43.7.19:52579 lost connection
+2015-08-12 21:19:46 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:19:46 [INFO] /67.43.7.19:45229 lost connection
+2015-08-12 21:23:20 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:23:20 [INFO] /67.43.7.19:60321 lost connection
+2015-08-12 21:28:18 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:28:18 [INFO] /67.43.7.19:52435 lost connection
+2015-08-12 21:33:10 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:33:10 [INFO] /67.43.7.19:44029 lost connection
+2015-08-12 21:39:26 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:39:26 [INFO] /67.43.7.19:41588 lost connection
+2015-08-12 21:43:02 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:43:02 [INFO] /67.43.7.19:56699 lost connection
+2015-08-12 21:47:00 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:47:00 [INFO] /67.43.7.19:44780 lost connection
+2015-08-12 21:51:24 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:51:24 [INFO] /67.43.7.19:34437 lost connection
+2015-08-12 21:57:09 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 21:57:09 [INFO] /67.43.7.19:57483 lost connection
+2015-08-12 22:04:03 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:04:03 [INFO] /67.43.7.19:57077 lost connection
+2015-08-12 22:09:07 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:09:07 [INFO] /67.43.7.19:49952 lost connection
+2015-08-12 22:13:50 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:13:50 [INFO] /67.43.7.19:41086 lost connection
+2015-08-12 22:16:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:16:29 [INFO] /67.43.7.19:52135 lost connection
+2015-08-12 22:23:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:23:19 [INFO] /67.43.7.19:51481 lost connection
+2015-08-12 22:28:42 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:28:42 [INFO] /67.43.7.19:45284 lost connection
+2015-08-12 22:32:20 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:32:20 [INFO] /67.43.7.19:60487 lost connection
+2015-08-12 22:36:31 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:36:31 [INFO] /67.43.7.19:49121 lost connection
+2015-08-12 22:42:49 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:42:49 [INFO] /67.43.7.19:46470 lost connection
+2015-08-12 22:49:53 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:49:53 [INFO] /67.43.7.19:46972 lost connection
+2015-08-12 22:54:07 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:54:07 [INFO] /67.43.7.19:36420 lost connection
+2015-08-12 22:57:14 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 22:57:14 [INFO] /67.43.7.19:49603 lost connection
+2015-08-12 23:01:50 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:01:50 [INFO] /67.43.7.19:39922 lost connection
+2015-08-12 23:07:49 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:07:49 [INFO] /67.43.7.19:35756 lost connection
+2015-08-12 23:15:04 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:15:04 [INFO] /67.43.7.19:37189 lost connection
+2015-08-12 23:18:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:18:01 [INFO] /67.43.7.19:49598 lost connection
+2015-08-12 23:23:30 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:23:30 [INFO] /67.43.7.19:43859 lost connection
+2015-08-12 23:26:03 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:26:03 [INFO] /67.43.7.19:54310 lost connection
+2015-08-12 23:32:49 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:32:49 [INFO] /67.43.7.19:53482 lost connection
+2015-08-12 23:37:56 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:37:56 [INFO] /67.43.7.19:45823 lost connection
+2015-08-12 23:44:11 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:44:11 [INFO] /67.43.7.19:43130 lost connection
+2015-08-12 23:47:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:47:40 [INFO] /67.43.7.19:57814 lost connection
+2015-08-12 23:52:32 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:52:32 [INFO] /67.43.7.19:49516 lost connection
+2015-08-12 23:57:24 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-12 23:57:24 [INFO] /67.43.7.19:41098 lost connection
+2015-08-13 00:00:41 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:00:41 [INFO] /67.43.7.19:54287 lost connection
+2015-08-13 00:08:44 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:08:44 [INFO] /67.43.7.19:58810 lost connection
+2015-08-13 00:12:21 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:12:21 [INFO] /67.43.7.19:45876 lost connection
+2015-08-13 00:16:47 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:16:47 [INFO] /67.43.7.19:35584 lost connection
+2015-08-13 00:22:54 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:22:54 [INFO] /67.43.7.19:60250 lost connection
+2015-08-13 00:26:53 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:26:53 [INFO] /67.43.7.19:48494 lost connection
+2015-08-13 00:32:03 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:32:03 [INFO] /67.43.7.19:40948 lost connection
+2015-08-13 00:39:22 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:39:22 [INFO] /67.43.7.19:42396 lost connection
+2015-08-13 00:41:31 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:41:31 [INFO] /67.43.7.19:51568 lost connection
+2015-08-13 00:48:47 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:48:47 [INFO] /67.43.7.19:52861 lost connection
+2015-08-13 00:51:17 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:51:17 [INFO] /67.43.7.19:34769 lost connection
+2015-08-13 00:58:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 00:58:01 [INFO] /67.43.7.19:33667 lost connection
+2015-08-13 01:02:26 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:02:26 [INFO] /67.43.7.19:51744 lost connection
+2015-08-13 01:08:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:08:40 [INFO] /67.43.7.19:49134 lost connection
+2015-08-13 01:11:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:11:19 [INFO] /67.43.7.19:60350 lost connection
+2015-08-13 01:17:31 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:17:31 [INFO] /67.43.7.19:57091 lost connection
+2015-08-13 01:24:18 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:24:18 [INFO] /67.43.7.19:56215 lost connection
+2015-08-13 01:27:32 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:27:32 [INFO] /67.43.7.19:41602 lost connection
+2015-08-13 01:33:28 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:33:28 [INFO] /67.43.7.19:37630 lost connection
+2015-08-13 01:35:49 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:35:49 [INFO] /67.43.7.19:47325 lost connection
+2015-08-13 01:43:26 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:43:26 [INFO] /67.43.7.19:50196 lost connection
+2015-08-13 01:45:45 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:45:45 [INFO] /67.43.7.19:59925 lost connection
+2015-08-13 01:51:34 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:51:34 [INFO] /67.43.7.19:54716 lost connection
+2015-08-13 01:57:51 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 01:57:51 [INFO] /67.43.7.19:51962 lost connection
+2015-08-13 02:03:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:03:01 [INFO] /67.43.7.19:44730 lost connection
+2015-08-13 02:08:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:08:40 [INFO] /67.43.7.19:39609 lost connection
+2015-08-13 02:12:33 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:12:33 [INFO] /67.43.7.19:55998 lost connection
+2015-08-13 02:16:48 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:16:48 [INFO] /67.43.7.19:45020 lost connection
+2015-08-13 02:20:51 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:20:51 [INFO] /67.43.7.19:33246 lost connection
+2015-08-13 02:26:16 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:26:16 [INFO] /67.43.7.19:55175 lost connection
+2015-08-13 02:31:46 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:31:46 [INFO] /67.43.7.19:49163 lost connection
+2015-08-13 02:35:04 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:35:04 [INFO] /67.43.7.19:33965 lost connection
+2015-08-13 02:43:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:43:29 [INFO] /67.43.7.19:39454 lost connection
+2015-08-13 02:46:37 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:46:37 [INFO] /67.43.7.19:52286 lost connection
+2015-08-13 02:53:22 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:53:22 [INFO] /67.43.7.19:51103 lost connection
+2015-08-13 02:57:16 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 02:57:16 [INFO] /67.43.7.19:38707 lost connection
+2015-08-13 03:04:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:04:01 [INFO] /67.43.7.19:36780 lost connection
+2015-08-13 03:08:33 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:08:33 [INFO] /67.43.7.19:55364 lost connection
+2015-08-13 03:14:28 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:14:28 [INFO] /67.43.7.19:51151 lost connection
+2015-08-13 03:17:56 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:17:56 [INFO] /67.43.7.19:37378 lost connection
+2015-08-13 03:23:35 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:23:35 [INFO] /67.43.7.19:60511 lost connection
+2015-08-13 03:28:42 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:28:42 [INFO] /67.43.7.19:53439 lost connection
+2015-08-13 03:31:34 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:31:34 [INFO] /67.43.7.19:37028 lost connection
+2015-08-13 03:37:28 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:37:28 [INFO] /67.43.7.19:60711 lost connection
+2015-08-13 03:43:18 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:43:18 [INFO] /67.43.7.19:55537 lost connection
+2015-08-13 03:49:08 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:49:08 [INFO] /67.43.7.19:51288 lost connection
+2015-08-13 03:53:25 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:53:25 [INFO] /67.43.7.19:40629 lost connection
+2015-08-13 03:58:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 03:58:01 [INFO] /67.43.7.19:59381 lost connection
+2015-08-13 04:04:13 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:04:13 [INFO] /67.43.7.19:56463 lost connection
+2015-08-13 04:07:04 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:07:04 [INFO] /67.43.7.19:40355 lost connection
+2015-08-13 04:13:49 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:13:49 [INFO] /67.43.7.19:39506 lost connection
+2015-08-13 04:17:38 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:17:38 [INFO] /67.43.7.19:55157 lost connection
+2015-08-13 04:26:10 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:26:10 [INFO] /67.43.7.19:33729 lost connection
+2015-08-13 04:26:44 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:26:44 [INFO] /67.43.7.19:36178 lost connection
+2015-08-13 04:31:26 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:31:26 [INFO] /67.43.7.19:55091 lost connection
+2015-08-13 04:35:54 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:35:54 [INFO] /67.43.7.19:44981 lost connection
+2015-08-13 04:41:08 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:41:08 [INFO] /67.43.7.19:37773 lost connection
+2015-08-13 04:49:06 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:49:06 [INFO] /67.43.7.19:41258 lost connection
+2015-08-13 04:52:37 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:52:37 [INFO] /67.43.7.19:55848 lost connection
+2015-08-13 04:58:18 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 04:58:19 [INFO] /67.43.7.19:50512 lost connection
+2015-08-13 05:01:08 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:01:08 [INFO] /67.43.7.19:33706 lost connection
+2015-08-13 05:09:20 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:09:20 [INFO] /67.43.7.19:37900 lost connection
+2015-08-13 05:16:03 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:16:04 [INFO] /67.43.7.19:36552 lost connection
+2015-08-13 05:18:37 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:18:37 [INFO] /67.43.7.19:47200 lost connection
+2015-08-13 05:22:14 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:22:14 [INFO] /67.43.7.19:33731 lost connection
+2015-08-13 05:29:17 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:29:17 [INFO] /67.43.7.19:33751 lost connection
+2015-08-13 05:34:32 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:34:32 [INFO] /67.43.7.19:55202 lost connection
+2015-08-13 05:39:08 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:39:08 [INFO] /67.43.7.19:46177 lost connection
+2015-08-13 05:43:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:43:40 [INFO] /67.43.7.19:36654 lost connection
+2015-08-13 05:47:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:47:40 [INFO] /67.43.7.19:53154 lost connection
+2015-08-13 05:51:21 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:51:21 [INFO] /67.43.7.19:39829 lost connection
+2015-08-13 05:58:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 05:58:01 [INFO] /67.43.7.19:38194 lost connection
+2015-08-13 06:01:06 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:01:06 [INFO] /67.43.7.19:50481 lost connection
+2015-08-13 06:10:04 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:10:04 [INFO] /67.43.7.19:58755 lost connection
+2015-08-13 06:13:15 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:13:15 [INFO] /67.43.7.19:43705 lost connection
+2015-08-13 06:19:58 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:19:58 [INFO] /67.43.7.19:42896 lost connection
+2015-08-13 06:23:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:23:29 [INFO] /67.43.7.19:57548 lost connection
+2015-08-13 06:25:39 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:25:39 [INFO] /67.43.7.19:38160 lost connection
+2015-08-13 06:30:44 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:30:44 [INFO] /67.43.7.19:58465 lost connection
+2015-08-13 06:40:07 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:40:07 [INFO] /67.43.7.19:39555 lost connection
+2015-08-13 06:42:53 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:42:53 [INFO] /67.43.7.19:51135 lost connection
+2015-08-13 06:48:48 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:48:48 [INFO] /67.43.7.19:46657 lost connection
+2015-08-13 06:51:10 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:51:10 [INFO] /67.43.7.19:56476 lost connection
+2015-08-13 06:57:38 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 06:57:38 [INFO] /67.43.7.19:54228 lost connection
+2015-08-13 07:01:21 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:01:21 [INFO] /67.43.7.19:41019 lost connection
+2015-08-13 07:08:55 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:08:55 [INFO] /67.43.7.19:43295 lost connection
+2015-08-13 07:09:57 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:09:57 [INFO] /67.43.7.19:47619 lost connection
+2015-08-13 07:17:58 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:17:58 [INFO] /67.43.7.19:51419 lost connection
+2015-08-13 07:22:09 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:22:09 [INFO] /67.43.7.19:40299 lost connection
+2015-08-13 07:29:10 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:29:10 [INFO] /67.43.7.19:40450 lost connection
+2015-08-13 07:31:22 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:31:22 [INFO] /67.43.7.19:49601 lost connection
+2015-08-13 07:37:23 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:37:23 [INFO] /67.43.7.19:45625 lost connection
+2015-08-13 07:40:31 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:40:31 [INFO] /67.43.7.19:58144 lost connection
+2015-08-13 07:47:00 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:47:00 [INFO] /67.43.7.19:55950 lost connection
+2015-08-13 07:53:54 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:53:54 [INFO] /67.43.7.19:55556 lost connection
+2015-08-13 07:56:58 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 07:56:58 [INFO] /67.43.7.19:39717 lost connection
+2015-08-13 08:03:27 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:03:27 [INFO] /67.43.7.19:37684 lost connection
+2015-08-13 08:05:56 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:05:56 [INFO] /67.43.7.19:48047 lost connection
+2015-08-13 08:12:26 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:12:26 [INFO] /67.43.7.19:45470 lost connection
+2015-08-13 08:16:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:16:19 [INFO] /67.43.7.19:32917 lost connection
+2015-08-13 08:21:05 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:21:05 [INFO] /67.43.7.19:51612 lost connection
+2015-08-13 08:30:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:30:40 [INFO] /67.43.7.19:33574 lost connection
+2015-08-13 08:31:59 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:31:59 [INFO] /67.43.7.19:39110 lost connection
+2015-08-13 08:39:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:39:40 [INFO] /67.43.7.19:41751 lost connection
+2015-08-13 08:44:20 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:44:20 [INFO] /67.43.7.19:60854 lost connection
+2015-08-13 08:46:30 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:46:30 [INFO] /67.43.7.19:41500 lost connection
+2015-08-13 08:51:57 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:51:57 [INFO] /67.43.7.19:35016 lost connection
+2015-08-13 08:55:57 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 08:55:57 [INFO] /67.43.7.19:50943 lost connection
+2015-08-13 09:02:43 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:02:43 [INFO] /67.43.7.19:49752 lost connection
+2015-08-13 09:08:41 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:08:41 [INFO] /67.43.7.19:45738 lost connection
+2015-08-13 09:11:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:11:19 [INFO] /67.43.7.19:56678 lost connection
+2015-08-13 09:17:46 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:17:46 [INFO] /67.43.7.19:54272 lost connection
+2015-08-13 09:23:52 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:23:52 [INFO] /67.43.7.19:50271 lost connection
+2015-08-13 09:25:39 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:25:39 [INFO] /67.43.7.19:57657 lost connection
+2015-08-13 09:33:03 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:33:03 [INFO] /67.43.7.19:58877 lost connection
+2015-08-13 09:37:27 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:37:27 [INFO] /67.43.7.19:48217 lost connection
+2015-08-13 09:44:43 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:44:43 [INFO] /67.43.7.19:48781 lost connection
+2015-08-13 09:47:08 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:47:08 [INFO] /67.43.7.19:58974 lost connection
+2015-08-13 09:54:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:54:01 [INFO] /67.43.7.19:58334 lost connection
+2015-08-13 09:56:32 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 09:56:32 [INFO] /67.43.7.19:40259 lost connection
+2015-08-13 10:03:55 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 10:03:55 [INFO] /67.43.7.19:41217 lost connection
+2015-08-13 10:12:09 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 10:12:09 [INFO] /67.43.7.19:47157 lost connection
+2015-08-13 10:12:30 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 10:12:30 [INFO] /67.43.7.19:48577 lost connection
+2015-08-13 10:18:33 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 10:18:33 [INFO] /67.43.7.19:44571 lost connection
+2015-08-13 10:21:45 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 10:21:45 [INFO] /67.43.7.19:57461 lost connection
+2015-08-13 10:29:43 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 10:29:44 [INFO] /67.43.7.19:33084 lost connection
+2015-08-13 10:33:13 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 10:33:13 [INFO] /67.43.7.19:47523 lost connection
+2015-08-13 10:39:32 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 10:39:32 [INFO] /67.43.7.19:44831 lost connection
+2015-08-13 10:41:31 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 10:41:31 [INFO] /67.43.7.19:52796 lost connection
+2015-08-13 10:47:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 10:47:29 [INFO] /67.43.7.19:48424 lost connection
+2015-08-13 10:52:47 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 10:52:47 [INFO] /67.43.7.19:41317 lost connection
+2015-08-13 11:00:37 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:00:37 [INFO] /67.43.7.19:44423 lost connection
+2015-08-13 11:04:12 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:04:12 [INFO] /67.43.7.19:59184 lost connection
+2015-08-13 11:08:51 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:08:51 [INFO] /67.43.7.19:49957 lost connection
+2015-08-13 11:13:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:13:19 [INFO] /67.43.7.19:39682 lost connection
+2015-08-13 11:18:47 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:18:47 [INFO] /67.43.7.19:33535 lost connection
+2015-08-13 11:24:43 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:24:43 [INFO] /67.43.7.19:57152 lost connection
+2015-08-13 11:30:11 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:30:12 [INFO] /67.43.7.19:51436 lost connection
+2015-08-13 11:31:51 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:31:51 [INFO] /67.43.7.19:58521 lost connection
+2015-08-13 11:37:22 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:37:22 [INFO] /67.43.7.19:52187 lost connection
+2015-08-13 11:44:51 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:44:51 [INFO] /67.43.7.19:53971 lost connection
+2015-08-13 11:47:35 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:47:35 [INFO] /67.43.7.19:37105 lost connection
+2015-08-13 11:53:59 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:53:59 [INFO] /67.43.7.19:34583 lost connection
+2015-08-13 11:58:43 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 11:58:43 [INFO] /67.43.7.19:54092 lost connection
+2015-08-13 12:04:37 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:04:37 [INFO] /67.43.7.19:50206 lost connection
+2015-08-13 12:06:17 [INFO] /151.225.42.184:49485 lost connection
+2015-08-13 12:06:17 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-13 12:06:17 [INFO] /151.225.42.184:49487 lost connection
+2015-08-13 12:06:19 [INFO] /151.225.42.184:49489 lost connection
+2015-08-13 12:06:19 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-13 12:06:19 [INFO] /151.225.42.184:49491 lost connection
+2015-08-13 12:06:37 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-13 12:06:37 [INFO] /151.225.42.184:49495 lost connection
+2015-08-13 12:06:37 [INFO] /151.225.42.184:49497 lost connection
+2015-08-13 12:07:06 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:07:06 [INFO] /67.43.7.19:60553 lost connection
+2015-08-13 12:07:42 [INFO] /151.225.42.184:49517 lost connection
+2015-08-13 12:07:42 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-13 12:07:42 [INFO] /151.225.42.184:49518 lost connection
+2015-08-13 12:09:49 [INFO] Stopping server
+2015-08-13 12:09:49 [INFO] Saving players
+2015-08-13 12:09:49 [INFO] Saving worlds
+2015-08-13 12:09:49 [INFO] Saving chunks for level 'world'/Overworld
+2015-08-13 12:09:49 [INFO] Closing listening thread
+2015-08-13 12:10:44 [INFO] Starting minecraft server version 1.6.4
+2015-08-13 12:10:44 [INFO] Loading properties
+2015-08-13 12:10:44 [INFO] Default game type: SURVIVAL
+2015-08-13 12:10:44 [INFO] Generating keypair
+2015-08-13 12:10:44 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-13 12:10:44 [INFO] Preparing level "world"
+2015-08-13 12:10:44 [INFO] Preparing start region for level 0
+2015-08-13 12:10:45 [INFO] Preparing spawn area: 77%
+2015-08-13 12:10:46 [INFO] Done (1.263s)! For help, type "help" or "?"
+2015-08-13 12:14:08 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:14:08 [INFO] /67.43.7.19:60524 lost connection
+2015-08-13 12:19:43 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:19:43 [INFO] /67.43.7.19:55152 lost connection
+2015-08-13 12:23:04 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:23:04 [INFO] /67.43.7.19:40753 lost connection
+2015-08-13 12:27:31 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:27:31 [INFO] /67.43.7.19:58667 lost connection
+2015-08-13 12:31:47 [INFO] /151.225.42.184:49886 lost connection
+2015-08-13 12:31:47 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-13 12:31:47 [INFO] /151.225.42.184:49888 lost connection
+2015-08-13 12:34:07 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:34:07 [INFO] /67.43.7.19:56834 lost connection
+2015-08-13 12:39:18 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:39:18 [INFO] /67.43.7.19:50019 lost connection
+2015-08-13 12:42:24 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:42:24 [INFO] /67.43.7.19:34530 lost connection
+2015-08-13 12:47:43 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:47:43 [INFO] /67.43.7.19:55948 lost connection
+2015-08-13 12:53:20 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:53:20 [INFO] /67.43.7.19:50346 lost connection
+2015-08-13 12:56:38 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 12:56:38 [INFO] /67.43.7.19:35428 lost connection
+2015-08-13 13:04:19 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 13:04:19 [INFO] /67.43.7.19:37500 lost connection
+2015-08-13 13:10:48 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 13:10:48 [INFO] /67.43.7.19:60270 lost connection
+2015-08-13 13:18:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 13:18:29 [INFO] /67.43.7.19:58476 lost connection
+2015-08-13 13:23:50 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 13:23:50 [INFO] /67.43.7.19:48466 lost connection
+2015-08-13 13:29:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 13:29:40 [INFO] /67.43.7.19:42178 lost connection
+2015-08-13 21:19:53 [INFO] Starting minecraft server version 1.6.4
+2015-08-13 21:19:53 [INFO] Loading properties
+2015-08-13 21:19:53 [INFO] Default game type: SURVIVAL
+2015-08-13 21:19:53 [INFO] Generating keypair
+2015-08-13 21:19:53 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-13 21:19:54 [INFO] Preparing level "world"
+2015-08-13 21:19:54 [INFO] Preparing start region for level 0
+2015-08-13 21:19:55 [INFO] Preparing spawn area: 32%
+2015-08-13 21:19:56 [INFO] Preparing spawn area: 57%
+2015-08-13 21:19:57 [INFO] Done (3.012s)! For help, type "help" or "?"
+2015-08-13 21:20:14 [INFO] /151.225.42.184:60870 lost connection
+2015-08-13 21:20:14 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-13 21:20:14 [INFO] /151.225.42.184:60872 lost connection
+2015-08-13 21:20:15 [INFO] /151.225.42.184:60874 lost connection
+2015-08-13 21:20:15 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-13 21:20:15 [INFO] /151.225.42.184:60876 lost connection
+2015-08-13 21:20:16 [INFO] /151.225.42.184:60878 lost connection
+2015-08-13 21:20:16 [INFO] /151.225.42.184:60882 lost connection
+2015-08-13 21:20:18 [INFO] /151.225.42.184:60884 lost connection
+2015-08-13 21:20:18 [INFO] /151.225.42.184:60887 lost connection
+2015-08-13 21:20:18 [INFO] /151.225.42.184:60890 lost connection
+2015-08-13 21:20:18 [INFO] /151.225.42.184:60893 lost connection
+2015-08-13 21:20:18 [INFO] /151.225.42.184:60896 lost connection
+2015-08-13 21:20:18 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-13 21:20:18 [INFO] /151.225.42.184:60898 lost connection
+2015-08-13 21:20:18 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2015-08-13 21:25:29 [INFO] Starting minecraft server version 1.6.4
+2015-08-13 21:25:29 [INFO] Loading properties
+2015-08-13 21:25:29 [INFO] Default game type: SURVIVAL
+2015-08-13 21:25:29 [INFO] Generating keypair
+2015-08-13 21:25:30 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-13 21:25:30 [INFO] Preparing level "world"
+2015-08-13 21:25:30 [INFO] Preparing start region for level 0
+2015-08-13 21:25:31 [INFO] Preparing spawn area: 59%
+2015-08-13 21:25:31 [INFO] Done (1.619s)! For help, type "help" or "?"
+2015-08-13 21:25:38 [INFO] /151.225.42.184:61155 lost connection
+2015-08-13 21:25:38 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-13 21:25:38 [INFO] /151.225.42.184:61157 lost connection
+2015-08-13 21:26:14 [INFO] /151.225.42.184:61161 lost connection
+2015-08-13 21:26:14 [SEVERE] Reached end of stream for /151.225.42.184
+2015-08-13 21:26:14 [INFO] /151.225.42.184:61163 lost connection
+2015-08-13 21:26:31 [INFO] /151.225.42.184:61173 lost connection
+2015-08-13 21:28:02 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-13 21:28:02 [INFO] /67.43.7.19:57574 lost connection
+2015-08-13 21:30:56 [INFO] Stopping server
+2015-08-13 21:30:56 [INFO] Saving players
+2015-08-13 21:30:56 [INFO] Saving worlds
+2015-08-13 21:30:56 [INFO] Closing listening thread
+2015-08-13 21:30:56 [INFO] Saving chunks for level 'world'/Overworld
+2015-08-14 19:15:24 [INFO] Starting minecraft server version 1.6.4
+2015-08-14 19:15:24 [INFO] Loading properties
+2015-08-14 19:15:24 [INFO] Default game type: SURVIVAL
+2015-08-14 19:15:25 [INFO] Generating keypair
+2015-08-14 19:15:25 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-14 19:15:25 [INFO] Preparing level "world"
+2015-08-14 19:15:26 [INFO] Preparing start region for level 0
+2015-08-14 19:15:27 [INFO] Preparing spawn area: 20%
+2015-08-14 19:15:28 [INFO] Preparing spawn area: 96%
+2015-08-14 19:15:28 [INFO] Done (2.151s)! For help, type "help" or "?"
+2015-08-14 19:15:55 [INFO] Stopping server
+2015-08-14 19:15:55 [INFO] Closing listening thread
+2015-08-14 19:15:55 [INFO] Saving players
+2015-08-14 19:15:55 [INFO] Saving worlds
+2015-08-14 19:15:55 [INFO] Saving chunks for level 'world'/Overworld
+2015-08-14 19:25:52 [INFO] Starting minecraft server version 1.6.4
+2015-08-14 19:25:52 [INFO] Loading properties
+2015-08-14 19:25:53 [INFO] Default game type: SURVIVAL
+2015-08-14 19:25:53 [INFO] Generating keypair
+2015-08-14 19:25:53 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-14 19:25:53 [INFO] Preparing level "world"
+2015-08-14 19:25:53 [INFO] Preparing start region for level 0
+2015-08-14 19:25:54 [INFO] Preparing spawn area: 34%
+2015-08-14 19:25:55 [INFO] Done (1.883s)! For help, type "help" or "?"
+2015-08-14 19:26:02 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 19:26:02 [INFO] /67.43.7.19:41561 lost connection
+2015-08-14 19:32:31 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 19:32:31 [INFO] /67.43.7.19:39731 lost connection
+2015-08-14 19:36:36 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 19:36:36 [INFO] /67.43.7.19:56470 lost connection
+2015-08-14 19:42:03 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 19:42:03 [INFO] /67.43.7.19:50269 lost connection
+2015-08-14 19:44:27 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 19:44:27 [INFO] /67.43.7.19:59906 lost connection
+2015-08-14 19:54:33 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 19:54:33 [INFO] /67.43.7.19:44232 lost connection
+2015-08-14 19:57:43 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 19:57:43 [INFO] /67.43.7.19:57356 lost connection
+2015-08-14 20:00:44 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:00:44 [INFO] /67.43.7.19:41201 lost connection
+2015-08-14 20:08:16 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:08:16 [INFO] /67.43.7.19:43091 lost connection
+2015-08-14 20:13:25 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:13:25 [INFO] /67.43.7.19:35946 lost connection
+2015-08-14 20:18:28 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:18:28 [INFO] /67.43.7.19:57022 lost connection
+2015-08-14 20:21:37 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:21:37 [INFO] /67.43.7.19:41831 lost connection
+2015-08-14 20:26:35 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:26:35 [INFO] /67.43.7.19:33857 lost connection
+2015-08-14 20:33:42 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:33:42 [INFO] /67.43.7.19:34725 lost connection
+2015-08-14 20:35:28 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:35:28 [INFO] /67.43.7.19:42274 lost connection
+2015-08-14 20:43:47 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:43:47 [INFO] /67.43.7.19:47616 lost connection
+2015-08-14 20:47:14 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:47:14 [INFO] /67.43.7.19:33775 lost connection
+2015-08-14 20:49:26 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:49:26 [INFO] /67.43.7.19:42832 lost connection
+2015-08-14 20:55:47 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 20:55:47 [INFO] /67.43.7.19:40078 lost connection
+2015-08-14 21:01:08 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:01:08 [INFO] /67.43.7.19:33397 lost connection
+2015-08-14 21:06:26 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:06:27 [INFO] /67.43.7.19:54839 lost connection
+2015-08-14 21:10:54 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:10:54 [INFO] /67.43.7.19:44666 lost connection
+2015-08-14 21:17:18 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:17:18 [INFO] /67.43.7.19:42151 lost connection
+2015-08-14 21:23:53 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:23:53 [INFO] /67.43.7.19:40698 lost connection
+2015-08-14 21:28:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:28:29 [INFO] /67.43.7.19:59910 lost connection
+2015-08-14 21:31:27 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:31:27 [INFO] /67.43.7.19:44191 lost connection
+2015-08-14 21:33:55 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:33:55 [INFO] /67.43.7.19:54249 lost connection
+2015-08-14 21:41:42 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:41:42 [INFO] /67.43.7.19:57304 lost connection
+2015-08-14 21:47:41 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:47:41 [INFO] /67.43.7.19:53215 lost connection
+2015-08-14 21:51:41 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:51:41 [INFO] /67.43.7.19:41417 lost connection
+2015-08-14 21:57:32 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 21:57:32 [INFO] /67.43.7.19:36857 lost connection
+2015-08-14 22:03:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:03:01 [INFO] /67.43.7.19:59342 lost connection
+2015-08-14 22:05:09 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:05:09 [INFO] /67.43.7.19:39842 lost connection
+2015-08-14 22:11:09 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:11:09 [INFO] /67.43.7.19:36002 lost connection
+2015-08-14 22:17:47 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:17:47 [INFO] /67.43.7.19:34636 lost connection
+2015-08-14 22:21:54 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:21:54 [INFO] /67.43.7.19:51433 lost connection
+2015-08-14 22:26:58 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:26:58 [INFO] /67.43.7.19:43693 lost connection
+2015-08-14 22:31:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:31:29 [INFO] /67.43.7.19:34088 lost connection
+2015-08-14 22:38:26 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:38:26 [INFO] /67.43.7.19:34047 lost connection
+2015-08-14 22:43:05 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:43:05 [INFO] /67.43.7.19:53393 lost connection
+2015-08-14 22:45:41 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:45:41 [INFO] /67.43.7.19:35761 lost connection
+2015-08-14 22:51:22 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:51:22 [INFO] /67.43.7.19:58602 lost connection
+2015-08-14 22:58:30 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 22:58:30 [INFO] /67.43.7.19:59134 lost connection
+2015-08-14 23:04:53 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:04:53 [INFO] /67.43.7.19:57566 lost connection
+2015-08-14 23:06:47 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:06:47 [INFO] /67.43.7.19:37584 lost connection
+2015-08-14 23:11:22 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:11:22 [INFO] /67.43.7.19:56378 lost connection
+2015-08-14 23:15:21 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:15:21 [INFO] /67.43.7.19:44141 lost connection
+2015-08-14 23:20:53 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:20:53 [INFO] /67.43.7.19:38366 lost connection
+2015-08-14 23:27:52 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:27:52 [INFO] /67.43.7.19:38338 lost connection
+2015-08-14 23:31:28 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:31:28 [INFO] /67.43.7.19:53278 lost connection
+2015-08-14 23:36:11 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:36:11 [INFO] /67.43.7.19:44396 lost connection
+2015-08-14 23:41:20 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:41:20 [INFO] /67.43.7.19:36958 lost connection
+2015-08-14 23:47:56 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:47:56 [INFO] /67.43.7.19:35694 lost connection
+2015-08-14 23:52:07 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:52:07 [INFO] /67.43.7.19:53025 lost connection
+2015-08-14 23:57:41 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-14 23:57:41 [INFO] /67.43.7.19:47621 lost connection
+2015-08-15 00:01:22 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:01:22 [INFO] /67.43.7.19:34718 lost connection
+2015-08-15 00:08:46 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:08:46 [INFO] /67.43.7.19:36954 lost connection
+2015-08-15 00:10:36 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:10:36 [INFO] /67.43.7.19:44838 lost connection
+2015-08-15 00:17:05 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:17:05 [INFO] /67.43.7.19:43059 lost connection
+2015-08-15 00:21:33 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:21:33 [INFO] /67.43.7.19:33448 lost connection
+2015-08-15 00:25:30 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:25:30 [INFO] /67.43.7.19:49467 lost connection
+2015-08-15 00:31:48 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:31:48 [INFO] /67.43.7.19:47161 lost connection
+2015-08-15 00:37:28 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:37:28 [INFO] /67.43.7.19:42157 lost connection
+2015-08-15 00:42:25 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:42:25 [INFO] /67.43.7.19:34465 lost connection
+2015-08-15 00:45:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:45:29 [INFO] /67.43.7.19:47026 lost connection
+2015-08-15 00:50:33 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:50:33 [INFO] /67.43.7.19:39307 lost connection
+2015-08-15 00:56:44 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 00:56:44 [INFO] /67.43.7.19:36156 lost connection
+2015-08-15 01:04:01 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:04:01 [INFO] /67.43.7.19:38570 lost connection
+2015-08-15 01:05:51 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:05:51 [INFO] /67.43.7.19:46377 lost connection
+2015-08-15 01:10:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:10:40 [INFO] /67.43.7.19:38041 lost connection
+2015-08-15 01:15:53 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:15:53 [INFO] /67.43.7.19:59203 lost connection
+2015-08-15 01:19:49 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:19:49 [INFO] /67.43.7.19:47074 lost connection
+2015-08-15 01:26:20 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:26:20 [INFO] /67.43.7.19:45073 lost connection
+2015-08-15 01:31:29 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:31:29 [INFO] /67.43.7.19:37890 lost connection
+2015-08-15 01:33:44 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:33:44 [INFO] /67.43.7.19:47240 lost connection
+2015-08-15 01:39:40 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:39:40 [INFO] /67.43.7.19:42607 lost connection
+2015-08-15 01:43:59 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:43:59 [INFO] /67.43.7.19:59949 lost connection
+2015-08-15 01:51:10 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:51:10 [INFO] /67.43.7.19:60643 lost connection
+2015-08-15 01:56:24 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 01:56:24 [INFO] /67.43.7.19:53625 lost connection
+2015-08-15 02:01:16 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 02:01:16 [INFO] /67.43.7.19:45143 lost connection
+2015-08-15 02:01:34 [INFO] Opped Toxic_Tango
+2015-08-15 02:01:44 [INFO] Opped Toxic_Tago
+2015-08-15 16:20:41 [INFO] Starting minecraft server version 1.6.4
+2015-08-15 16:20:41 [INFO] Loading properties
+2015-08-15 16:20:41 [INFO] Default game type: SURVIVAL
+2015-08-15 16:20:41 [INFO] Generating keypair
+2015-08-15 16:20:42 [INFO] Starting Minecraft server on tekkit.socialnetwk.com:25585
+2015-08-15 16:20:42 [INFO] Preparing level "world"
+2015-08-15 16:20:42 [INFO] Preparing start region for level 0
+2015-08-15 16:20:43 [INFO] Preparing spawn area: 42%
+2015-08-15 16:20:44 [INFO] Done (1.883s)! For help, type "help" or "?"
+2015-08-15 16:22:51 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 16:22:51 [INFO] /67.43.7.19:48279 lost connection
+2015-08-15 16:28:42 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 16:28:42 [INFO] /67.43.7.19:44888 lost connection
+2015-08-15 16:33:36 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 16:33:36 [INFO] /67.43.7.19:37674 lost connection
+2015-08-15 16:36:32 [SEVERE] Reached end of stream for /67.43.7.19
+2015-08-15 16:36:32 [INFO] /67.43.7.19:50165 lost connection

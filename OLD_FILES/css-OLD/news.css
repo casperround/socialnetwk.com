@@ -1,0 +1,29 @@
+
+.news {
+
+  border-radius: 0px;
+  -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  transition: box-shadow .3s ease;
+  
+ background:#373a3d;
+  
+ height: 100%;
+
+top: 50px;
+
+left: 0px;
+color: white;
+position: fixed;
+padding: 1%;
+margin-right:auto;
+
+width: 30%;
+
+}

@@ -1,0 +1,117 @@
+div.user-groups {
+  -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  transition: box-shadow .3s ease;
+  
+  
+	
+	
+	
+position: relative;
+height: 30%;
+width: 100%;
+      box-shadow:1px 1px 5px grey; 
+
+    border-style: solid;
+    border-width: 1px;
+  border-color: #fff;
+background-color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+border-radius: 0px;
+}
+div.user-events {
+  -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  transition: box-shadow .3s ease;
+  	
+	
+	
+	
+position: relative;
+height: 30%;
+width: 100%;
+      box-shadow:1px 1px 5px grey; 
+
+    border-style: solid;
+    border-width: 1px;
+  border-color: #fff;
+background-color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+border-radius: 0px;
+}
+div.user-pages {
+	  -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  transition: box-shadow .3s ease;
+  
+	
+	
+	
+position: relative;
+height: 30%;
+width: 100%;
+      box-shadow:1px 1px 5px grey; 
+
+    border-style: solid;
+    border-width: 1px;
+  border-color: #fff;
+background-color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+border-radius: 0px;
+}
+div.user-stuff {
+position: fixed;
+z-index: -1;
+height: 80%;
+width: 20%;
+top: 10%;
+left: 5%;
+}
+div.events {
+color:#000;
+  width: 100%;
+  height: 12%;
+}
+div.groups {
+color:#000;
+  width: 100%;
+  height: 12%;
+}
+div.pages {
+color:#000;
+  width: 100%;
+  height: 12%;
+}
+img.user-stuff {
+  height: 20px;
+  width: 8%;
+  top: 4%;
+  position: absolute;
+}

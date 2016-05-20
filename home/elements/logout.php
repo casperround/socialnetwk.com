@@ -1,0 +1,1 @@
+				      						<center><a href="elements/logout_sesh.php"><button class="button" type="submit" style="margin-bottom:10px;"><span class="button-text">Logout</span><span class="button-icon"><i class="fa fa-arrow-right"></i></span></button></a></center>

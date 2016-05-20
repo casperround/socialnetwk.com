@@ -1,0 +1,4 @@
+# Updated 8/15/15 4:20 PM by Minecraft 1.6.4
+# victim name | ban date | banned by | banned until | reason
+
+block|2015-08-11 18:09:45 +0100|Server|Forever|Banned by an operator.

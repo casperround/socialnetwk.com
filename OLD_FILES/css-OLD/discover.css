@@ -1,0 +1,194 @@
+	@import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
+
+	html {
+		height: 100%;
+		width:100%;
+		}
+body{
+height:100%;
+width:100%;
+background: #4B4E50;
+  background-size:100% 100%;
+  background-attachment: fixed; 
+  background-repeat:no-repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.absolute-center, .menu, .menu .btn .glyphicon, .menu .btn.trigger .line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.menu {
+  width: 5em;
+  height: 5em;
+}
+.menu .btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  z-index: -10;
+  cursor: pointer;
+  transition: opacity 1s, z-index 0.3s, transform 1s;
+  transform: translateX(0);
+}
+.menu .btn .glyphicon {
+  font-size: 2em;
+  transition: color 0.3s;
+}
+.menu .btn:hover .fa {
+  color: rgba(0, 0, 0, 0.7);
+}
+.menu .btn.trigger {
+  opacity: 1;
+  z-index: 100;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.menu .btn.trigger:hover {
+  transform: scale(1.2);
+}
+.menu .btn.trigger:hover .line {
+  color: rgba(0, 0, 0, 0.7);
+}
+.menu .btn.trigger:hover .line:before, .menu .btn.trigger:hover .line:after {
+  color: rgba(0, 0, 0, 0.7);
+}
+.menu .btn.trigger .line {
+  width: 60%;
+  height: 6px;
+  background: #000;
+  border-radius: 6px;
+  transition: background-color 0.3s, height 0.3s, top 0.3s;
+}
+.menu .btn.trigger .line:before, .menu .btn.trigger .line:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: #000;
+  border-radius: 6px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.menu .btn.trigger .line:before {
+  top: -12px;
+  transform-origin: 15% 100%;
+}
+.menu .btn.trigger .line:after {
+  top: 12px;
+  transform-origin: 25% 30%;
+}
+.menu .rotater {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: 50% 50%;
+}
+.menu .rotater a {
+  color: #000;
+  display: block;
+}
+.menu.active .btn-icon {
+  opacity: 1;
+  z-index: 50;
+}
+.menu.active .trigger .line {
+  height: 0px;
+  top: 45%;
+}
+.menu.active .trigger .line:before {
+  transform: rotate(45deg);
+  width: 110%;
+}
+.menu.active .trigger .line:after {
+  transform: rotate(-45deg);
+  width: 110%;
+}
+
+.rotater:nth-child(1) {
+  transform: rotate(-22.5deg);
+}
+
+.menu.active .rotater:nth-child(1) .btn-icon {
+  transform: translateY(-10em) rotate(22.5deg);
+}
+
+.rotater:nth-child(2) {
+  transform: rotate(22.5deg);
+}
+
+.menu.active .rotater:nth-child(2) .btn-icon {
+  transform: translateY(-10em) rotate(-22.5deg);
+}
+
+.rotater:nth-child(3) {
+  transform: rotate(67.5deg);
+}
+
+.menu.active .rotater:nth-child(3) .btn-icon {
+  transform: translateY(-10em) rotate(-67.5deg);
+}
+
+.rotater:nth-child(4) {
+  transform: rotate(112.5deg);
+}
+
+.menu.active .rotater:nth-child(4) .btn-icon {
+  transform: translateY(-10em) rotate(-112.5deg);
+}
+
+.rotater:nth-child(5) {
+  transform: rotate(157.5deg);
+}
+
+.menu.active .rotater:nth-child(5) .btn-icon {
+  transform: translateY(-10em) rotate(-157.5deg);
+}
+
+.rotater:nth-child(6) {
+  transform: rotate(202.5deg);
+}
+
+.menu.active .rotater:nth-child(6) .btn-icon {
+  transform: translateY(-10em) rotate(-202.5deg);
+}
+
+.rotater:nth-child(7) {
+  transform: rotate(247.5deg);
+}
+
+.menu.active .rotater:nth-child(7) .btn-icon {
+  transform: translateY(-10em) rotate(-247.5deg);
+}
+
+.rotater:nth-child(8) {
+  transform: rotate(292.5deg);
+}
+
+.menu.active .rotater:nth-child(8) .btn-icon {
+  transform: translateY(-10em) rotate(-292.5deg);
+}
+.glyphicon {
+	margin-left:auto;
+	margin-right:auto;
+position: relative;
+
+}
+.glyphicon:hover {
+	margin-left:auto;
+	margin-right:auto;
+	color:white;
+position: relative;
+
+}
