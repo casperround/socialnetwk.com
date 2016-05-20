@@ -1,2 +1,49 @@
-#Socialnetwk.com#
-##Repo##
+# Socialnetwk.com
+
+Socialnetwk is a new type of social media and network.
+
+What you can do
+  - Allows any upload format
+  - Allows users to change any style element of the website
+  - Create pages, documents, cloud storage, create channels
+  - Discover pages
+  - Filter feed through video, image, status, gif and global
+  - Allows friends and users to chat via ajax based chat script
+  - Magic
+
+Yet to add
+  - Spotify similar music browsing
+  - Netflix similar film watching
+  - Mobile Responsive Style Fixes
+  - Linking all elements & compoments togeather
+  - Composing all style bassed css files into css/layout.css
+
+Languages used
+  - PHP
+  - CSS
+  - HTML
+  - Javascript
+  - Jquery
+  - SQL
+  - Ajax
+
+> The theory behind the website is to allow everyone to upload anything, to do almost what every other social media website offers. We all get fedup with constantly opening more and more tabs which offer different things, such as youtube or netflix. Which also increases the amount of data being downloaded. So lets all add those social media types into one website.
+
+This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
+
+### Ubuntu Version
+16.04
+
+### PHP Verion
+5.2
+### Web Server
+Nxinx
+### Database type
+Mysql
+
+### Social Media
+* Facebook: https://www.facebook.com/cjr.casper.round
+* Skype: casper.round
+* Github: casperround
+* Gmail: saruav64@gmail.com
+
