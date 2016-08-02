@@ -1,3 +1,4 @@
+
 <script type='text/javascript'>//<![CDATA[
 $(".messages").animate({
     scrollTop: $(".messages")[0].scrollHeight

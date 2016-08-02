@@ -44,7 +44,7 @@ color:white;margin-top:30px;position:relative;
 		<center><h2 style="position:relative;margin-top:40px;top:40px;color:white;">Please Select a file</h2></center>
 		<center><h4 style="position:relative;color:white;top:30px;">Files will automaticly be sorted into the correct directory</h4></center>
 
-		<form id="upload" method="post"  class="form-horizontal" action="http://www.socialnetwk.com/home/cloud_file_up.php" enctype="multipart/form-data">
+		<form id="upload" method="post"  class="form-horizontal" action="https://www.socialnetwk.com/home/cloud_file_up.php" enctype="multipart/form-data">
  <center><p><button id="upload_button"><span class="glyphicon glyphicon-file"></span></button></p>
 					 <p><center><input  id="upload_input"type="file"name="fileToUpload"/></p></center>	</center>		<input type="text" id="author_id" name="author_id" class="MsgInputHidden" value="<?= $_SESSION["user"]["id"] ?>" />
 			<center><button name="Update" id="update" class="AddFileBtn" value="Update">Add</button></center>

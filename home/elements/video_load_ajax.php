@@ -1,7 +1,6 @@
 <head>  
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+
 <?php
 	  
 	  ini_set('session.gc_maxlifetime', 3600);
@@ -14,46 +13,32 @@ if(!isset($_SESSION["user"]) or !is_array($_SESSION["user"]) or empty($_SESSION[
 )
 
       // redirect to index page if not superuser
-header('Location: http://www.socialnetwk.com#login');
+header('Location: https://www.socialnetwk.com#login');
 
 
-$con = mysqli_connect('socialnetwk.com','root','pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp','pdo_ret');
-if (!$con) {
-    die('Could not connect: ' . mysqli_error($con));
-}
+	require_once('../../connection.php');
+
 ?>
-</head>
 <style>
-.Feed_Contents_Loop img {
-	max-width:100%;
-	position: relative;
-	height:auto;
-}
-.Feed_Contents_Loop video {
-	max-width:100%;
-	position: relative;
-	height:auto;
-}
-.Feed_Contents_Loop audio {
-	max-width:100%;
-	position: relative;
-	height:auto;
-}
-.Feed_Contents_Loop iframe {
-	max-width:100%;
-	position: relative;
-	min-height:315px;
-}
-.Feed_Load_Tags_Cont {
-	width:100%;
-	min-height:30px;
-	height:auto;
-	position: relative;
-	padding:3px;
-	background: none;
 
-}
+	.Music {
+		background:rgba(55,188,155,0.8);
+	}
+	.Status {
+		background:rgba(255,206,84,0.8);
+	}
+	.Video {
+		background:rgba(218,68,83,0.8);
+
+	}
+	.Picture {
+		background:rgba(74,137,220,0.8);
+
+	}
+
 </style>
+</head>
+
 
 <?php
 
@@ -70,9 +55,11 @@ LEFT JOIN friends
     ON users.id IN (friends.sender, friends.recipient)
 WHERE ".$_SESSION["user"]["id"]." IN (users.id, friends.sender, friends.recipient)
     AND media.relation = 'feed'
+AND media.format = 'video' OR media.file_format = 'iframe'
+
 AND friends.status = 1
 AND media.visable IS NULL
-AND media.format = 'video' OR media.file_format = 'iframe'
+
     ORDER BY media.date DESC, media.time DESC") ?>
 	<?php while($feed = $feed_load->fetch_object()): ?>
 	
@@ -91,207 +78,97 @@ ORDER BY id DESC LIMIT 1");?>
 
 
 
-
-
-
-
-
-
-
-<?php if ($feed->format == "video" || $feed->file_format == "iframe"): ?>
-				<div id="Feed_Contents_Loop" class="Feed_Contents_Loop">
-
-	<div class="Header_Feed_Contents_Loop Video">
-					<div class="row">
-						<div class="col-md-2">
-<a href="profile.php?id=<?= $pimage_feed->userID ?>"><img src="http://www.socialnetwk.com/media/<?= $pimage_feed->file_format ?>/<?= $pimage_feed->post_id ?><?= $pimage_feed->userID ?>.<?= $pimage_feed->file_format ?>"  class="ProfileImg"/></a>						
-						</div>
-						<?php $newCaption = preg_replace('/#\S+ */', '', $feed->MediaTxt); ?>
-			    <?php $newcaptwo = preg_replace('/<iframe.*?\/iframe>/i','', $newCaption); ?>
-				<?php preg_match('/<iframe.*src=\"(.*)\".*><\/iframe>/isU', $newCaption, $iframeonly); ?>
-						<div class="col-md-4">
-							<h4><?= $feed->firstname ?> <?= $feed->lastname ?></h4>
-						</div>
-						<div class="col-md-4">
-							<h5><?= $feed->shared ?> Posted at <?= $feed->date ?> <?= $feed->time ?></h5>
-						</div>
-						<div class="col-md-2">
-							<span class="glyphicon glyphicon-film"></span>
-						</div>
-					</div>
-				</div>
-				<?php echo ($iframeonly[0]); ?>
-					<<?= $feed->format ?>  src="http://www.socialnetwk.com/media/<?=$feed->file_format?>/<?=$feed->post_id?><?=$feed->author_id?>.<?=$feed->file_format?>" controls /> 
-					</<?= $feed->format ?>>
-					 <?php $tags_load = $con->query("SELECT * FROM hashtags WHERE post_id='".$feed->post_id."' AND uid='".$feed->userID."'");?>
-			     	<div class="Feed_Load_Tags_Cont">
-			         <?php while($tags = $tags_load->fetch_object()): ?><a href="http://www.socialnetwk.com/home/search.php?tag=<?= $tags->tag ?>">
-			         <h5 style="display:inline-block">#<?= $tags->tag ?> </h5></a><?php endwhile;?>
-			         </div>
-				</div>
-
-
-
-<?php elseif ($feed->format === "img"): ?>
-				<div id="Feed_Contents_Loop" class="Feed_Contents_Loop">
-
-	<div class="Header_Feed_Contents_Loop Picture">
-					<div class="row">
-						<div class="col-md-2">
-<a href="profile.php?id=<?= $pimage_feed->userID ?>"><img src="http://www.socialnetwk.com/media/<?= $pimage_feed->file_format ?>/<?= $pimage_feed->post_id ?><?= $pimage_feed->userID ?>.<?= $pimage_feed->file_format ?>"  class="ProfileImg"/></a>						
-						</div>
-						<?php $newCaption = preg_replace('/#\S+ */', '', $feed->MediaTxt); ?>
-			    <?php $newcaptwo = preg_replace('/<iframe.*?\/iframe>/i','', $newCaption); ?>
-				<?php preg_match('/<iframe.*src=\"(.*)\".*><\/iframe>/isU', $newCaption, $iframeonly); ?>
-						<div class="col-md-4">
-							<h4><?= $feed->firstname ?> <?= $feed->lastname ?></h4>
-						</div>
-						<div class="col-md-4">
-							<h5><?= $feed->shared ?> Posted at <?= $feed->date ?> <?= $feed->time ?></h5>
-						</div>
-						<div class="col-md-2">
-							<span class="glyphicon glyphicon-picture"></span>
-						</div>
-					</div>
-				</div>
-			<?php if ($feed->format === "img"): ?>
-
-					<?php echo ($iframeonly[0]); ?>
-					<<?= $feed->format ?>  src="http://www.socialnetwk.com/media/<?=$feed->file_format?>/<?=$feed->post_id?><?=$feed->author_id?>.<?=$feed->file_format?>" controls /> 
-					</<?= $feed->format ?>>
-					 <?php $tags_load = $con->query("SELECT * FROM hashtags WHERE post_id='".$feed->post_id."' AND uid='".$feed->userID."'");?>
-			     	<div class="Feed_Load_Tags_Cont">
-			         <?php while($tags = $tags_load->fetch_object()): ?><a href="http://www.socialnetwk.com/home/search.php?tag=<?= $tags->tag ?>">
-			         <h5 style="display:inline-block">#<?= $tags->tag ?> </h5></a><?php endwhile;?>
-			         </div>
-					<?php endif; ?>
-				</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php elseif ($feed->format === "audio"): ?>
-				<div id="Feed_Contents_Loop" class="Feed_Contents_Loop">
-
-	<div class="Header_Feed_Contents_Loop Music">
-					<div class="row">
-						<div class="col-md-2">
-<a href="profile.php?id=<?= $pimage_feed->userID ?>"><img src="http://www.socialnetwk.com/media/<?= $pimage_feed->file_format ?>/<?= $pimage_feed->post_id ?><?= $pimage_feed->userID ?>.<?= $pimage_feed->file_format ?>"  class="ProfileImg"/></a>						
-						</div>
-						<?php $newCaption = preg_replace('/#\S+ */', '', $feed->MediaTxt); ?>
-			    <?php $newcaptwo = preg_replace('/<iframe.*?\/iframe>/i','', $newCaption); ?>
-				<?php preg_match('/<iframe.*src=\"(.*)\".*><\/iframe>/isU', $newCaption, $iframeonly); ?>
-						<div class="col-md-4">
-							<h4><?= $feed->firstname ?> <?= $feed->lastname ?></h4>
-						</div>
-						<div class="col-md-4">
-							<h5><?= $feed->shared ?> Posted at <?= $feed->date ?> <?= $feed->time ?></h5>
-						</div>
-						<div class="col-md-2">
-							<span class="glyphicon glyphicon-music"></span>
-						</div>
-					</div>
-				</div>
-				<?php echo ($iframeonly[0]); ?>
-					<<?= $feed->format ?>  src="http://www.socialnetwk.com/media/<?=$feed->file_format?>/<?=$feed->post_id?><?=$feed->author_id?>.<?=$feed->file_format?>" controls /> 
-					</<?= $feed->format ?>>
-					 <?php $tags_load = $con->query("SELECT * FROM hashtags WHERE post_id='".$feed->post_id."' AND uid='".$feed->userID."'");?>
-			     	<div class="Feed_Load_Tags_Cont">
-			         <?php while($tags = $tags_load->fetch_object()): ?><a href="http://www.socialnetwk.com/home/search.php?tag=<?= $tags->tag ?>">
-			         <h5 style="display:inline-block">#<?= $tags->tag ?> </h5></a><?php endwhile;?>
-			         </div>
-				</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php elseif ($feed->format === "text"): ?>
-				<div id="Feed_Contents_Loop" class="Feed_Contents_Loop">
-
-					<div class="Header_Feed_Contents_Loop Status">
+		<div id="Feed_Contents_Loop" class="Feed_Contents_Loop">
+					<div class="Header_Feed_Contents_Loop Video">
 						<div class="row">
 							<div class="col-md-2">
-<a href="profile.php?id=<?= $pimage_feed->userID ?>"><img src="http://www.socialnetwk.com/media/<?= $pimage_feed->file_format ?>/<?= $pimage_feed->post_id ?><?= $pimage_feed->userID ?>.<?= $pimage_feed->file_format ?>"  class="ProfileImg"/></a>						
+								<a href="profile.php?id=<?= $pimage_feed->userID ?>">
+								<img src="https://www.socialnetwk.com/media/<?= $pimage_feed->file_format ?>/<?= $pimage_feed->post_id ?><?= $pimage_feed->userID ?>.<?= $pimage_feed->file_format ?>"  class="ProfileImg"/></a>
 							</div>
 							<?php $newCaption = preg_replace('/#\S+ */', '', $feed->MediaTxt); ?>
-				    <?php $newcaptwo = preg_replace('/<iframe.*?\/iframe>/i','', $newCaption); ?>
-					<?php preg_match('/<iframe.*src=\"(.*)\".*><\/iframe>/isU', $newCaption, $iframeonly); ?>
+							<?php $newcaptwo = preg_replace('/<iframe.*?\/iframe>/i','', $newCaption); ?>
+							<?php preg_match('/<iframe.*src=\"(.*)\".*><\/iframe>/isU', $newCaption, $iframeonly); ?>
 							<div class="col-md-4">
-								<h4><?= $feed->firstname ?> <?= $feed->lastname ?></h4>
-							</div>
-							<div class="col-md-4">
+								<h4 style="margin-bottom:2px;padding-bottom:0px;"><?= $feed->firstname ?> <?= $feed->lastname ?></h4>
 								<h5><?= $feed->shared ?> Posted at <?= $feed->date ?> <?= $feed->time ?></h5>
 							</div>
 							<div class="col-md-2">
-								<span class="glyphicon glyphicon-pencil"></span>
+								<span class="glyphicon glyphicon-film"></span>
 							</div>
+							<?php if($_SESSION["user"]["id"] == $feed->author_id):?>
+							<div class="col-md-2">
+								<div class="col-md-6">
+									<form id="upload" method="post"  class="form-horizontal" action="removepost.php" enctype="multipart/form-data">
+										<input type="text" id="id" name="id" style="display:none;" value="<?= $feed->userID ?>" />
+										<input type="text" id="postid" name="postid" style="display:none;" value="<?= $feed->post_id ?>" />
+										<button class="UpdateBtnPerm" style="background:none;"  type="submit"><span class="glyphicon glyphicon-remove"></span></button>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle" type="button" 
+									id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										<span class="glyphicon glyphicon-lock"></span>
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+										<form id="upload" method="post"  class="form-horizontal" action="elements/permissions.php" enctype="multipart/form-data">
+											<input type="text" id="id" name="id" style="display:none;" value="<?= $feed->userID ?>" />
+												<input type="text" id="postid" name="postid" style="display:none;" value="<?= $feed->post_id ?>" />
+												<center><select name="permissions">
+												  <option value="0">Public</option>
+												  <option value="1">Friends</option>
+												  <option value="2">Hidden</option>
+												  <option value="3">Custom</option>
+												  <option value="4">Only Me</option>
+												</select></center>
+												<h5>Current Permissions</h5>
+												<?php
+												$permload = $con->query("SELECT * FROM permissions WHERE post_id = ('$feed->post_id') AND user_id = ('$feed->userID')");?>
+												<?php while($permissionsoaded = $permload->fetch_object()): ?>
+												<?php
+													if ($permissionsoaded->type == "0"){
+													echo "<h6>Public</h6>";
+													}
+													elseif ($permissionsoaded->type == "1"){
+													echo "<h6>Friends</h6>";
+													}
+													elseif ($permissionsoaded->type == "2"){
+													echo "<h6>Hidden</h6>";
+													}
+													elseif ($permissionsoaded->type == "3"){
+													echo "<h6>Custom</h6>";
+													}
+													elseif ($permissionsoaded->type == "4"){
+													echo "<h6>Only Me</h6>";	
+													}
+													else {
+													echo "<h6>Not set</h6>";	
+													}
+												?>
+												<?php endwhile; ?>
+												<center><button class="UpdateBtnPerm" style="color:black;">Update</button></center>
+										</form>
+							  		</ul>
+								</div>
+							</div>
+							<?php endif; ?>
 						</div>
-					</div>
-
+					</div></br>
 					<h4><?php echo $newcaptwo; ?></h4>
-					<?php if ($feed->format === "text"): ?>
-
 					<?php echo ($iframeonly[0]); ?>
-					<<?= $feed->format ?>  src="http://www.socialnetwk.com/media/<?=$feed->file_format?>/<?=$feed->post_id?><?=$feed->author_id?>.<?=$feed->file_format?>" controls /> 
+					<<?= $feed->format ?>  src="https://www.socialnetwk.com/media/<?=$feed->file_format?>/<?=$feed->post_id?><?=$feed->author_id?>.<?=$feed->file_format?>" 						controls /> 
 					</<?= $feed->format ?>>
-
 					 <?php $tags_load = $con->query("SELECT * FROM hashtags WHERE post_id='".$feed->post_id."' AND uid='".$feed->userID."'");?>
 			     	<div class="Feed_Load_Tags_Cont">
-			         <?php while($tags = $tags_load->fetch_object()): ?><a href="http://www.socialnetwk.com/home/search.php?tag=<?= $tags->tag ?>">
-			         <h5 style="display:inline-block">#<?= $tags->tag ?> </h5></a><?php endwhile;?>
+			         	<?php while($tags = $tags_load->fetch_object()): ?><a href="https://www.socialnetwk.com/home/search.php?tag=<?= $tags->tag ?>">
+					 	<h5 style="display:inline-block">#<?= $tags->tag ?> </h5></a>
+					 	<?php endwhile;?>
 			         </div>
-					<?php endif; ?>
-
 				</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php else: ?>
-<h1>No content</h1>
-<?php endif; ?>
 <?php endwhile;?>
 				<?php endwhile;?>
-				
+<center><h4>No more content</h4></center>
 				
 
 		

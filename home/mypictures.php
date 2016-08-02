@@ -4,7 +4,7 @@
 
 <head>
 
-	<title>Socialnetwk Admin</title>
+	<title>Socialnetwk</title>
 
     <meta charset="utf-8">
     <meta name="author" content="Casper Round" />
@@ -12,30 +12,33 @@
    	<meta name="description" content="Create an account or login to Socialnetwk. Socialnetwk connects you and your friends, allowing you to share any media, and giving you the ability to change the site to how you want it, while connecting any type of social media" />
     <meta name="keywords" content="social,socialnetwk,network,media,community,friends,people,life,skills,pictures,video,films,music,login,register,sign up,artists,facebook,youtube,instagram,twitter,tumblr,google" />
     <meta name="robots" content="noindex,nofollow">
-	<link rel="shortcut icon" type="image/png" href="http://www.socialnetwk.com/images/favicon.ico"/>
-   	<link rel="shortcut icon" type="image/png" href="http://www.socialnetwk.com/images/favicon.png"/>
+	<link rel="shortcut icon" type="image/png" href="https://www.socialnetwk.com/images/favicon.ico"/>
+   	<link rel="shortcut icon" type="image/png" href="https://www.socialnetwk.com/images/favicon.png"/>
 	<!-- STYLESHEET -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<!-- CSS -->
-	<link rel="stylesheet" href="home/style.css" type='text/css'>
+	<link rel="stylesheet" href="css/main.css" type='text/css'>
+	<link rel="stylesheet" href="css/responsive_main.css" type='text/css'>
+	<link rel="stylesheet" href="css/icons.css" type='text/css'>
 	<!-- FONTS -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type='text/css'>
-	<link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Parisienne|Bad+Script|Tangerine|Great+Vibes|Cinzel+Decorative|Cinzel&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Parisienne|Bad+Script|Tangerine|Great+Vibes|Cinzel+Decorative|Cinzel&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<link href='http://fonts.googleapis.com/css?family=Tauri:regular' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Calligraffitti:regular' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Montaga:regular' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Tauri:regular' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Calligraffitti:regular' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montaga:regular' rel='stylesheet' type='text/css'>
 
-<script src='http://code.jquery.com/jquery-2.1.0.min.js'></script>
+<script src='https://code.jquery.com/jquery-2.1.0.min.js'></script>
    <script type="text/javascript" src="//code.jquery.com/jquery-1.6.4.js"></script>
 
-	<link href="assets/css/styles.css" rel="stylesheet"/>
+
+
 
   <?php
     session_start();
@@ -43,13 +46,18 @@ if(!isset($_SESSION["user"]) or !is_array($_SESSION["user"]) or empty($_SESSION[
 )
 
       // redirect to index page if not superuser
-header('Location: http://www.socialnetwk.com');
+header('Location: https://www.socialnetwk.com');
 
 ?>
 <?php
 	require_once('../connection.php');
 
 	?>
+ <?php
+	  $user_data_load = $con->query("SELECT * FROM users WHERE id='".$_SESSION['user']['id']."'");?>
+	<?php while($userloaded = $user_data_load->fetch_object()): ?>	
+		<link id="stylesheet" rel="stylesheet" href="<?=$userloaded->theme?>" type='text/css'>
+<?php endwhile;?>
 
 <style>
 
@@ -132,7 +140,7 @@ box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
 }
 
 .Left_Col_Head {
-	background-image: url("http://orig11.deviantart.net/20eb/f/2015/030/6/f/_minflat__dark_material_design_wallpaper__4k__by_dakoder-d8fjqzu.jpg");
+	background-image: url("https://orig11.deviantart.net/20eb/f/2015/030/6/f/_minflat__dark_material_design_wallpaper__4k__by_dakoder-d8fjqzu.jpg");
 	background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -896,7 +904,7 @@ border-top-right-radius: 5px;
 <div class="Navbar">
 		<div class="row">
 			<div class="col-md-2">
-				<img src="http://www.socialnetwk.com/images/socialnetwk.png" class="MainLogo"/>
+				<img src="https://www.socialnetwk.com/images/socialnetwk.png" class="MainLogo"/>
 				<h3>ocialnetwk</h3>
 			</div>
 			<div class="col-md-4">
@@ -923,7 +931,7 @@ if (!$con) {
 
 								<?php $profile_image = $con->query("SELECT id, post_id, relation, userID, file_format FROM media WHERE userID=".$_SESSION['user']['id']." AND relation = 'profile_picture' UNION ALL SELECT -1 id, '55529055162cf' post_id, 'profile_picture' relation, '0' userID, 'jpg' file_format ORDER BY id DESC LIMIT 1"); ?>
 						<?php while($pimage = $profile_image->fetch_object()): ?>
-							<img src="http://www.socialnetwk.com/media/<?= $pimage->file_format ?>/<?= $pimage->post_id ?><?= $pimage->userID ?>.<?= $pimage->file_format ?>" class="ProfileImg"/>
+							<img src="https://www.socialnetwk.com/media/<?= $pimage->file_format ?>/<?= $pimage->post_id ?><?= $pimage->userID ?>.<?= $pimage->file_format ?>" class="ProfileImg"/>
 							<?php endwhile;?>
 						</div>
 						<div class="col-md-8">
@@ -1184,7 +1192,7 @@ $feed_load = $con->query("SELECT * FROM media WHERE userID = ".$_SESSION["user"]
 			<div class="MyVideoLoopTitle">
 				<h6><?php echo $newcaptwo; ?></h6>
 			</div>
-			<<?= $feed->format ?>  src="http://www.socialnetwk.com/media/<?=$feed->file_format?>/<?=$feed->post_id?><?=$feed->author_id?>.<?=$feed->file_format?>" controls /> 
+			<<?= $feed->format ?>  src="https://www.socialnetwk.com/media/<?=$feed->file_format?>/<?=$feed->post_id?><?=$feed->author_id?>.<?=$feed->file_format?>" controls /> 
 					</<?= $feed->format ?>>
 					<?php $newCaption = preg_replace('/#\S+ */', '', $feed->MediaTxt); ?>
 			    <?php $newcaptwo = preg_replace('/<iframe.*?\/iframe>/i','', $newCaption); ?>
@@ -1280,7 +1288,7 @@ $feed_load = $con->query("SELECT * FROM media WHERE userID = ".$_SESSION["user"]
 				  </a>
 				</div>
 				<a href="#" id="mainfeed">
-				     <center><span class="glyphicon glyphicon-globe" style="/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#da3f53+0,37bc9b+51,37bc9b+51,4a89dc+100 */
+				     <center><span class="glyphicon glyphicon-globe" style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#da3f53+0,37bc9b+51,37bc9b+51,4a89dc+100 */
 background: rgb(218,63,83); /* Old browsers */
 background: -moz-linear-gradient(left,  rgba(218,63,83,1) 0%, rgba(55,188,155,1) 51%, rgba(55,188,155,1) 51%, rgba(74,137,220,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(left,  rgba(218,63,83,1) 0%,rgba(55,188,155,1) 51%,rgba(55,188,155,1) 51%,rgba(74,137,220,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -1312,7 +1320,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da3f53', end
 				<div class="Chat_Usr_Loop_Fab"  onClick="openPopup('<?= $FriendName->id ?>');">
 					<div class="row">
 						<div class="col-md-3">
-							<img src="http://www.socialnetwk.com/media/<?= $pimage->file_format ?>/<?= $pimage->post_id ?><?= $pimage->userID ?>.<?= $pimage->file_format ?>"  style="display:inline-block;height:30px;width:30px;padding:0px;margin:0px;"/>
+							<img src="https://www.socialnetwk.com/media/<?= $pimage->file_format ?>/<?= $pimage->post_id ?><?= $pimage->userID ?>.<?= $pimage->file_format ?>"  style="display:inline-block;height:30px;width:30px;padding:0px;margin:0px;"/>
 						</div>
 						<div class="col-md-6">
 							<h5 style="display:inline-block;width:auto;height:30px;padding:0px;margin:0px;font-size:12px;font-weight:200;"><?= $FriendName->firstname ?> <?= $FriendName->lastname ?></h5>
@@ -1467,7 +1475,7 @@ $("#ChatPopScroll").on('scroll', function(){
 	}
 </script>
 	<!-- Include our script files -->
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 
 
 </body

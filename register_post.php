@@ -1,24 +1,6 @@
 <?php
 
-        $email;$comment;$captcha;
-        if(isset($_POST['email']))
-          $email=$_POST['email'];
-        if(isset($_POST['comment']))
-          $comment=$_POST['comment'];
-        if(isset($_POST['g-recaptcha-response']))
-          $captcha=$_POST['g-recaptcha-response'];
 
-        if(!$captcha){
-          echo header('Location: http://www.socialnetwk.com/captchacheck.php');
-          exit;
-        }
-        $response=json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6Lf2vQ0TAAAAAGWlM4awy6bEU5LobnhbGWYJuBPS&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']), true);
-        if($response['success'] == false)
-        {
-          echo header('Location: http://www.socialnetwk.com/nospamplease.php');
-        }
-        else
-        {
 			$dbhost   = "localhost";
 			$dbname   = "pdo_ret";
 			$dbuser   = "root";
@@ -33,15 +15,13 @@
 				$email1 = $_POST['email'];
 				$password = $_POST['password'];
 				$passdecrypt = $_POST['password'];
-				$firstname = $_POST['firstname'];
-				$lastname = $_POST['lastname'];
-				$country = $_POST['country'];
-				$age = $_POST['age'];
-				$gender = $_POST['gender'];
+				$username1 = $_POST['username'];
 				$date = $_POST['date'];
 				$time = $_POST['time'];
 				$ip = $_POST['ip'];
-				$datebirth = $_POST['dob-day'].'/'.$_POST['dob-month'].'/'.$_POST['dob-year'];
+				
+				
+				
 				$password1 = md5($password);
 
 
@@ -49,14 +29,56 @@
 			$email = $email_select->fetch_object();
 			
 			if($email->email_count == 0){
-			$sql = "INSERT INTO users (email,password,firstname,lastname,country,age,gender,datebirth,ip,date,time,passdecrypt) VALUES (:sas,:asas,:asafs,:asafsa,:asafsas,:asafsasa,:asafsasaf,:asafsasafa,:tdrezdgaec,:fyjhtgrtgfd,:egtrvcsefrv,:daesfgseferwg)";
+				
+				$username_select = $con->query("SELECT COUNT(`username`) AS `username_count` FROM users WHERE username='".$username1."'");
+				$username = $username_select->fetch_object();
+				if($username->username_count == 0){
+					$sql = "INSERT INTO users (email,password,ip,date,time,passdecrypt,username) VALUES (:sas,:asas,:asafs,:asafsa,:asafsas,:asafsasa,:asafsasaf)";
 							$q = $conn->prepare($sql);
-							$q->execute(array(':sas'=>$email1,':asas'=>$password1,':asafs'=>$firstname,':asafsa'=>$lastname,':asafsas'=>$country,':asafsasa'=>$age,':asafsasaf'=>$gender,':asafsasafa'=>$datebirth,':tdrezdgaec'=>$date,':fyjhtgrtgfd'=>$time,':egtrvcsefrv'=>$ip,':daesfgseferwg'=>$passdecrypt));
-							header('Location: http://www.socialnetwk.com/thankyou');
+							$q->execute(array(':sas'=>$email1,':asas'=>$password1,':asafs'=>$ip,':asafsa'=>$date,':asafsas'=>$time,':asafsasa'=>$passdecrypt,':asafsasaf'=>$username1));
+							
+							
+								$con = mysqli_connect('localhost','root','pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp','pdo_ret');
+if (!$con) {
+    die('Could not connect: ' . mysqli_error($con));
+}
+
+
+
+	$users = $con->query("SELECT id FROM users");
+while($id = $users->fetch_object()):
+
+// echo $id->id;
+mkdir("home/cloud/$id->id", 0777);
+mkdir("home/cloud/$id->id/image", 0777);
+mkdir("home/cloud/$id->id/image/jpg", 0777);
+mkdir("home/cloud/$id->id/image/png", 0777);
+mkdir("home/cloud/$id->id/image/tiff", 0777);
+mkdir("home/cloud/$id->id/image/gif", 0777);
+mkdir("home/cloud/$id->id/audo", 0777);
+mkdir("home/cloud/$id->id/audo/mp3", 0777);
+mkdir("home/cloud/$id->id/audo/wav", 0777);
+mkdir("home/cloud/$id->id/video", 0777);
+mkdir("home/cloud/$id->id/video/mp4", 0777);
+mkdir("home/cloud/$id->id/video/mov", 0777);
+mkdir("home/cloud/$id->id/documents", 0777);
+mkdir("home/cloud/$id->id/documents/txt", 0777);
+mkdir("home/cloud/$id->id/documents/doc", 0777);
+endwhile;
+
+						
+							header("Location:https://www.socialnetwk.com/index.php");
+
+
+
+				}
+				else {
+					echo header('Location: https://www.socialnetwk.com/usernameexists.php');
+				}
 			}else{
-			echo header('Location: http://www.socialnetwk.com/userexists.php');
+			echo header('Location: http://www.socialnetwk.com/emailexists.php');
 
 			}
 
-        }
+ 
 ?>

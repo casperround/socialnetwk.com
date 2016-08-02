@@ -1,0 +1,28 @@
+Metadata-Version: 2.0
+Name: django-bitfield
+Version: 1.7.1
+Summary: BitField in Django
+Home-page: https://github.com/disqus/django-bitfield
+Author: DISQUS
+Author-email: opensource@disqus.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Requires-Dist: Django (>=1.2)
+Requires-Dist: six
+
+UNKNOWN
+
+

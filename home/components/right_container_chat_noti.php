@@ -1,4 +1,12 @@
+<head>
 
+<script src='https://code.jquery.com/jquery-2.1.0.min.js'></script>
+   <script type="text/javascript" src="//code.jquery.com/jquery-1.6.4.js"></script>
+   		<script src='//codepen.io/assets/editor/live/css_live_reload_init.js'></script>
+		 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+
+</head>
 
 
 
@@ -10,17 +18,14 @@
 		top:40px;
 		margin:0px;
 		position: fixed;
-	background:#efefef;
--webkit-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
+
 
 		height:100%;
 	}
 	
 	.Notification_selects {
 	width:100%;
-	height:40px;
+	height:60px;
 	
 	padding:10px;
 	background:;
@@ -29,8 +34,9 @@ box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
 	position: relative;
 	transition:background 0.2s, color 0.2s;
 }
+
 .Notification_selects:hover {
-	background:rgba(0,0,0,0.3);
+	background:#4A89DC;
 	transition:background 0.2s, color 0.2s;
 	color:white;
 	  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
@@ -40,7 +46,7 @@ box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
 
          .Noti_Green {
 		background-color:rgba(55,188,155,1);
-		font-size: 25px;
+		font-size: 20px;
   color: transparent;
   text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
   -webkit-background-clip: text;
@@ -49,7 +55,7 @@ box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
       }
       .Noti_Red {
 		background-color:rgba(218,68,83,1);
-				font-size: 25px;
+		font-size: 20px;
   color: transparent;
   text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
   -webkit-background-clip: text;
@@ -58,7 +64,7 @@ box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
       }
       .Noti_Blue {
 		background-color:rgba(74,137,220,1);
-				font-size: 25px;
+		font-size: 20px;
   color: transparent;
   text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
   -webkit-background-clip: text;
@@ -67,7 +73,7 @@ box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
       }
       .Noti_Yellow {
 		background-color:rgba(255,206,84,1);
-				font-size: 25px;
+		font-size: 20px;
   color: transparent;
   text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
   -webkit-background-clip: text;
@@ -94,19 +100,21 @@ box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
 .Notification_selects h6 {
 	padding:0px;
 	margin:0px;
-	color:inherit;
+	color:darkgray;
 	font-size: 10px;
 	text-align: center;
-}
+}		
 	.Notification_Container_Fab {
 		width:250px;
-		
+		margin
+		-webkit-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
 		display: inline-block;
 
 		float:left;
 		position: relative;
 		
-		height:100vh;
 	
 	}
 	.Notification_load_containers {
@@ -139,7 +147,6 @@ box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
 		width:200px;
 		display: inline-block;
 		position: relative;
-		background: #efefef;
 		float:right;
 
 		height:100%;
@@ -254,10 +261,8 @@ font-size: 20px;
 		margin:0px;
 		top:10px;
 		float:right;
-		background:white;
-		  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.5);
-   -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.5);
-   box-shadow: inset 0 3px 8px rgba(0,0,0,.5);
+		background:#efefef;
+		border-top:solid lightgray 1px;
 		border-radius: 0px;
 
       }
@@ -339,7 +344,6 @@ border-top-right-radius: 5px;
 	}
 	.ChatPopFoot {
 		width:100%;
-		color:black;
 		height:20%;
 		background:#d9d9d9;
 		bottom:0px;
@@ -349,6 +353,7 @@ border-top-right-radius: 5px;
 		width:100%;
 		height:30px;
 		float:bottom;
+		color:gray;
 		border:0px;
 		-moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
@@ -417,10 +422,6 @@ border-top-right-radius: 5px;
 	position: relative;
 	font-size:10px;
 	background-color:white;
-	color:black;
-}
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    black;
 }
 
 .Chat_Usr_Loop {
@@ -491,9 +492,7 @@ border-top-right-radius: 5px;
                 top: 7px;
                 height: 0px;
                 width: 0px;
-                border-top: 8px solid transparent;
-                border-bottom: 8px solid transparent;
-                border-right: 8px solid white;
+
             }
 
             .messages ul li span.received:before
@@ -505,9 +504,7 @@ border-top-right-radius: 5px;
                 top: 7px;
                 height: 0px;
                 width: 0px;
-                border-top: 8px solid transparent;
-                border-bottom: 8px solid transparent;
-                border-right: 8px solid black;
+        
             }
 
             .messages ul li span.sent:after
@@ -519,9 +516,7 @@ border-top-right-radius: 5px;
                 top: 6px;
                 height: 0px;
                 width: 0px;
-                border-top: 8px solid transparent;
-                border-bottom: 8px solid transparent;
-                border-left: 8px solid #dbedfe;
+         
             }
 
             .messages ul li span.sent:before
@@ -533,15 +528,14 @@ border-top-right-radius: 5px;
                 top: 6px;
                 height: 0px;
                 width: 0px;
-                border-top: 8px solid transparent;
-                border-bottom: 8px solid transparent;
-                border-left: 8px solid black;
+         
             }
 
             .messages ul li span.sent
             {
                 float: right;
-                background-color: #dbedfe;
+                background-color: #158ffe;
+                color:white;
  
             }
 
@@ -580,15 +574,25 @@ background-color: #565656;
           padding:2px;
           float:right;
 }
+.Message_Pop_Min {
+	height:30px;
+	overflow:hidden;
+	float:bottom;
+	bottom:0px;
+	top:270px;
+}
+.Message_Pop_Max {
+	height:100%;
+}
 </style>	
 
 
 
 
 	<div class="Chat_Notification_Container">
-		<div class="Notification_Container_Fab">
+		<div class="Notification_Container_Fab"  style="height:60%;">
 			<div class="Notification_load_containers">
-				<center><h4 style="color:gray;">Notifications</h4></center>
+				<center><h4 style="color:gray;border-bottom:solid lightgray 1px;width:80%;">Notifications</h4></center>
 					<?php  $userss = $con->query("SELECT * FROM friends WHERE recipient='".$_SESSION['user']['id']."' AND status='0'");?>
 					<?php while($friend = $userss->fetch_object()): ?>
 					<?php $user_select = $con->query("SELECT * FROM users WHERE id='".$friend->sender."'");?>
@@ -596,19 +600,64 @@ background-color: #565656;
 						<div class="Notification_selects">
 						<div class="row">
 							<div class="col-md-2">
-								<span class="Noti_Green glyphicon glyphicon-certificate"></span>
+								<span class="Noti_Green glyphicon glyphicon-user"></span>
 							</div>
-							<div class="col-md-6">
-								<h5>Friend Request</h5>
+							<div class="col-md-4">
+								<h6>Friend Request</h6>
 							</div>
 							<div class="col-md-4">
 								<h6><?= $user->firstname ?> <?= $user->lastname ?></h6>
+								<h6><?= $user->username ?></h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+							<form   method="post" action="elements/friendaccept.php" enctype="multipart/form-data">
+							<input name="sender" style="display:none;" value="<?= $friend->sender ?>"/>
+							<input name="recipient" style="display:none;" value="<?= $friend->recipient ?>"/>
+								<center><button style="border:0px;background:none;"><span class="glyphicon glyphicon-ok"></span></button></center>
+							</form>
+							</div>
+							<div class="col-md-6">
+								<form   method="post" action="elements/frienddecline.php" enctype="multipart/form-data">
+							<input name="sender" style="display:none;" value="<?= $friend->sender ?>"/>
+							<input name="recipient" style="display:none;" value="<?= $friend->recipient ?>"/>
+								<center><button style="border:0px;background:none;"><span class="glyphicon glyphicon-remove"></span></button></center>
+							</form>
 							</div>
 						</div>
 					</div>
 					<?php endwhile;?>
 					<?php endwhile;?>
+	
+		
 
+	<?php  $userss = $con->query("SELECT * FROM friends WHERE sender='".$_SESSION['user']['id']."' AND status='2'");?>
+					<?php while($friend = $userss->fetch_object()): ?>
+					<?php $user_select = $con->query("SELECT * FROM users WHERE id='".$friend->recipient."'");?>
+					<?php while($user = $user_select->fetch_object()): ?>
+						<div class="Notification_selects" style="height:60px;">
+						<div class="row">
+							<div class="col-md-2">
+								<span class="Noti_Red glyphicon glyphicon-user"></span>
+							</div>
+							<div class="col-md-6">
+								<h6><?= $user->firstname ?> <?= $user->lastname ?> Declined your friend request</h6>
+							</div>
+							<div class="col-md-2">
+								<h6>Re-send</h6>
+								<form   method="post" action="addfriend.php" enctype="multipart/form-data">
+							<input name="recipient" style="display:none;" value="<?= $friend->recipient ?>"/>
+								<center><button style="border:0px;background:none;"><span class="glyphicon glyphicon-ok"></span></button></center>
+							</form>
+							</div>
+						</div>
+						
+					</div>
+					<?php endwhile;?>
+					<?php endwhile;?>
+			
+<!--
 					<div class="Notification_selects">
 						<div class="row">
 							<div class="col-md-2">
@@ -638,20 +687,24 @@ background-color: #565656;
 					<div class="Notification_selects">
 						<div class="row">
 							<div class="col-md-2">
-								<span class="Noti_Green glyphicon glyphicon-certificate"></span>
+								<span class="Noti_Green glyphicon glyphicon-user"></span>
 							</div>
 							<div class="col-md-6">
-								<h5>Friend Request</h5>
+								<h5>New Friend Request</h5>
 							</div>
 							<div class="col-md-4">
-								<h6>Casper Round</h6>
+								<h6>Josh Evans</h6>
 							</div>
 						</div>
 					</div>
-			</div>
+-->
 
+
+			</div>
+		</div>
+		<div class="Notification_Container_Fab" style="height:50%;margin-top:10px;">
 			<div class="Feed_toggle">
-								<center><h5  style="color:gray;font-weight:400">Filter Stream</h5></center>
+								<center><h5  style="color:gray;font-weight:400;border-bottom:solid lightgray 1px;width:80%;">Filter Stream</h5></center>
 
 				<div class="Feed_Toggle_Row">
 				<div class="row">
@@ -682,8 +735,9 @@ background-color: #565656;
 				  </div>
 			</div>
 		</div>
-		<div class="Chat_Container_Fab">
-		<center><h5 style="color:gray;font-weight:400;font-size:14px;">Online</h5></center>
+	
+		<div class="Chat_Container_Fab" style="height:100vh;position: fixed;">
+		<center><h5 style="color:gray;font-weight:400;font-size:14px;border-bottom:solid lightgray 1px;width:80%;">Online</h5></center>
 
 
 
@@ -691,7 +745,7 @@ background-color: #565656;
 
 	 $users = $con->query("SELECT IF(friends.sender = ".$_SESSION["user"]["id"].", friends.recipient, friends.sender) AS user_id FROM friends WHERE friends.status=1 AND friends.sender = ".$_SESSION["user"]["id"]." OR friends.recipient = ".$_SESSION["user"]["id"]."");?>
 <?php while($friend = $users->fetch_object()): ?>
-		  	<?php  $friends = $con->query("SELECT firstname, lastname, id FROM users WHERE id = $friend->user_id "); ?>
+		  	<?php  $friends = $con->query("SELECT firstname, lastname, username, id FROM users WHERE id = $friend->user_id "); ?>
 				<?php while($FriendName = $friends->fetch_object()): ?>
 				
 				
@@ -701,10 +755,10 @@ background-color: #565656;
 				<div class="Chat_Usr_Loop_Fab"  onClick="openPopup('<?= $FriendName->id ?>');">
 					<div class="row">
 						<div class="col-md-3">
-							<img src="http://www.socialnetwk.com/media/<?= $pimage->file_format ?>/<?= $pimage->post_id ?><?= $pimage->userID ?>.<?= $pimage->file_format ?>"  style="display:inline-block;height:30px;width:30px;padding:0px;margin:0px;"/>
+							<img src="../media/<?= $pimage->file_format ?>/<?= $pimage->post_id ?><?= $pimage->userID ?>.<?= $pimage->file_format ?>"  style="display:inline-block;height:30px;width:30px;padding:0px;margin:0px;"/>
 						</div>
 						<div class="col-md-6">
-							<h5 style="display:inline-block;width:auto;height:30px;padding:0px;margin:0px;font-size:12px;font-weight:400;"><?= $FriendName->firstname ?> <?= $FriendName->lastname ?></h5>
+							<h6 style="display:inline-block;width:auto;height:30px;padding:0px;margin:0px;font-size:10px;font-weight:200;"><?= $FriendName->firstname ?> <?= $FriendName->lastname ?> <span style="font-weight:bold;"><?= $FriendName->username ?></span></h6>
 						</div>
 						<div class="col-md-3">
 							<span  style="display:inline-block;width:auto;right:0px;height:30px;position: relative;padding:0px;margin:0px;"class="glyphicon glyphicon-user Chat_Live"></span>
@@ -722,11 +776,11 @@ background-color: #565656;
 	<div class="ChatRowPop">			
 			<?php $users = $con->query("SELECT IF(friends.sender='".$_SESSION["user"]["id"]."', friends.recipient, friends.sender) AS user_id FROM friends WHERE friends.status='1' AND friends.sender='". $_SESSION["user"]["id"]."' OR friends.recipient='".$_SESSION["user"]["id"]."' "); ?>
  			 <?php while($friend = $users->fetch_object()): ?>
-  			<?php  $friends = $con->query("SELECT firstname, lastname, id FROM users WHERE id = $friend->user_id "); ?>
+  			<?php  $friends = $con->query("SELECT firstname, lastname, username, id FROM users WHERE id = $friend->user_id "); ?>
 			<?php while($FriendName = $friends->fetch_object()): ?>
 	<div id="<?=$FriendName->id ?>" style="display:none" class="ChatActivePop" >
 		<div class="ChatPopHead">
-					<h5 style="display:inline;"class="ChatTxt"><?= $FriendName->firstname ?> <?= $FriendName->lastname ?></h5>
+					<h5 style="display:inline;"class="ChatTxt"><?= $FriendName->firstname ?> <?= $FriendName->lastname ?> <?= $FriendName->username ?></h5>
 					<span onclick="UpPopup('<?=$FriendName->id ?>');" class="glyphicon glyphicon-plus btn-lg Msg_Pop_Ico"></span>
 					
 					<span onclick="MinPopup('<?=$FriendName->id ?>');"class="glyphicon glyphicon-minus btn-lg Msg_Pop_Ico"></span>
@@ -767,9 +821,10 @@ background-color: #565656;
 <?php endwhile; ?> 
 </div>
 
-				<script>
+							<script>
 	$(function() {
-	$('form#SendForm').on('submit', function(e) {
+		$(document).on('submit', 'form#SendForm', function(e){
+    e.preventDefault();
 	        $.post('elements/sendmessagefriend.php', $(this).serialize(), function (data) {
 	            // This is executed when the call to mail.php was succesful.
 	            // 'data' contains the response from the request
@@ -779,11 +834,12 @@ background-color: #565656;
 	            $('#message').val('');        
 	             });
 	        e.preventDefault();
-	                    $('#message').val('');        
-	
-	    });
+	                    $('#message').val(''); 
+		})
+
 	});
 	$(document).ready(function(){
+		
 	   	$('div.message-window').each(function(index, messageWindow) {
 	   	messageWindow = $(messageWindow);		    	
     	// Run fetchMessages() once, when the page is loaded.

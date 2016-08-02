@@ -3,7 +3,7 @@ session_start();
 $errmsg_arr = array();
 $errflag = false;
 // configuration
-$dbhost   = "socialnetwk.com";
+$dbhost   = "localhost";
 $dbname   = "pdo_ret";
 $dbuser   = "root";
 $dbpass   = "pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp";
@@ -30,7 +30,6 @@ $sql = "INSERT INTO message (s_firstname,s_lastname,sender,recipient,message,r_f
 $q = $conn->prepare($sql);
 $q->execute(array(':sas'=>$s_firstname,':asas'=>$s_lastname,':asafs'=>$sender,':asafsa'=>$recipient,':asafsas'=>
 $newmsg,':asafsasa'=>$r_firstname,':asafsasaf'=>$r_lastname,':asafsasafaf'=>$ip,':asafsasafafsad'=>$date,':asafsasafafhaps'=>$time));
-header("location: ../index.php");
 ?>
 
 </html>

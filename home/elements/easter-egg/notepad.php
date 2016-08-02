@@ -1,23 +1,8 @@
 
-<!DOCTYPE html><html class=''>
-<head><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="canonical" href="http://codepen.io/qorbani/pen/fIuzB" />
-
-
 <style class="cp-pen-styles">/**
  * Notepad
  */
 
-html {
-	background-image: linear-gradient(rgba(70,0,0,0),rgba(170,50,0,.5)), url(http://subtlepatterns.com/patterns/wood_pattern.png);
-	min-height: 100%;
-	box-sizing: border-box;
-	font: 100%/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	padding: 1.5em;
-	position: absolute;
-	z-index: -2;
-	top: 50%;
-}
 
 .notepad {
 	margin: 1.5em auto;
@@ -75,4 +60,3 @@ html {
 </div>
 
 <script src='http://codepen.io/assets/editor/live/css_live_reload_init.js'></script>
-</body></html>

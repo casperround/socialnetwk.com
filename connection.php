@@ -5,7 +5,7 @@ $mysql_user = "root";
 $mysql_password = "pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp";
 $mysql_database = "pdo_ret";
 $prefix = "";
-$bd = mysql_connect($mysql_hostname, $mysql_user, $mysql_password) or die("Could not connect database 1");
+$bd = mysql_connect($mysql_hostname, $mysql_user, $mysql_password) or die("Could not connect database");
 mysql_select_db($mysql_database, $bd) or die("Could not select database");
 ?>
 <?php
@@ -15,7 +15,7 @@ $mysql_user = "root";
 $mysql_password = "pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp";
 $mysql_database = "pdo_ret";
 $prefix = "";
-$db = mysql_connect($mysql_hostname, $mysql_user, $mysql_password) or die("Could not connect database 2");
+$db = mysql_connect($mysql_hostname, $mysql_user, $mysql_password) or die("Could not connect database");
 mysql_select_db($mysql_database, $bd) or die("Could not select database");
 ?>
 						<?php  

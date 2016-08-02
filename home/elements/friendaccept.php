@@ -9,7 +9,7 @@ if(!isset($_SESSION["user"]) or !is_array($_SESSION["user"]) or empty($_SESSION[
 $dbhost   = "localhost";
 $dbname   = "pdo_ret";
 $dbuser   = "root";
-$dbpass   = "nKyGWryQDhZvcpAzDKWQ";
+$dbpass   = "pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp";
  
 // database connection
 $conn = new PDO("mysql:host=$dbhost;dbname=$dbname",$dbuser,$dbpass);
@@ -30,7 +30,7 @@ $conn = new PDO("mysql:host=$dbhost;dbname=$dbname",$dbuser,$dbpass);
 		
 
 		
-header('Location: http://www.socialnetwk.com/home/index.php');
+header('Location: ../index.php');
 
  
 ?>

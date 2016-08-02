@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ERROR);
-$mysql_hostname = "192.168.0.25";
+$mysql_hostname = "localhost";
 $mysql_user = "root";
 $mysql_password = "pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp";
 $mysql_database = "pdo_ret";
@@ -10,7 +10,7 @@ mysql_select_db($mysql_database, $bd) or die("Could not select database");
 ?>
 <?php
 error_reporting(E_ERROR);
-$mysql_hostname = "192.168.0.25";
+$mysql_hostname = "localhost";
 $mysql_user = "root";
 $mysql_password = "pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp";
 $mysql_database = "pdo_ret";
@@ -20,7 +20,7 @@ mysql_select_db($mysql_database, $bd) or die("Could not select database");
 ?>
 						<?php  
         // redirect to index page if not superuser  
-$con = mysqli_connect('192.168.0.25','root','pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp','pdo_ret');  
+$con = mysqli_connect('localhost','root','pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp','pdo_ret');  
 if (!$con) {  
     die('Could not connect to Socialnetwk DB: ' . mysqli_error($con));  
 } ?>

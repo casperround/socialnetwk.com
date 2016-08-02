@@ -4,35 +4,37 @@
 
 <head>
 
-	<title>Socialnetwk</title>
+  <title>Socialnetwk</title>
 
     <meta charset="utf-8">
     <meta name="author" content="Casper Round" />
-   	<meta name="viewport" content="width=device-width, initial-scale=1">
-   	<meta name="description" content="Create an account or login to Socialnetwk. Socialnetwk connects you and your friends, allowing you to share any media, and giving you the ability to change the site to how you want it, while connecting any type of social media" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Create an account or login to Socialnetwk. Socialnetwk connects you and your friends, allowing you to share any media, and giving you the ability to change the site to how you want it, while connecting any type of social media" />
     <meta name="keywords" content="social,socialnetwk,network,media,community,friends,people,life,skills,pictures,video,films,music,login,register,sign up,artists,facebook,youtube,instagram,twitter,tumblr,google" />
     <meta name="robots" content="noindex,nofollow">
-	<link rel="shortcut icon" type="image/png" href="http://www.socialnetwk.com/images/favicon.ico"/>
-   	<link rel="shortcut icon" type="image/png" href="http://www.socialnetwk.com/images/favicon.png"/>
-	<!-- STYLESHEET -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-	<!-- CSS -->
-	<link rel="stylesheet" href="style.css" type='text/css'>
-	<!-- FONTS -->
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type='text/css'>
-	<link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Parisienne|Bad+Script|Tangerine|Great+Vibes|Cinzel+Decorative|Cinzel&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" type="image/png" href="https://www.socialnetwk.com/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="https://www.socialnetwk.com/images/favicon.png"/>
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css" type='text/css'>
+  <link rel="stylesheet" href="css/responsive_main.css" type='text/css'>
+  <link rel="stylesheet" href="css/icons.css" type='text/css'>
+  <!-- FONTS -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type='text/css'>
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Parisienne|Bad+Script|Tangerine|Great+Vibes|Cinzel+Decorative|Cinzel&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<link href='http://fonts.googleapis.com/css?family=Tauri:regular' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Calligraffitti:regular' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Montaga:regular' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Tauri:regular' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Calligraffitti:regular' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montaga:regular' rel='stylesheet' type='text/css'>
 
-<script src='http://code.jquery.com/jquery-2.1.0.min.js'></script>
+<script src='https://code.jquery.com/jquery-2.1.0.min.js'></script>
    <script type="text/javascript" src="//code.jquery.com/jquery-1.6.4.js"></script>
 
 
@@ -44,431 +46,178 @@ if(!isset($_SESSION["user"]) or !is_array($_SESSION["user"]) or empty($_SESSION[
 )
 
       // redirect to index page if not superuser
-header('Location: ../index.php');
+header('Location: https://www.socialnetwk.com');
 
 ?>
 <?php
-	require_once('../connection.php');
-ini_set('error_reporting', E_ALL);	?>
+  require_once('connection.php');
 
+  ?>
+  
+  <?PHP
+$dbhost   = "localhost";
+      $dbname   = "pdo_ret";
+      $dbuser   = "root";
+      $dbpass   = "pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp";
+       
+      // database connection
+      $conn = new PDO("mysql:host=$dbhost;dbname=$dbname",$dbuser,$dbpass);
+      $con = mysqli_connect('localhost','root','pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp','pdo_ret');
+        if (!$con) {
+            die('Could not connect: ' . mysqli_error($con));
+        }
+// decode the location you want to visit
+$link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$ip = $_SERVER['REMOTE_ADDR'];
+$date = date('Y-m-d') ."\n";
+$now = time(); $utc_time = $now - intval(date('Z', $now));
+$time = date('H:i:s', $now);
+$user_id = $_SESSION['user']['id'];
+// update the number of times this particular location has been visited in your database
+$sql = "INSERT INTO page_visits (ip,date,time,link,user_id)
+VALUES ('$ip','$date','$time','$link','$user_id');";
+
+$q = $conn->prepare($sql);
+              $q->execute(array(':sas'=>$ip,':asas'=>$date,':asafs'=>$time,':asafsa'=>$link,':asafsas'=>$user_id));
+              
+              
+                $con = mysqli_connect('localhost','root','pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp','pdo_ret');
+if (!$con) {
+    die('Could not connect: ' . mysqli_error($con));
+}
+
+?>
+  
+<?php
+
+
+$stmt = $con->prepare("SELECT theme
+        FROM users
+        WHERE id = ?");
+$stmt->bind_param('i', $_SESSION['user']['id']);
+$stmt->execute();
+
+if ($data = $stmt->get_result()->fetch_object()): ?>
+    <link id="stylesheet" rel="stylesheet" href="<?=$data->theme?><?php if(empty($data->theme)):?>css/theme_default.css<?php endif;?>" type="text/css">
+<?php else:?>
+    <link id="stylesheet" rel="stylesheet" href="css/theme_default.css" type="text/css">
+    <?php endif;?>
 </head>
-<style>
-html {
-	height:100%;
-	width:100%;
-	overflow-y:hidden;
-	overflow-x:hidden;
-}
 
-body {
-	height:100%;
-	overflow-x:hidden;
-	overflow-y:hidden;
-	width:100%;
-	background:#efefef;
-}
-
-
-.Post_Container {
-		width:95%;
-		height:150px;
-		margin-left: auto;
-		margin-right: auto;
-		border-radius: 5px;
-		margin-bottom:100px;
-		left:15px;
-		top:50px;
-		padding:5px;
-		position: relative;
-
-	}
-	.Post_Container h4 {
-		color:gray;
-		padding:0px;
-		margin:0px;
-	}
-	.Post_Container textarea {
-		height:90px;
-		width:90%;
-		margin-left: auto;
-		margin-right: auto;
-		border:0px;
-		background:white;
-		  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-   -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-   box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
-		border-radius: 5px;
-		resize: none;
-
-	}
-	.Post_Container span {
-		font-size: 15px;
-		 background-color: #565656;
-  color: transparent;
-  text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
-  -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
-	}
-	.Post_Container span:hover {
-		transition:color 0.2s;
-		color:#4FC1E9;
-	}
-	.Post_Container .row {
-		width:90%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.Post_Container button {
-		text-align: center;
-		border:0px;
-		height:20px;
-		width:80%;
-		border-radius: 5px;
-		background:#4FC1E9;
-		 -moz-box-shadow:inset 0 3px 8px rgba(0,0,0,.4);
-   -webkit-box-shadow:inset 0 3px 8px rgba(0,0,0,.4);
-   box-shadow:inset 0 3px 8px rgba(0,0,0,.24);
-		color:white;
-		transition:background 0.2s;
-	}
-	.Post_Container button:hover {
-		background:#3BAFDA;
-		transition:background 0.2s;
-	}
-	a {
-		color:inherit;
-		text-decoration: none;
-	}
-	a:hover {
-		color:inherit;
-		text-decoration: none;
-	}
-	
-			.Content_Container_Feed {
-	width:65%;
-	margin-left:100px;
-	height:100%;
-	overflow-x:hidden;
-	overflow-y:scroll;
-	position: fixed;
-}
-.Feed_Contents_Loop {
-	width:95%;
-	min-height: 150px;
-	height:auto;
-	border-radius: 5px;
-	margin-left: auto;
-	margin-right: auto;
-	background:white;
-	margin-top:10px;
-	  -moz-box-shadow: inset 0 3px 8px rgba(225,255,255,.4);
-   -webkit-box-shadow: inset 0 3px 8px rgba(225,255,255,.4);
-   box-shadow: inset 0 3px 8px rgba(225,255,255,.24);
-}
-.Header_Feed_Contents_Loop {
-	width:100%;
-	height:50px;
-	color:white;
-	position: relative;
-	  -moz-box-shadow:  0 3px 8px rgba(0,0,0,.4);
-   -webkit-box-shadow:  0 3px 8px rgba(0,0,0,.4);
-   box-shadow:  0 3px 8px rgba(0,0,0,.24);
-
-}
-
-
-
-.Header_Feed_Contents_Loop img {
-	height:40px;
-	margin-top:5px;
-	margin-left:5px;
-	border-radius: 50px;
-	width:40px;
-	  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-   -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-   box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
-}
-.Header_Feed_Contents_Loop h4 {
-	padding:5px;
-	margin:5px;
-}
-.Header_Feed_Contents_Loopo h5 {
-	padding:5px;
-	margin:5px;
-}
-.Header_Feed_Contents_Loop span {
-	margin:15px;
-	font-size: 25px;
-	 background-color: #565656;
-  color: transparent;
-  text-shadow: 0px 2px 3px rgba(239,239,239,0.5);
-  -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
-}
-.Feed_Content_Load_Load {
-	height:100%;
-	width:90%;
-	margin-left:50px;
-	position: relative;
-}
-
-.Feed_Main_Load_Load {
-	height:100%;
-	width:100%;
-	position: relative;
-}
-
-
-@media (max-width:570px) {
-
-
-
-
-	.Post_Container {
-		width:100%;
-		height:80px;
-		border-radius: 5px;
-		margin-bottom:20px;
-		left:0px;
-		top:10px;
-		padding:5px;
-		position: relative;
-
-	}
-	.Post_Container h4 {
-		color:gray;
-		padding:0px;
-		margin:0px;
-	}
-	.Post_Container textarea {
-		height:50px;
-		width:90%;
-		margin-right:40px;
-	position: relative;
-		border:0px;
-		background:white;
-		  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-   -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-   box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
-		border-radius: 5px;
-		resize: none;
-
-	}
-	.Post_Container span {
-		font-size: 1px;
-		 background-color: #565656;
-  color: transparent;
-  text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
-  -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
-	}
-	.Post_Container span:hover {
-		transition:color 0.2s;
-		color:#4FC1E9;
-	}
-	.Post_Container .row {
-		width:90%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.Post_Container .row {
-		width:100%;
-		margin-left: auto;
-		height:30px;
-		margin-right: auto;
-	}
-	.col-md-6 {
-		display: inline-block;
-		width:40%;
-	}
-	.Post_Container button {
-		text-align: center;
-		border:0px;
-		height:20px;
-		width:100%;
-		border-radius: 5px;
-		position: relative;
-		background:#4FC1E9;
-		 -moz-box-shadow:inset 0 3px 8px rgba(0,0,0,.4);
-   -webkit-box-shadow:inset 0 3px 8px rgba(0,0,0,.4);
-   box-shadow:inset 0 3px 8px rgba(0,0,0,.24);
-		color:white;
-		transition:background 0.2s;
-	}
-	.Post_Container button:hover {
-		background:#3BAFDA;
-		transition:background 0.2s;
-	}
-	a {
-		color:inherit;
-		text-decoration: none;
-	}
-	a:hover {
-		color:inherit;
-		text-decoration: none;
-	}
-	
-	.Content_Container_Feed {
-	width:100%;
-	margin-left:40px;
-	height:100%;
-	overflow-x:hidden;
-	overflow-y:scroll;
-	position: fixed;
-	}
-	.Feed_Contents_Loop {
-		width:100%;
-		min-height: 150px;
-		height:auto;
-		border-radius: 5px;
-	margin-left:0px;
-		background:white;
-		margin-top:10px;
-		  -moz-box-shadow: inset 0 3px 8px rgba(225,255,255,.4);
-	   -webkit-box-shadow: inset 0 3px 8px rgba(225,255,255,.4);
-	   box-shadow: inset 0 3px 8px rgba(225,255,255,.24);
-	}
-	.Header_Feed_Contents_Loop {
-		width:100%;
-		height:30px;
-		color:white;
-		position: relative;
-		  -moz-box-shadow:  0 3px 8px rgba(0,0,0,.4);
-	   -webkit-box-shadow:  0 3px 8px rgba(0,0,0,.4);
-	   box-shadow:  0 3px 8px rgba(0,0,0,.24);
-
-	}
-	.Music {
-		background:rgba(55,188,155,0.8);
-	}
-	.Status {
-		background:rgba(255,206,84,0.8);
-	}
-	.Video {
-		background:rgba(218,68,83,0.8);
-
-	}
-	.Picture {
-		background:rgba(74,137,220,0.8);
-
-	}
-
-
-      .Green {
-		background:rgba(55,188,155,0.5);
-      }
-      .Red {
-		background:rgba(218,68,83,0.5);
-      }
-      .Blue {
-		background:rgba(74,137,220,0.5);
-      }
-      .Yellow {
-		background:rgba(255,206,84,0.5);
-      }
-	.Header_Feed_Contents_Loop img {
-		height:20px;
-		margin-top:5px;
-		margin-left:5px;
-		border-radius: 50px;
-		width:20px;
-		  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-	   -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-	   box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
-	}
-	.Header_Feed_Contents_Loop h4 {
-		padding:5px;
-		margin:5px;
-	}
-	.Header_Feed_Contents_Loopo h5 {
-		padding:5px;
-		margin:5px;
-	}
-	.Header_Feed_Contents_Loop span {
-	display: none;
-	}
-	.Feed_Content_Load_Load {
-		height:100%;
-		width:100%;
-		margin-left:0px;
-		position: relative;
-	}
-
-	.Feed_Main_Load_Load {
-		height:100%;
-		width:100%;
-		position: relative;
-	}
-
-
-
-}
-
-</style>
 
 <body>
-	<?php require_once('components/navbar.php'); ?>
-	<?php require_once('components/left_container_profile.php'); ?>
-
-
-			
-
-
-
-
-
-<script>
-	$(document).ready(function() {
-		$("#fload").load('elements/feed_load.php');
-	  $("#music").click(function() {
-	    $("#fload").load('elements/audio_ajax.php');
-	  });
-	  $("#video").click(function() {
-	    $("#fload").load('elements/video_ajax.php');
-	  });
-	  $("#status").click(function() {
-	    $("#fload").load('elements/status_ajax.php');
-	  });
-	  $("#picture").click(function() {
-	    $("#fload").load('elements/picture_ajax.php');
-	  });
-	   $("#mainfeed").click(function() {
-	    $("#fload").load('elements/feed_load.php');
-	  });
-	});
-</script>
+  <?php require_once('components/navbar.php'); ?>
 <div class="Content_Container_Feed">
-<?php
-	require_once('elements/feed_load_refresh.php');
 
-	?>
-<div id="fload" class="Feed_Content_Load_Load">
-	
-	
+<div class="Feed_Content_Load_Load">
+<?php require_once('elements/feed_load_refresh.php'); ?>
+
+<?php
+                    $UsrID = $_GET['id'];
+include("elements/config.php");
+
+$get_total_rows = 0;
+$results = $mysqli->query("SELECT COUNT(*) FROM media");
+
+if($results){
+  $get_total_rows = $results->fetch_row(); 
+}
+//break total records into pages
+$total_groups= ceil($get_total_rows[0]/$items_per_group); 
+?>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  var track_load = 0; //total loaded record group(s)
+  var loading  = false; //to prevents multipal ajax loads
+  var total_groups = <?=$total_groups;?>; //total record group(s)
+  
+  $('#results').load("elements/feedloadscroll.php", {'group_no':track_load}, function() {track_load++;}); //load first group
+  
+  $(window).scroll(function() { //detect page scroll
+    
+    if($(window).scrollTop() + $(window).height() == $(document).height())  //user scrolled to bottom of the page?
+    {
+      
+      if(track_load <= total_groups && loading==false) //there's more data to load
+      {
+        loading = true; //prevent further ajax loading
+        $('.animation_image').show(); //show loading image
+        
+        //load data from the server using a HTTP POST request
+        $.post('elements/feedloadscroll.php',{'group_no': track_load}, function(data){
+                  
+          $("#results").append(data); //append received data into the element
+
+          //hide loading image
+          $('.animation_image').hide(); //hide loading image once data is received
+          
+          track_load++; //loaded group increment
+          loading = false; 
+        
+        }).fail(function(xhr, ajaxOptions, thrownError) { //any errors?
+          
+          alert(thrownError); //alert with HTTP error
+          $('.animation_image').hide(); //hide loading image
+          loading = false;
+        
+        });
+        
+      }
+    }
+  });
+});
+</script>
+
+
+
+
+
+<div id="feed_main_load">
+
+
+
+<ol id="results">
+      </ol>
+        <div class="animation_image" style="display:none" align="center">
+          <div class="loader">
+            <div class="loader__box loader__box--1"></div>
+            <div class="loader__box loader__box--2"></div>
+          </div>
+        </div>
+  </div>
 </div>
 
+</div>
+<?php 
+    if(!isset($_SESSION["user"]) or !is_array($_SESSION["user"]) or empty($_SESSION["user"])){
+      
+    }
+    else{
+      require_once('components/left_container_profile.php');
+    }
+    
+  ?>
+        
+    
+    
+    
 
-	
 
 
-				
-		
-		
-		
+    
 
 
+  <?php 
+    if(!isset($_SESSION["user"]) or !is_array($_SESSION["user"]) or empty($_SESSION["user"])){
+      
+    }
+    else{
+      require_once('components/right_container_chat_noti.php');
+    }
+    
+  ?>
 
-		
-
-
-
-	</div>
-
-	
-<?php require_once('components/right_container_chat_noti.php'); ?>
 
 
 

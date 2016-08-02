@@ -1,188 +1,85 @@
 <style>
-.column_left {
-	margin-top:40px;
-	height:100%;
-	width:150px;
-	z-index: 20;
-	position: fixed;
-	background:#efefef;
--webkit-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
-}
-
-.Left_Col_Head {
-	background-image: url("http://orig11.deviantart.net/20eb/f/2015/030/6/f/_minflat__dark_material_design_wallpaper__4k__by_dakoder-d8fjqzu.jpg");
-	background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-
-background-position:center;
-padding-top:20px;
-padding-left:20px;
-	height:50px;
-	width:100%;
-	padding:5px;
-	position: relative;
-}
-.ProfileImg {
-	height:30px;
-	width:30px;
-	border-radius: 50px;
-}
-.Left_Col_Selects {
-	width:100%;
-	height:40px;
-	padding:10px;
-	background:;
-	color:gray;
-	margin-top:5px;
-	position: relative;
-	transition:background 0.2s, color 0.2s;
-}
-.Left_Col_Selects:hover {
-	background:rgba(0,0,0,0.3);
-	transition:background 0.2s, color 0.2s;
-	color:white;
-	  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-   -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-   box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
-}
-.Left_Col_Selects span {
-	font-size: 25px;
-	 background-color: #565656;
-  color: transparent;
-  text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
-  -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
-
-}
-.Left_Col_Selects h4 {
-	padding:3px;
-	margin:0px;
-	font-size: 12px;
-	text-align: left;
-}
-.New_Content_Noti {
-	border-radius: 5px;
-	background:#EC87C0;
-	color:white;
-	width:50px;
-	height:100%;
-	position: relative;
-
-}
-.New_Content_Noti h5 {
-	padding:0px;
-	margin:0px;
-	font-size: 10px;
-	text-align: center;
-}
-.Left_Col_Head h3 {
-	color:white;
-}
-
-@media (max-width:570px) {
-		.Left_Col_Selects h4 {
-			display: none;
-		}
-		.New_Content_Noti {
-			display: none;
-
-		}
-		.New_Content_Noti h5 {
-			display: none;
-		}
-
-		.column_left {
-			top:0px;
-			height:100%;
-			margin-top:0px;
-			width:40px;
-			z-index: 20;
-			position: fixed;
-			background:#efefef;
-		-webkit-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
-		-moz-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
-		box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
-		}
-		.Left_Col_Head h4 {
-			display: none;
-		}
-		.Left_Col_Head {
-			background-image: url("http://orig11.deviantart.net/20eb/f/2015/030/6/f/_minflat__dark_material_design_wallpaper__4k__by_dakoder-d8fjqzu.jpg");
-			background-repeat:no-repeat;
-		-webkit-background-size:cover;
-		-moz-background-size:cover;
-		-o-background-size:cover;
-		background-size:cover;
-
-		background-position:center;
-		padding-top:20px;
-		padding-left:20px;
-			height:50px;
-			width:100%;
-			padding:5px;
-			position: relative;
-		}
-		.ProfileImg {
-			height:30px;
-			width:30px;
-			border-radius: 50px;
-		}
-		.Left_Col_Selects {
-			width:100%;
-			height:40px;
-			padding:10px;
-			background:;
-			color:gray;
-			margin-top:5px;
-			position: relative;
-			transition:background 0.2s, color 0.2s;
-		}
-		.Left_Col_Selects:hover {
-			background:rgba(0,0,0,0.3);
-			transition:background 0.2s, color 0.2s;
-			color:white;
-			  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-		   -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
-		   box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
-		}
-		.Left_Col_Selects span {
-			font-size: 15px;
-			 background-color: #565656;
-		  color: transparent;
-		  text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
-		  -webkit-background-clip: text;
-		     -moz-background-clip: text;
-		          background-clip: text;
-
-		}
+	@media only screen and (min-device-width: 481px) and (max-device-width: 1030px) {
+	.Mobile_Nav_Sec {
+		display:block;
 	}
-
+	.column_left {
+		display:none;
+	}
+	.Mobile_Nav_Hidden {
+		display:none;
+	}
+}
+@media (max-width:770px) {
+	.Mobile_Nav_Sec {
+		display:block;
+	}
+	.column_left {
+		display:none;
+	}
+	.Mobile_Nav_Hidden {
+		display:none;
+	}
+	}
 </style>
-<div class="column_left">
-				<div class="Left_Col_Head">
-					<div class="row">
-						<div class="col-md-4">
+<div class="Left_Col_Head">
+					<div class="row" >
+						<div class="col-xs-2" >
 		
 								<?php $profile_image = $con->query("SELECT id, post_id, relation, userID, file_format FROM media WHERE userID=".$_SESSION['user']['id']." AND relation = 'profile_picture' UNION ALL SELECT -1 id, '55529055162cf' post_id, 'profile_picture' relation, '0' userID, 'jpg' file_format ORDER BY id DESC LIMIT 1"); ?>
 						<?php while($pimage = $profile_image->fetch_object()): ?>
-							<img src="http://www.socialnetwk.com/media/<?= $pimage->file_format ?>/<?= $pimage->post_id ?><?= $pimage->userID ?>.<?= $pimage->file_format ?>" class="ProfileImg"/>
+							<img src="../media/<?= $pimage->file_format ?>/<?= $pimage->post_id ?><?= $pimage->userID ?>.<?= $pimage->file_format ?>" class="ProfileImg"/>
 							<?php endwhile;?>
 						</div>
-						<div class="col-md-8">
-							<h4 style="color:white;font-size:10px;"><?= $_SESSION["user"]["firstname"] ?> <?= $_SESSION["user"]["lastname"] ?></h4>
+						<div class="col-md-2 Mobile_Nav_Hidden">
+							<h4 style="color:white;font-size:15px;font-weight:500;padding:0px;margin:0px;"><?= $_SESSION["user"]["username"] ?></h4>
+							<h4 style="color:white;font-size:10px;padding:0px;margin:0px;font-weight:200;"><?= $_SESSION["user"]["firstname"] ?> <?= $_SESSION["user"]["lastname"] ?></h4>
+							
 						</div>
+						<div class="Mobile_Nav_Sec">
+							<div class="col-xs-4 Mobile_Nav_Sec">
+								<form action="search.php" method="GET" >
+								<input  type="text" name="query"  placeholder="Search for anything" style="width:100%;position:relative;margin-top:10px;"/>
+								</form>
+							
+							</div></a>
+							<div class="col-xs-1 Mobile_Nav_Sec">
+								<a href="notification.php"><div class="Left_Col_Selects">
+										<span class="glyphicon glyphicon-bell"style="height:40px;line-height:30px;"></span>
+								</div>
+							</div></a>
+							<div class="col-xs-1 Mobile_Nav_Sec">
+								<a href="https://www.socialnetwk.com"><div class="Left_Col_Selects">
+										<div class="home"></div>
+								</div>
+							</div></a>
+							</div>
+							<div class="col-xs-1 Mobile_Nav_Sec">
+								<a href="profile?id=<?= $_SESSION["user"]["id"]?>"><div class="Left_Col_Selects">
+										<div class="user"></div>
+								</div>
+							</div>
+							<div class="col-xs-1 Mobile_Nav_Sec">
+								<a href="chat"><div class="Left_Col_Selects">
+										<div class="chat"></div>
+								</div>
+							</div>
+							<div class="col-xs-1 Mobile_Nav_Sec">
+								<a href="logout"><div class="Left_Col_Selects">
+										<span class="glyphicon glyphicon-off"style="height:40px;line-height:30px;"></span>
+								</div>
+							</div>
+						</div>
+						
 					</div>
 				</div>
+				
+			 	<div class="column_left">
+
 				<a href="index.php"><div class="Left_Col_Selects">
 					<div class="row">
 						<div class="col-md-2">
-							<span class="glyphicon glyphicon-th-list"></span>
+							<div class="home"></div>
 						</div>
 						<div class="col-md-6">
 							<h4>Dashboard</h4>
@@ -195,10 +92,10 @@ padding-left:20px;
 					</div>
 				</div></a>
 
-				<a href="profile.php?id=<?= $_SESSION["user"]["id"]?>"><div class="Left_Col_Selects">
+				<a href="profile?id=<?= $_SESSION["user"]["id"]?>"><div class="Left_Col_Selects Profile">
 					<div class="row">
 						<div class="col-md-2">
-							<span class="glyphicon glyphicon-user"></span>
+							<div class="user"></div>
 						</div>
 						<div class="col-md-6">
 							<h4>Profile</h4>
@@ -212,10 +109,10 @@ padding-left:20px;
 				</div></a>
 				
 
-				<a href="myvideos.php"><div class="Left_Col_Selects">
+				<a href="myvideos"><div class="Left_Col_Selects ColLeftVideos">
 					<div class="row">
 						<div class="col-md-2">
-							<span class="glyphicon glyphicon-film"></span>
+							<div class="video"></div>
 						</div>
 						<div class="col-md-6">
 							<h4>Videos</h4>
@@ -228,10 +125,10 @@ padding-left:20px;
 					</div>
 				</div></a>
 
-				<a href="mygallery.php"><div class="Left_Col_Selects">
+				<a href="mygallery"><div class="Left_Col_Selects ColLeftPictures">
 					<div class="row">
 						<div class="col-md-2">
-							<span class="glyphicon glyphicon-picture"></span>
+							<div class="picture"></div>
 						</div>
 						<div class="col-md-6">
 							<h4>Pictures</h4>
@@ -243,10 +140,10 @@ padding-left:20px;
 						</div>
 					</div>
 				</div></a>
-				<a href="mymusic.php"><div class="Left_Col_Selects">
+				<a href="mymusic"><div class="Left_Col_Selects ColLeftMusic">
 					<div class="row">
 						<div class="col-md-2">
-							<span class="glyphicon glyphicon-music"></span>
+							<div class="music"></div>
 						</div>
 						<div class="col-md-6">
 							<h4>My music</h4>
@@ -259,10 +156,10 @@ padding-left:20px;
 					</div>
 				</div></a>
 
-				<a href="cloud.php"><div class="Left_Col_Selects">
+				<a href="cloud.php"><div class="Left_Col_Selects ColLeftCloud">
 					<div class="row">
 						<div class="col-md-2">
-							<span class="glyphicon glyphicon-cloud"></span>
+							<div class="cloud"></div>
 						</div>
 						<div class="col-md-6">
 							<h4>Cloud</h4>
@@ -275,10 +172,10 @@ padding-left:20px;
 					</div>
 				</div></a>
 
-				<a href="maps.php"><div class="Left_Col_Selects">
+				<a href="maps"><div class="Left_Col_Selects ColLeftMaps">
 					<div class="row">
 						<div class="col-md-2">
-							<span class="glyphicon glyphicon-map-marker"></span>
+							<div class="map"></div>
 						</div>
 						<div class="col-md-6">
 							<h4>Maps</h4>
@@ -291,10 +188,10 @@ padding-left:20px;
 					</div>
 				</div></a>
 
-				<a href="chat.php"><div class="Left_Col_Selects">
+				<a href="chat"><div class="Left_Col_Selects">
 					<div class="row">
 						<div class="col-md-2">
-							<span class="glyphicon glyphicon-comment"></span>
+							<div class="chat"></div>
 						</div>
 						<div class="col-md-6">
 							<h4>Messages</h4>
@@ -307,10 +204,10 @@ padding-left:20px;
 					</div>
 				</div></a>
 
-				<a href="user_country.php"><div class="Left_Col_Selects">
+				<a href="user_country"><div class="Left_Col_Selects ColLeftUsers">
 					<div class="row">
 						<div class="col-md-2">
-							<span class="glyphicon glyphicon-globe"></span>
+							<div class="globe"></div>
 						</div>
 						<div class="col-md-6">
 							<h4>Global Users</h4>
@@ -323,10 +220,10 @@ padding-left:20px;
 					</div>
 				</div></a>
 
-				<a href="doc_editor.php"><div class="Left_Col_Selects">
+				<a href="doc_editor"><div class="Left_Col_Selects">
 					<div class="row">
 						<div class="col-md-2">
-							<span class="glyphicon glyphicon-list-alt"></span>
+							<div class="document"></div>
 						</div>
 						<div class="col-md-6">
 							<h4>Create Document</h4>
@@ -338,9 +235,54 @@ padding-left:20px;
 						</div>
 					</div>
 				</div></a>
+				<a href="newpage.php"><div class="Left_Col_Selects">
+					<div class="row">
+						<div class="col-md-2">
+							<div class="document"></div>
+						</div>
+						<div class="col-md-6">
+							<h4>Create Page</h4>
+						</div>
+						<div class="col-md-4">
+							<div class="New_Content_Noti">
+								<h5></h5>
+							</div>
+						</div>
+					</div>
+				</div></a>
+				<a href="mypages.php"><div class="Left_Col_Selects">
+					<div class="row">
+						<div class="col-md-2">
+							<div class="document"></div>
+						</div>
+						<div class="col-md-6">
+							<h4>My Pages</h4>
+						</div>
+						<div class="col-md-4">
+							<div class="New_Content_Noti">
+								<h5></h5>
+							</div>
+						</div>
+					</div>
+				</div></a>
+				<a href="doc_editor"><div class="Left_Col_Selects">
+					<div class="row">
+						<div class="col-md-2">
+							<div class="document"></div>
+						</div>
+						<div class="col-md-6">
+							<h4>Create Event</h4>
+						</div>
+						<div class="col-md-4">
+							<div class="New_Content_Noti">
+								<h5></h5>
+							</div>
+						</div>
+					</div>
+				</div></a>
 
 
-				<a href="logout.php"><div class="Left_Col_Selects">
+				<a href="logout"><div class="Left_Col_Selects">
 					<div class="row">
 						<div class="col-md-2">
 							<span class="glyphicon glyphicon-off"></span>
@@ -355,4 +297,5 @@ padding-left:20px;
 						</div>
 					</div>
 				</div></a>
+				</div>
 			</div>

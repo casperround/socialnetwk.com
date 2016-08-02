@@ -1,3 +1,4 @@
+
 <?php
 	//Start session
 session_start();
@@ -66,7 +67,7 @@ session_start();
 			$_SESSION["user"] = $member;
 			
 			session_write_close();
-			header("location: home/index.php");
+			header("location: https://www.socialnetwk.com/home/");
 			exit();
 		}else {
 			//Login failed
@@ -75,7 +76,7 @@ session_start();
 			if($errflag) {
 				$_SESSION['ERRMSG_ARR'] = $errmsg_arr;
 				session_write_close();
-				header("location: index.php");
+				header("location: https://www.socialnetwk.com");
 				exit();
 			}
 		}

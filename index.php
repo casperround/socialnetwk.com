@@ -20,326 +20,299 @@
 <html lang="en-US">
 
 <head>
-	<!-- META -->
-	<title>Socialnetwk</title>
-    <meta charset="utf-8">
-    <meta name="author" content="Casper Round" />
-   	<meta name="viewport" content="width=device-width, initial-scale=1">
-   	<meta name="description" content="Create an account or login to Socialnetwk. Socialnetwk connects you and your friends, allowing you to share any media, and giving you the ability to change the site to how you want it, while connecting any type of social media" />
-    <meta name="keywords" content="social,socialnetwk,network,media,community,friends,people,life,skills,pictures,video,films,music,login,register,sign up,artists,facebook,youtube,instagram,twitter,tumblr,google" />
-    <meta name="robots" content="noindex,nofollow">
-	<link rel="shortcut icon" type="image/png" href="http://www.socialnetwk.com/images/favicon.ico"/>
-   	<link rel="shortcut icon" type="image/png" href="http://www.socialnetwk.com/images/favicon.png"/>
-	<!-- STYLESHEET -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-	<!-- CSS -->
-	<link rel="stylesheet" href="style.css" type='text/css'>
-	<!-- FONTS -->
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type='text/css'>
-	<link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Parisienne|Bad+Script|Tangerine|Great+Vibes|Cinzel+Decorative|Cinzel&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-<script src='https://www.google.com/recaptcha/api.js'></script>
-<link href='http://fonts.googleapis.com/css?family=Tauri:regular' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Calligraffitti:regular' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Montaga:regular' rel='stylesheet' type='text/css'>
-<script src='//assets.codepen.io/assets/editor/live/console_runner-d0a557e5cb67f9cd9bbb9673355c7e8e.js'></script><script src='//assets.codepen.io/assets/editor/live/events_runner-21174b4c7273cfddc124acb0876792e0.js'></script><script src='//assets.codepen.io/assets/editor/live/css_live_reload_init-7618a0de08795409d8f6c9ef6805f7b2.js'></script>
-<?php require_once "connection.php"; ?>
+  <!-- META -->
+  <title>Socialnetwk</title>
+  <script src='//assets.codepen.io/assets/editor/live/console_runner-d0a557e5cb67f9cd9bbb9673355c7e8e.js'></script>
+  <script src='//assets.codepen.io/assets/editor/live/events_runner-21174b4c7273cfddc124acb0876792e0.js'></script>
+  <script src='//assets.codepen.io/assets/editor/live/css_live_reload_init-7618a0de08795409d8f6c9ef6805f7b2.js'></script>
+  <meta charset='UTF-8'>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="http://codepen.io/marcobiedermann/pen/Fybpf" />
+    <link rel="stylesheet" href="style.css" type='text/css'>
+  <link rel="stylesheet" href="home/css/responsive_main.css" type='text/css'>
 
-<style class="cp-pen-styles">@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<style class="cp-pen-styles">@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-weight: 300;
 }
+
+html {
+  height: 100%;
+}
+
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: white;
-  font-weight: 300;
-}
-body ::-webkit-input-placeholder {
-  /* WebKit browsers */
-  font-family: 'Source Sans Pro', sans-serif;
-  color: white;
-  font-weight: 300;
-}
-body :-moz-placeholder {
-  /* Mozilla Firefox 4 to 18 */
-  font-family: 'Source Sans Pro', sans-serif;
-  color: white;
-  opacity: 1;
-  font-weight: 300;
-}
-body ::-moz-placeholder {
-  /* Mozilla Firefox 19+ */
-  font-family: 'Source Sans Pro', sans-serif;
-  color: white;
-  opacity: 1;
-  font-weight: 300;
-}
-body :-ms-input-placeholder {
-  /* Internet Explorer 10+ */
-  font-family: 'Source Sans Pro', sans-serif;
-  color: white;
-  font-weight: 300;
-}
-.wrapper {
-  background: #36465d;
-  background: -webkit-linear-gradient(top left, #4A89DC 0%, #36465d 100%);
-  background: linear-gradient(to bottom right, #4A89DC 0%, #36465d 100%);
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow-y:scroll;
-}
-.wrapper.form-success .container h1 {
-  -webkit-transform: translateY(85px);
-          transform: translateY(85px);
-          	background: url('http://ocasionnautica.xyz/templates/ocasionnautica/images/ajax-loader-tennis.gif');
-		 background-size: 260px 150px;
-		 background-repeat: no-repeat;
-		 background-position: center bottom;
-		 height:250px;
-     font-size: 25px;
+  background-color: #2c3338;
+  color: #606468;
+  font: 400 0.875rem/1.5 "Open Sans", sans-serif;
+  margin: 0;
+  min-height: 100%;
 }
 
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 80px 0;
-  height: 400px;
-  text-align: center;
-}
-.container h1 {
-  font-size: 40px;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  -webkit-transition-timing-function: ease-in-put;
-          transition-timing-function: ease-in-put;
-  font-weight: 200;
-}
-.container h2 {
-  font-size: 30px;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  -webkit-transition-timing-function: ease-in-put;
-          transition-timing-function: ease-in-put;
-  font-weight: 200;
-}
-form {
-  padding: 20px 0;
-  position: relative;
-  z-index: 2;
-}
-form input {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+a {
+  color: #eee;
   outline: 0;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 90%;
-  border-radius: 3px;
-  padding: 10px 15px;
-  margin: 0 auto 10px auto;
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  color: white;
-  -webkit-transition-duration: 0.25s;
-          transition-duration: 0.25s;
-  font-weight: 300;
+  text-decoration: none;
 }
-form input:hover {
-  background-color: rgba(255, 255, 255, 0.4);
+a:focus, a:hover {
+  text-decoration: underline;
 }
-form input:focus {
-  background-color: white;
-  width: 450px;
-  color: #53e3a6;
-}
-form button {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  outline: 0;
-  background-color: white;
+
+input {
   border: 0;
-  padding: 10px 15px;
-  color: #53e3a6;
-  border-radius: 3px;
-  width: 90%;
-  cursor: pointer;
-  font-size: 18px;
-  -webkit-transition-duration: 0.25s;
-          transition-duration: 0.25s;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
 }
-form button:hover {
-  background-color: #f5f7f9;
+
+.site__container {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 3rem 0;
 }
-.bg-bubbles {
-  position: absolute;
-  top: 0;
-  left: 0;
+
+.form input[type="password"], .form input[type="text"], .form input[type="submit"] {
   width: 100%;
-  height: 100%;
-  z-index: 1;
 }
-.bg-bubbles li {
+.form--login {
+  color: #606468;
+}
+.form--login label,
+.form--login input[type="text"],
+.form--login input[type="password"],
+.form--login input[type="submit"] {
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+.form--login label {
+  background-color: #363b41;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.form--login input[type="text"], .form--login input[type="password"] {
+  background-color: #3b4148;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.form--login input[type="text"]:focus, .form--login input[type="text"]:hover, .form--login input[type="password"]:focus, .form--login input[type="password"]:hover {
+  background-color: #434A52;
+}
+.form--login input[type="submit"] {
+  background-color: #ea4c88;
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.form--login input[type="submit"]:focus, .form--login input[type="submit"]:hover {
+  background-color: #d44179;
+}
+.form__field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+      height: 50px;
+    width: 350px;
+}
+.form__input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.align {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
   position: absolute;
-  list-style: none;
-  display: block;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.15);
-  bottom: -160px;
-  -webkit-animation: square 25s infinite;
-  animation: square 25s infinite;
-  -webkit-transition-timing-function: linear;
-  transition-timing-function: linear;
+  width: 1px;
 }
-.bg-bubbles li:nth-child(1) {
-  left: 10%;
+
+.text--center {
+  text-align: center;
 }
-.bg-bubbles li:nth-child(2) {
-  left: 20%;
-  width: 80px;
-  height: 80px;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 17s;
-          animation-duration: 17s;
+
+.grid__container {
+  margin: 0 auto;
+  max-width: 37rem;
+  width: 90%;
 }
-.bg-bubbles li:nth-child(3) {
-  left: 25%;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+
+
+
+    @media (max-width:770px) {
+      .container {
+        height:100%;
+        padding:0px;
+        
+      }
+      .wrapper {
+        overflow-y:scroll;
+        height:100%;
+      }
+
+    }
+          .Navbar_Tabs {
+          text-align: center;
+          padding:3px;
+          color:white;
+          height:40px;
+          background:#656D78;
+          -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+           -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+           box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+        }
+        .Navbar_Tabs h4 {
+          color:white;
+          font-size: 13px;
+          font-weight: 200;
+          
+        }
+        
+/*//--navbar--//
+*/
+
+
+.Navbar {
+
+  position: fixed;
+  display:inline-block;
+
+  z-index: 100;
+
 }
-.bg-bubbles li:nth-child(4) {
-  left: 40%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation-duration: 22s;
-          animation-duration: 22s;
-  background-color: rgba(255, 255, 255, 0.25);
+.MainLogo {
+  height:40px;
+  left:10px;
+  width:40px;
+  border-radius: 50px;
+  display: inline-block;
+  bottom:10px;
+  position: relative; 
 }
-.bg-bubbles li:nth-child(5) {
-  left: 70%;
+.Navbar h3 {
+  color:white;
+  display: inline-block;
+  padding:0px;
+  margin-right:5px;
+  margin-top:10px;
 }
-.bg-bubbles li:nth-child(6) {
-  left: 80%;
-  width: 120px;
-  height: 120px;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-.bg-bubbles li:nth-child(7) {
-  left: 32%;
-  width: 160px;
-  height: 160px;
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
-}
-.bg-bubbles li:nth-child(8) {
-  left: 55%;
-  width: 20px;
-  height: 20px;
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
-  -webkit-animation-duration: 40s;
-          animation-duration: 40s;
-}
-.bg-bubbles li:nth-child(9) {
-  left: 25%;
-  width: 10px;
-  height: 10px;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 40s;
-          animation-duration: 40s;
-  background-color: rgba(255, 255, 255, 0.3);
-}
-.bg-bubbles li:nth-child(10) {
-  left: 90%;
-  width: 160px;
-  height: 160px;
-  -webkit-animation-delay: 11s;
-          animation-delay: 11s;
-}
-@-webkit-keyframes square {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+.Navbar input {
+    height:40px;
+    width:50%;
+    margin-top:0px;
+    top:0px;
+    padding:0px;
+    position: relative;
+    border:0px;
+    border-radius: 0px;
   }
-  100% {
-    -webkit-transform: translateY(-700px) rotate(600deg);
-            transform: translateY(-700px) rotate(600deg);
+  .Mobile_Navbar {
+    display:none;
   }
+  .col-xs-2 {
+    padding:0px;
+  }
+  .row {
+    width:100%;
+  }
+  img {
+    width:250px;
+    height:auto;
+    position: relative;
+  }
+@-webkit-keyframes greenPulse {
+  from {  -webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+ }
+
+  50% { -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8)); }
+  to {-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80))}
 }
-@keyframes square {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-700px) rotate(600deg);
-            transform: translateY(-700px) rotate(600deg);
-  }
+
+
+.shadowfilter {
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
 }
+
+
+
 </style></head><body>
-<div class="wrapper">
-	<div class="container">
-		<h1>Welcome to Socialnetwk</h1>
+<body class="align">
 
-		<form action="login_post.php" role="form" method="POST" class="form">
-			<input name="email" type="text" placeholder="Email">
-			<input name="password" type="password" placeholder="Password">
-			<button type="submit" id="login-button">Login</button>
-		</form>
+  <div class="site__container">
+    <?php require_once('components/navbar.php'); ?>
 
-		<h2>Register</h2>
-<?php
-	
-					$date = date('Y-m-d') ."\n";
-					$now = time(); $utc_time = $now - intval(date('Z', $now));
-					$time = date('H:i:s', $now);	
-?>
-		<form action="login_post.php" role="form" method="POST" class="form">
-			<input name="email" type="text" placeholder="Email">
-			<input name="password" type="password" placeholder="Password">
-			<input name="firstname" type="text" placeholder="Firstname">
-			<input name="lastname" type="text" placeholder="Lastname">
-			<input name="firstname" type="text" placeholder="Firstname">
-			<input name="country" type="text" placeholder="Country">
-			<input name="age" type="text" placeholder="Age">
-			<input name="gender" type="text" placeholder="Gender">
-			<input name="firstname" type="text" placeholder="Firstname">
-			<input name="lastname" type="text" placeholder="Lastname">
-			<input type="text" id="ip" name="ip" style="display:none;" value="<?= $_SERVER["REMOTE_ADDR"] ?>" />
-			<input type="text" id="ip" name="date" style="display:none;" value="<?= $date ?>" />
-			<input type="text" id="ip" name="time" style="display:none;" value="<?= $time ?>" />
-			<button type="submit" id="login-button">Register</button>
-		</form>
-	</div>	
-	<ul class="bg-bubbles">
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
-</div>
+  <center><img class="shadowfilter" src="https://www.socialnetwk.com/images/socialnetwk.png"></center>
+    <div class="grid__container">
+
+      <form action="login_post" method="post" class="form form--login">
+      
+        <div class="form__field">
+          <label class="glyphicon glyphicon-user" for="login__username"><span class="hidden">Username</span></label>
+          <input name="email" id="login__username" type="text" class="form__input" placeholder="Email or Username" required>
+        </div>
+
+        <div class="form__field">
+          <label class="glyphicon glyphicon-lock" for="login__password"><span class="hidden">Password</span></label>
+          <input name="password" id="login__password" type="password" class="form__input" placeholder="Password" required>
+        </div>
+
+        <div class="form__field">
+          <input type="submit" value="Sign In">
+        </div>
+
+      </form>
+
+      <p class="text--center">Not a member? <a href="signup.php">Sign up now</a> <span class="fontawesome-arrow-right"></span></p>
+
+    </div>
+
+  </div>
+
+</body>
 
 </body></html>

@@ -43,6 +43,7 @@ echo $imageFileType;
 					$MediaTxt = $_POST['MediaTxt'];
 					$author_id = $_POST['author_id'];
 					$relation = $_POST['relation'];
+					$relation_id = $_POST['relation_id'];
 					$MediaTxtNw = strip_tags($MediaTxt, '<h1><h2><h3><h4><h5><h6><img><video><audio><iframe><a>');
 					
 					$tag = $MediaTxtNw;
@@ -73,12 +74,12 @@ echo $imageFileType;
 					(move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file));
 
 					
-					$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation) VALUES
-					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn)";
+					$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation,relation_id) VALUES
+					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn,:nlkajlfskj)";
 					$q = $conn->prepare($sql);
 					$q->execute(array(':sasa'=>$ip,':sasad'=>$date,':sasadf'=>$time,':sasafds'=>$UsrFName,':sasafda'=>$UsrLName,':sasdfhj'=>$UsrID,
 					':sasdhadka'=>$post_id,':sasdhadkas'=>$format,':sasdhadkasdas'=>$file_format,':sashasdas'=>$MediaTxtNw,
-					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation));
+					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation,':nlkajlfskj'=>$relation_id));
 					
 			}
 		elseif ($imageFileType == "png" || $imageFileType == "PNG")
@@ -93,6 +94,7 @@ echo $imageFileType;
 					$MediaTxt = $_POST['MediaTxt'];
 					$author_id = $_POST['author_id'];
 					$relation = $_POST['relation'];
+					$relation_id = $_POST['relation_id'];
 					$MediaTxtNw = strip_tags($MediaTxt, '<h1><h2><h3><h4><h5><h6><img><video><audio><iframe><a>');
 					
 					$tag = $MediaTxtNw;
@@ -123,12 +125,12 @@ echo $imageFileType;
 					(move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file));
 
 					
-					$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation) VALUES
-					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn)";
+					$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation,relation_id) VALUES
+					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn,:nlkajlfskj)";
 					$q = $conn->prepare($sql);
 					$q->execute(array(':sasa'=>$ip,':sasad'=>$date,':sasadf'=>$time,':sasafds'=>$UsrFName,':sasafda'=>$UsrLName,':sasdfhj'=>$UsrID,
-					':sasdhadka'=>$post_id,':sasdhadkas'=>$formatt,':sasdhadkasdas'=>$file_formatt,':sashasdas'=>$MediaTxtNw,
-					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation));
+					':sasdhadka'=>$post_id,':sasdhadkas'=>$format,':sasdhadkasdas'=>$file_format,':sashasdas'=>$MediaTxtNw,
+					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation,':nlkajlfskj'=>$relation_id));
 					
 			}
 		elseif ($imageFileType == "gif" || $imageFileType == "GIF")
@@ -143,6 +145,7 @@ echo $imageFileType;
 					$MediaTxt = $_POST['MediaTxt'];
 					$author_id = $_POST['author_id'];
 					$relation = $_POST['relation'];
+					$relation_id = $_POST['relation_id'];
 					$MediaTxtNw = strip_tags($MediaTxt, '<h1><h2><h3><h4><h5><h6><img><video><audio><iframe><a>');
 					
 					$tag = $MediaTxtNw;
@@ -171,12 +174,12 @@ echo $imageFileType;
 					(move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file));
 
 					
-					$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation) VALUES
-					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn)";
+					$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation,relation_id) VALUES
+					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn,:nlkajlfskj)";
 					$q = $conn->prepare($sql);
 					$q->execute(array(':sasa'=>$ip,':sasad'=>$date,':sasadf'=>$time,':sasafds'=>$UsrFName,':sasafda'=>$UsrLName,':sasdfhj'=>$UsrID,
-					':sasdhadka'=>$post_id,':sasdhadkas'=>$formattt,':sasdhadkasdas'=>$file_formattt,':sashasdas'=>$MediaTxtNw,
-					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation));
+					':sasdhadka'=>$post_id,':sasdhadkas'=>$format,':sasdhadkasdas'=>$file_format,':sashasdas'=>$MediaTxtNw,
+					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation,':nlkajlfskj'=>$relation_id));
 					
 			}
 		elseif ($imageFileType == "mp3" || $imageFileType == "MP3" || $imageFileType == "audio")
@@ -191,6 +194,7 @@ echo $imageFileType;
 					$MediaTxt = $_POST['MediaTxt'];
 					$author_id = $_POST['author_id'];
 					$relation = $_POST['relation'];
+					$relation_id = $_POST['relation_id'];
 					$MediaTxtNw = strip_tags($MediaTxt, '<h1><h2><h3><h4><h5><h6><img><video><audio><iframe><a>');
 					
 					$tag = $MediaTxtNw;
@@ -220,12 +224,12 @@ echo $imageFileType;
 					(move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file));
 
 					
-					$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation) VALUES
-					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn)";
+					$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation,relation_id) VALUES
+					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn,:nlkajlfskj)";
 					$q = $conn->prepare($sql);
 					$q->execute(array(':sasa'=>$ip,':sasad'=>$date,':sasadf'=>$time,':sasafds'=>$UsrFName,':sasafda'=>$UsrLName,':sasdfhj'=>$UsrID,
-					':sasdhadka'=>$post_id,':sasdhadkas'=>$formatttt,':sasdhadkasdas'=>$file_formatttt,':sashasdas'=>$MediaTxtNw,
-					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation));
+					':sasdhadka'=>$post_id,':sasdhadkas'=>$format,':sasdhadkasdas'=>$file_format,':sashasdas'=>$MediaTxtNw,
+					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation,':nlkajlfskj'=>$relation_id));
 					
 			}
 		elseif ($imageFileType == "mp4" || $imageFileType == "MP4")
@@ -239,6 +243,7 @@ echo $imageFileType;
 					$MediaTxt = $_POST['MediaTxt'];
 					$author_id = $_POST['author_id'];
 					$relation = $_POST['relation'];
+					$relation_id = $_POST['relation_id'];
 					$MediaTxtNw = strip_tags($MediaTxt, '<h1><h2><h3><h4><h5><h6><img><video><audio><iframe><a>');
 					
 					$tag = $MediaTxtNw;
@@ -269,12 +274,12 @@ echo $imageFileType;
 					(move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file));
 
 					
-					$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation) VALUES
-					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn)";
+					$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation,relation_id) VALUES
+					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn,:nlkajlfskj)";
 					$q = $conn->prepare($sql);
 					$q->execute(array(':sasa'=>$ip,':sasad'=>$date,':sasadf'=>$time,':sasafds'=>$UsrFName,':sasafda'=>$UsrLName,':sasdfhj'=>$UsrID,
 					':sasdhadka'=>$post_id,':sasdhadkas'=>$format,':sasdhadkasdas'=>$file_format,':sashasdas'=>$MediaTxtNw,
-					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation));
+					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation,':nlkajlfskj'=>$relation_id));
 					
 			}
 			
@@ -289,6 +294,7 @@ echo $imageFileType;
 					$MediaTxt = $_POST['MediaTxt'];
 					$author_id = $_POST['author_id'];
 					$relation = $_POST['relation'];
+					$relation_id = $_POST['relation_id'];
 					$MediaTxtNw = strip_tags($MediaTxt, '<h1><h2><h3><h4><h5><h6><img><video><audio><iframe><a>');
 									
 			
@@ -313,12 +319,12 @@ echo $imageFileType;
 						}
 					}
 					
-			$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation) VALUES
-					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn)";
+			$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation,relation_id) VALUES
+					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn,:nlkajlfskj)";
 					$q = $conn->prepare($sql);
 					$q->execute(array(':sasa'=>$ip,':sasad'=>$date,':sasadf'=>$time,':sasafds'=>$UsrFName,':sasafda'=>$UsrLName,':sasdfhj'=>$UsrID,
 					':sasdhadka'=>$post_id,':sasdhadkas'=>$format,':sasdhadkasdas'=>$file_format,':sashasdas'=>$MediaTxtNw,
-					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation));
+					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation,':nlkajlfskj'=>$relation_id));
 		}
 		else{
 			
@@ -331,6 +337,7 @@ echo $imageFileType;
 					$MediaTxt = $_POST['MediaTxt'];
 					$author_id = $_POST['author_id'];
 					$relation = $_POST['relation'];
+					$relation_id = $_POST['relation_id'];
 					$MediaTxtNw = strip_tags($MediaTxt, '<h1><h2><h3><h4><h5><h6><img><video><audio><iframe><a>');
 									
 			
@@ -355,15 +362,15 @@ echo $imageFileType;
 						}
 					}
 					
-			$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation) VALUES
-					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn)";
+			$sql = "INSERT INTO media (ip,date,time,firstname,lastname,userID,post_id,format,file_format,MediaTxt,author_id,relation,relation_id) VALUES
+					 (:sasa,:sasad,:sasadf,:sasafds,:sasafda,:sasdfhj,:sasdhadka,:sasdhadkas,:sasdhadkasdas,:sashasdas,:aauutthorrid,:rrhjkjahtn,:nlkajlfskj)";
 					$q = $conn->prepare($sql);
 					$q->execute(array(':sasa'=>$ip,':sasad'=>$date,':sasadf'=>$time,':sasafds'=>$UsrFName,':sasafda'=>$UsrLName,':sasdfhj'=>$UsrID,
 					':sasdhadka'=>$post_id,':sasdhadkas'=>$format,':sasdhadkasdas'=>$file_format,':sashasdas'=>$MediaTxtNw,
-					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation));
+					':aauutthorrid'=>$author_id,':rrhjkjahtn'=>$relation,':nlkajlfskj'=>$relation_id));
 		}
 		
-header('Location: index.php');
+header('Location: ' . $_SERVER['HTTP_REFERER']);
 
 
  

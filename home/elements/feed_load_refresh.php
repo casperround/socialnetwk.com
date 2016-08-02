@@ -1,10 +1,3 @@
- 
-<script>
-videojs('video', {}, function() {
-  var player = this;
-  player.vr({projection: 'Sphere'}); // initialize the plugin, 'Plane' projection by default
-});
-</script>
 
 
 <script src='//codepen.io/assets/editor/live/css_live_reload_init.js'></script>
@@ -22,6 +15,25 @@ videojs('video', {}, function() {
 	-webkit-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0);
 -moz-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0);
 box-shadow: 0px 0px 37px -5px rgba(0,0,0,0);}
+.Post_Container button {
+			text-align: center;
+		border:0px;
+		height:20px;
+		width:100px;
+		border-radius: 5px;
+		background:#4FC1E9;
+		float:bottom;
+		bottom:0px;
+		 -moz-box-shadow:inset 0 3px 8px rgba(0,0,0,.4);
+   -webkit-box-shadow:inset 0 3px 8px rgba(0,0,0,.4);
+   box-shadow:inset 0 3px 8px rgba(0,0,0,.24);
+		color:white;
+		transition:background 0.2s;
+	}
+	.Post_Container button:hover {
+		background:#3BAFDA;
+		transition:background 0.2s;
+	}
 </style>
 
 

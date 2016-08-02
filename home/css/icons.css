@@ -1,0 +1,77 @@
+ .home {
+    height:20px;
+    width:20px;
+    background-image:url('../css/essential-collection/png/home-2.png');
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+}
+ .user {
+    height:20px;
+    width:20px;
+    background-image:url('../css/essential-collection/png/user-3.png');
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+}
+ .map {
+    height:20px;
+    width:20px;
+    background-image:url('../css/essential-collection/png/map.png');
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+}
+ .chat {
+    height:20px;
+    width:20px;
+    background-image:url('../css/essential-collection/png/chat-10.png');
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+}
+ .picture {
+    height:20px;
+    width:20px;
+    background-image:url('../css/essential-collection/png/picture.png');
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+}
+ .video {
+    height:20px;
+    width:20px;
+    background-image:url('../css/essential-collection/png/video-player.png');
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+}
+ .music {
+    height:20px;
+    width:20px;
+    background-image:url('..//css/essential-collection/png/music-player-2.png');
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+}
+ .cloud {
+    height:20px;
+    width:20px;
+    background-image:url('../css/essential-collection/png/cloud.png');
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+}
+ .power {
+    height:20px;
+    width:20px;
+    background-image:url('../css/essential-collection/png/power.png');
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+}
+ .document {
+    height:20px;
+    width:20px;
+    background-image:url('../css/essential-collection/png/document.png');
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+}
+ .globe {
+    height:20px;
+    width:20px;
+    background-image:url('../css/essential-collection/png/worldwide.png');
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+}

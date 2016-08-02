@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: rb
+Version: 1.4
+Summary: rb, the redis blaster
+Home-page: http://github.com/getsentry/rb
+Author: Functional Software Inc.
+Author-email: hello@getsentry.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Requires-Dist: redis (>=2.6)
+
+UNKNOWN
+
+

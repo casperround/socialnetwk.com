@@ -6,7 +6,7 @@
 if(!isset($_SESSION["user"]) or !is_array($_SESSION["user"]) or empty($_SESSION["user"])) {
   }
 
-$servername = "94.193.231.24";
+$servername = "localhost";
 $username = "root";
 $password = "pdsx26Qp5TCRxq4rAxc9kKKE7GxnMzgHN6GzaWkp";
 $dbname = "pdo_ret";
